@@ -1,0 +1,722 @@
+/*
+Theme Name:  aimatart
+Theme URI:  http: //www.ok200.nl
+Description:  This WordPress theme is designed for AimAtArt, clean colourfull typographic design. <a href="http: //www.ok200.nl/">OK200</a>.
+Version:  1.0
+Author:  OK200
+Author URI:  http: //www.ok200.nl
+Tags:  art, fixed-width, multi-column, blueprint css
+
+	"Aim At Art" by http: //www.ok200.nl/
+
+	This theme was designed and built by Mattijs de Wit 
+	of OK200:  http: //www.ok200.nl/.
+
+*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	color: #0e005f;
+	margin: 0 15px;
+	}
+	
+html{
+	margin-top:5px;
+	}
+	
+/* align custom background to top */
+	body, body.custom-background {
+    background-position: top center !important;
+}
+
+@font-face {
+	font-family: "aimatart-regular";
+	src: url("fonts/aimatart-regular.eot");
+	src: local("?"),
+		url("fonts/aimatart-regular.woff") format("woff"),
+		url("fonts/aimatart-regular.otf") format("opentype"),
+		url("fonts/aimatart-regular.svg#aimatart-regular") format("svg");
+	}
+
+@font-face {
+	font-family: "aimatart-italic";
+	src: url("fonts/aimatart-italic.eot");
+	src: local("?"),
+		url("fonts/aimatart-italic.woff") format("woff"),
+		url("fonts/aimatart-italic.otf") format("opentype"),
+		url("fonts/aimatart-italic.svg#aimatart-italic") format("svg");
+	}
+
+a {
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+
+/* A container should group all your columns. */
+#container {
+	width: 920px;
+	margin: 40px auto 0 auto;
+}
+
+a.button {
+	font-size: 60px;
+	}
+
+/* grid/
+
+/* Sets up basic grid floating and margin. */
+div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, div.span-11, div.span-12 {float:left;margin-right: 50px;}
+
+/* The last column in a row needs this class. */
+div.last { margin-right: 0; }
+
+/* Use these classes to set the width of a column. */
+.span-1  { width: 60px;}
+.span-2  { width: 140px;}
+.span-3  { width: 180px;}  /*from 220 */
+.span-4  { width: 270px;}  /*from 300 */
+.span-5  { width: 380px;}
+.span-6  { width: 460px;}
+.span-7  { width: 540px;}
+.span-8  { width: 600px;}  /*from 620 */
+.span-9  { width: 680px;}  /*from 700 */
+.span-10 { width: 780px;}
+.span-11 { width: 860px;}
+.span-12, div.span-12 { width: 940px; margin: 0; }
+
+
+/* Add these to a column to append empty cols. */
+.append-1  { padding-right: 80px;}
+.append-2  { padding-right: 160px;}
+.append-3  { padding-right: 240px;}
+.append-4  { padding-right: 320px;}
+.append-5  { padding-right: 400px;}
+.append-6  { padding-right: 480px;}
+.append-7  { padding-right: 560px;}
+.append-8  { padding-right: 640px;}
+.append-9  { padding-right: 720px;}
+.append-10 { padding-right: 800px;}
+.append-11 { padding-right: 880px;}
+
+
+/* Add these to a column to prepend empty cols. */
+.prepend-half { padding-left: 40px;}
+.prepend-1  { padding-left: 80px;}
+.prepend-2  { padding-left: 160px;}
+.prepend-3  { padding-left: 240px;}
+.prepend-4  { padding-left: 320px;}
+.prepend-5  { padding-left: 400px;}
+.prepend-6  { padding-left: 480px;}
+.prepend-7  { padding-left: 560px;}
+.prepend-8  { padding-left: 640px;}
+.prepend-9  { padding-left: 720px;}
+.prepend-10 { padding-left: 800px;}
+.prepend-11 { padding-left: 880px;}
+
+/* Use these classes on an element to push it into the 
+   next column, or to pull it into the previous column.  */
+
+.pull-1 { margin-left: -80px;}
+.pull-2 { margin-left: -160px;}
+.pull-3 { margin-left: -240px;}
+.pull-4 { margin-left: -320px;}
+.pull-5 { margin-left: -400px;}
+.pull-6 { margin-left: -480px;}
+.pull-7 { margin-left: -560px;}
+.pull-8 { margin-left: -640px;}
+.pull-9 { margin-left: -720px;}
+.pull-10 { margin-left: -800px;}
+.pull-11 { margin-left: -880px;}
+.pull-12 { margin-left: -960px;}
+
+.pull-1, .pull-2, .pull-3, .pull-4, .pull-5, .pull-6, .pull-7, .pull-8, .pull-9, .pull-10, .pull-11, .pull-12 {float:left;position:relative;}
+
+
+
+
+/* header */
+
+#header {
+	float: left;
+	margin: 0 0 70px 0;
+	}
+
+#logo {
+	margin-top:10px!important;
+	position: absolute;
+	width: 140px;	
+	height: 125px;
+	z-index: 100;
+	}
+
+#logo a {
+	display: block;
+	width: 140px;	
+	height: 125px;
+	}
+
+
+/* navigation */
+
+#main-navigation,
+#sub-navigation,
+#sub-sub-navigation {
+	font-family: "aimatart-regular", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	}
+	
+#sub-sub-navigation {
+	line-height: 18px;
+	}
+
+#main-navigation ul,
+#sub-navigation  ul,
+#sub-sub-navigation {
+	list-style-type: none;
+	}
+
+#main-navigation li,
+#sub-navigation li,
+#sub-sub-navigation {
+	}
+
+#main-navigation li a,
+#sub-navigation li a,
+#sub-sub-navigation li a {
+	color: #0e005f;
+	text-decoration: none;
+	}
+
+#main-navigation li a:hover,
+#sub-navigation li a:hover,
+#sub-sub-navigation li a:hover,
+#main-navigation li.current_page_item a,
+#sub-navigation li.current_page_item a,
+#sub-sub-navigation li.current_page_item a {
+	text-decoration: underline;
+	}
+
+
+/* content */
+
+#content {
+	float: left;
+	min-height: 500px;
+	margin: 0 0 30px 0;
+	}
+
+.excerpt p {
+	font-size: 12px;
+	line-height: 15px;
+	}
+
+.excerpt a p {
+	color: #0e005f;
+	}
+
+.home .excerpt a:hover p {
+	color: #0e005f;
+	}
+	
+.excerpt .date,
+.post .date {
+	font-size: 11px;
+	font-weight: bold;
+	}
+
+.post .narrow p {
+	font-size: 12px;
+	line-height: 16px;
+	}
+
+.post .narrow h2 {
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0 0 12px 0;
+	}
+
+.post .narrow h3 {
+	margin: 0 0 5px 0;
+	}
+
+.highlight {
+	font-family: "aimatart-italic", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	margin: 0 0 14px 0;
+	text-transform: uppercase;
+	word-spacing: 5px;
+	}
+
+.featured {
+	font-family: "aimatart-regular", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	word-spacing: 3px;
+	}
+	
+.featured p {
+	margin: 0 0 5px 0;
+	}
+
+.post .reference p {
+	margin: 0 0 5px 0;
+	}
+
+.image {
+	position: relative;
+	float: left;
+	margin: -10px 0 0 0;
+	}
+
+.image .container {
+	display: block;
+	position: relative;
+	float: left;
+	}
+	
+.image .caption {
+	background: #fff;
+	z-index: 100;
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: bold;
+	margin: 3px 0 20px 0;
+	text-align: left;
+	}
+	
+.images {
+	position: relative;
+	float: left;
+	min-height: 250px;
+	margin: -150px 0 20px 0;
+	}
+
+#subscribe {
+	margin: 30px 0 0 0;
+	}
+
+#subscribe .rule {
+	margin: 10px 0 0 0;
+	}
+
+
+/* contact form */
+
+div.wpcf7-validation-errors,
+div.wpcf7-mail-sent-ok {
+	border: none !important;
+}
+
+div.wpcf7-response-output {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+span.wpcf7-not-valid-tip {
+	background: #0e005f !important;
+	color: #fff;
+	border: none !important;
+	font-size: 10pt;
+	left: 2px !important;
+	padding: 1px 2px 1px 6px !important;
+	position: absolute;
+	top: 0 !important;
+	width: 170px !important;
+	z-index:100;
+}
+
+
+
+/* lightbox */
+
+#lightbox {
+    color: #0e005f !important;
+	}
+
+#nav_hover .slb_navPrev:hover, #nav_hover .slb_navPrev:visited:hover { background: url("images/lightbox-prev.png") left 15% no-repeat !important; }
+#nav_hover .slb_navNext:hover, #nav_hover .slb_navNext:visited:hover { background: url("images/lightbox-next.png") right 15% no-repeat !important; }
+.slb_slbClose {
+	display:block;
+	margin:0;
+	padding:0 0 10px 0;
+	text-decoration:none;
+	float:right;
+	width:90px !important;
+	height:30px !important;
+	background:url("images/lightbox-close.png") no-repeat !important;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+.slb_dataNumber {
+	display: none !important;
+	clear: left;
+	}			
+.slb_dataCaption { 
+	font-weight: bold;
+	color: #0E005F !important;
+	}
+
+#closeLink {
+	width: 90px !important;
+	height: 30px !important;
+	background: url("images/lightbox-close.png") no-repeat right !important;
+	}
+
+
+#prevLinkImg:hover {
+	background: url("images/lightbox-prev.png") no-repeat left !important;
+	}
+
+#nextLinkImg:hover {
+	background: url("images/lightbox-next.png") no-repeat right !important;
+	}
+	
+#detailsNav {
+	display: none !important;
+	}
+
+#loadingLink {
+	display: none;
+	}
+
+
+/* gallery */
+
+.album .gallery p {
+	font-size: 11px;
+	}
+	
+.gallery {
+	margin-left:30px;
+	margin-bottom: 30px;
+	}
+	
+.single-reference .gallery{
+	margin-top:-60px;
+}
+	
+.gallery .thumbnail{
+	min-height: 160px;
+	margin-bottom: 15px;
+	}
+
+.ngg-navigation a.page-numbers,
+.ngg-navigation a.next,
+.ngg-navigation a.prev {
+	border: none !important;
+	}
+
+.ngg-navigation a.page-numbers:hover,
+.ngg-navigation a.next:hover,
+.ngg-navigation a.prev:hover {
+	background-color: #0e005f !important;
+}
+
+/* post */
+
+.post {
+	position: relative;
+	float: left;
+	margin: 0 0 30px 0;
+	}
+	
+.blog .post, .category-nieuws .post {
+	margin: 0 0 10px 0;
+	}
+	
+	
+	
+.post h1 {
+	font-family: "aimatart-italic", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	text-decoration: underline;
+	word-spacing: 6px;
+	}
+	
+.category h1,.page-template-tpl_nieuws-2col-php h1, .page-template-tpl-nieuws-2col-new-php h1 {
+	font-family: "aimatart-regular", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0 0 15px 0;
+	word-spacing: 6px;
+	}
+
+.post h1 a:hover {
+	color: #0e005f;
+	}
+	
+.post h3 {
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+	}
+
+.post h4 {
+	margin: 0 0 14px 0;
+	}
+
+.post h2 {
+	font-family: "aimatart-regular", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	line-height: 22px;
+	margin: 0 0 14px 0;
+	}
+.page-template-tpl_references-new-php h2 {
+	font-family: "aimatart-regular", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	line-height: 22px;
+	margin: 0 0 14px 0;
+	color:#faa34a;
+	}
+	
+.post p {
+	margin: 0 0 14px 0;
+	}
+
+.post em{
+	font-style: italic;
+	}
+
+.post .indent {
+	padding-left: 10px;
+	}
+
+.post .indent p {
+	padding-left: 10px;
+	}
+
+.post small {
+	font-size: 11px;
+	}
+
+.post small a {
+	font-weight: normal;
+	}
+
+.post .alignright {
+	float: right;
+	margin-left: 10px;
+	}
+
+.post .alignleft {
+	float: left;
+	margin-right: 10px;
+	}
+
+.post .aligncenter {
+	margin: 0 auto;
+	display: block;
+	}
+
+.post abbr {
+	font-weight: normal;
+	}
+
+.post ul{
+	}
+
+.post ol{
+	list-style: decimal;
+	margin: 0 0 0 30px;
+	}
+
+.post .wp-caption {
+	margin: 10px;
+	padding: 5px 0 0;
+	}
+
+.post .wp-caption-text {
+	margin: 0;
+	}
+
+.post .wp-caption a, .post .wp-caption a:hover {
+	border-bottom: 0;
+	}
+
+
+/* footer */
+
+#footer {
+	margin:auto;
+	position: relative;
+	/*float: left;*/
+	float:right;
+	font-size: 9px;
+	padding: 30px 0 20px 0;
+	}
+
+/* hide quote symbol in quotes */
+.ether-quotes-item:after {
+	display:none;
+}
+
+.ngg-gallery-thumbnail {
+width:208px;
+padding-right:10px;
+}
+
+/*color links on diensten pages*/
+.parent-pageid-7 a,.parent-pageid-7 a:hover,.parent-pageid-7 a:visited,
+.page-id-7 a,.page-id-7 a:hover,.page-id-7 a:visited, .page-id-4857 a,page-id-4857 a:visited,page-id-4857 a:hover{
+	/*color:#f99696!important;*/
+}
+.parent-pageid-7 a,.parent-pageid-7 a:hover,.parent-pageid-7 a:visited,
+.page-id-7 a,.page-id-7 a:hover,.page-id-7 a:visited, .page-id-4857 a,.page-id-4857 a:visited,
+.page-id-4857 a:hover, .page-id-4861 a,.page-id-4861 a:visited,.page-id-4861 a:hover, .page-id-4865 a,.page-id-4865 a:visited,.page-id-4861 a:hover,.page-id-4859 a,.page-id-4859 a:visited,.page-id-4859 a:hover{
+	color:#f99696!important;
+}
+#menu-submenu li a{
+	color:#f99696!important;
+}
+
+.home-button{
+	/*color:#686dfd!important;*/
+	/*color:#686dfd!important;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+/*background recent news and blog on home (test)*/
+#super_recent_posts_widget-5{
+	background-color:#faa34a!important;
+	padding:5px!important;
+    border:solid 2px #000000;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#super_recent_posts_widget-6{
+	background-color:#d477f7!important;
+	padding:5px!important;
+    border:solid 2px #000000;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+/*size news items same height on News*/
+.page-template-tpl_nieuws-2col-php .span-4 .post{
+	height:380px!Important;
+}
+
+/*color of terug naar overzicht*/
+.category-blog .terug_overzicht a{
+	color:#d477f7!important;
+}
+/*nieuws*/
+.nieuws .terug_overzicht a{
+	color:#29B4E0!important;
+}
+
+/* hide terug naar overzicht on single reference pages*/
+.single-reference .terug_overzicht{
+	display:none!Important;
+}
+
+.page-template-tpl_nieuws-2col-php .navigation, ..page-template-tpl-nieuws-2col-new-php .navigation{
+	margin-top:20px!Important;
+}
+
+.laatste_nieuws{
+	color:#faa34a;
+}
+.single-post .laatste_nieuws{
+	color:#d477f7;
+}
+.page-template-tpl_nieuws-2col-php a, ..page-template-tpl-nieuws-2col-new-php a{
+color:#29b4e0;
+}
+.page-id-38{
+background-color:#29b4e0;
+}
+
+.home #content .ether-col {
+    padding: 11px!important;
+}
+
+/* color navigation on reference page */
+.page-template-tpl_references-new-php .navigation .alignleft a,.page-template-tpl_references-new-php .navigation .alignright a{
+	color:#FAA34A!important;
+}
+/* cut off title on single reference above text */
+.single-reference .post .excerpt h1{
+	max-width:520px!Important;
+}
+
+/*nieuwe 2 kolommen nieuwspagina*/
+div#left-column {
+	width: 270px;
+	float: left;
+	clear: none;
+	}
+div#right-column {
+	width: 270px;
+	float: right;
+	clear: none;
+	}
+	
+.page-template-tpl-nieuws-2col-new-php .post{
+	width: 270px;
+}
+
+.page-template-tpl-nieuws-2col-new-php .span-4 .post{
+    height: 450px !important;
+}
+
+
+.page-template-tpl-nieuws-2col-new-php h1 a, .page-template-tpl-nieuws-2col-new-php .leesmeer a, .page-template-tpl-nieuws-2col-new-php .navigation a, .page-template-tpl-nieuws-2col-new-php .post h1 {
+    color: #29B4E0!important;
+}
+
+#megaMenu ul.megaMenu li a{
+	color:#0E005F!important;
+}
+/*fixes 7 march after ether builder update*/
+.ether-img img{
+	max-width:100%;
+}
+/* change font of menu and of all links*/
+.wpmega-link-title{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
+	font-weight:normal!important;
+}
+/* change font of all links and headers*/
+a,h1,h2,h3,h4,h5,h6,h7{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
+}
+/*less margin below single picture vc*/
+.wpb_single_image.wpb_content_element {
+margin-bottom: 10px;
+}
