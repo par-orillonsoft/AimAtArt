@@ -1,0 +1,24 @@
+<div class="contact-image-mask"></div>
+<div class="contact-orange-mask"></div>
+
+
+.contact-orange-mask {
+	width: 80%;
+	height: 500px;
+	background: #F8A35E;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 28%, 0 58%);
+  clip-path: polygon(0 0, 100% 0, 100% 28%, 0 58%);
+  
+  z-index:3;
+}
+
+.contact-image-mask{
+  width: 80%;
+	height: 500px;
+	/*background: #D37BE5;*/
+  background-image: url("http://www.aimatart.nl/wp-content/uploads/ether/fotos-selecteren-2meisjes-thumb280x326.jpg");
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 40%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 40%);
+  margin-bottom: -500px;
+  z-index:0;
+}
