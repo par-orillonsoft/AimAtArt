@@ -1,0 +1,52 @@
+.mc4wp-form #mc4wp_email{
+	padding-bottom: 16px !important;
+}
+.navbar-default.default.tdark #s_top {
+	background: url(../images/sprite.png) -418px -121px;
+}
+.navbar-default.default.slight.nav-shrink #s_top, .navbar-default.default.tLight.nav-shrink #s_top{background-image: url(../images/sprite.png) -185px -136px !important;}
+.navbar-default.default.slight.nav-shrink #s_top:focus, .navbar-default.default.tLight.nav-shrink #s_top:focus{background-image: url(../images/sprite.png) -185px -136px !important;background-color: rgba(255,255,255,1);}
+.nav-shrink #s_top:focus, .nav-shrink #s_top, .navbar.nav-shrink{height: 58px;}
+.slight.nav-shrink #s_top:focus{background-image: url(../images/sprite.png) -185px -136px !important;background-color:#f8f8f8;}
+
+.navbar-default.default.sdark.nav-shrink #s_top, .navbar-default.default.tdark.nav-shrink #s_top{background-image: url(../images/sprite.png) -418px -136px;}
+
+.navbar-default.default.flfull.nav-shrink #s_top, .flfull.nav-shrink #s_top:focus{background-image: url(../images/sprite.png) -185px -136px !important;}
+.navbar-default.default.fdfull.nav-shrink #s_top, .fdfull.nav-shrink #s_top:focus{background-image: url(../images/sprite.png) -416px -136px !important;}
+
+.tdark.nav-shrink #s_top:focus{background-image: url(../images/sprite.png) -418px -136px;background-color: rgba(24,24,24,0.99);}
+
+.navbar-default.default.sdark.nav-shrink #s_top, .navbar-default.default.tdark.nav-shrink #s_top{
+background-image: url(../images/sprite.png) -418px -136px !important;}
+
+.navbar-default.default.slight #s_top{
+	background-image: url(../images/sprite.png) -185px -122px;
+}
+
+.img-container{border: none !important;}
+.flexslider .slides img{width: 80px;height: 80px;}
+.slight #s_top:focus {
+	border: none !important;
+	font-size: 11px;
+	background-image: url(../images/sprite.png) -185px -122px !important;
+	background-color: #f8f8f8;
+	color: #343434;
+}
+
+.navbar-default.default.tLight #s_top{
+	background-image: url(../images/sprite.png) -185px -122px;
+	color: #343434;
+}
+
+.tLight #s_top:focus {
+	background-image: url(../images/sprite.png) -185px -122px !important;
+	background-color: rgba(255,255,255,0.92);
+}
+.tdark.default.navbar-default.nav-shrink #s_top {
+	background: url(../images/sprite.png) -418px -136px !important;
+}
+.flexslider .slides .img-container{border: none !important;}
+.flexslider .slides .img-container img{
+	width: 80px !important;
+	height: 80px !important;
+}
