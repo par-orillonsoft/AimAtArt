@@ -693,13 +693,33 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   text-align: center;
 }
 
-.sola_t_image {
-
+.sola_t_layout_1_container .sola_t_container {
+width: 90% !important;
+margin-left: 10% !important;
 }
 
 .sola_t_layout_1_container {
 width: 100% !important;
 }
+
+.theme-2 .sola_t_image {
+float: none !important;
+margin: 0px 0% !important;
+}
+
+.theme-2 .sola_t_title {
+text-align: left !important;
+}
+
+.theme-2 .sola_t_body {
+width: 100% !important;
+text-align: left !important;
+}
+
+.theme-2 .sola_t_meta_data {
+text-align: left !important;
+}
+
 
 /* ========================================== */
 /* MENU NAVBAR BACKGROUND PER PAGE =============================== */
