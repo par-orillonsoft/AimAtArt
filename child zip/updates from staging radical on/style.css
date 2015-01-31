@@ -637,3 +637,33 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
 .address p{
   font-family: DTLNobel-T; 
 }
+
+/* ========================================== */
+/* ERVARINGEN =============================== */
+/* ========================================== */
+
+#ervaringen-title {
+  color: #ffffff;
+  font-size: 3em;
+  font-family: DTLNobel-T-Bold;
+  text-transform: uppercase !important;
+}
+
+.ervaringen-red-mask {
+  margin-left: -50%;
+  width: 150%;
+  height: 150px;
+  background: #FC4F5B;
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%);
+  clip-path: polygon(0 1%, 100% 0, 100% 50%);
+  margin-bottom: -150px; 
+}
+
+.ervaringen-cyan-mask {
+  margin-left: -50%;
+  width: 150%;
+  height: 150px;
+  background: #00E7EA;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
+  clip-path: polygon(0 0, 100% 0, 0 50%);
+}
