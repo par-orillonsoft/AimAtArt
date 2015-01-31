@@ -665,8 +665,8 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   width: 150%;
   height: 150px;
   background: #593EFA;
-  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%);
-  clip-path: polygon(0 1%, 100% 0, 100% 50%);
+  -webkit-clip-path: polygon(0% 0%, 0% 89%, 100% 30%);
+  clip-path: polygon(0% 0%, 0% 89%, 100% 30%);
   margin-bottom: -150px; 
 }
 
@@ -675,6 +675,6 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   width: 150%;
   height: 150px;
   background: #FC4F5B; 
-  -webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
-  clip-path: polygon(0 0, 100% 0, 0 50%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%);
 }
