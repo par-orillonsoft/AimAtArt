@@ -708,6 +708,7 @@ margin: 0px 0% !important;
 }
 
 .theme-2 .sola_t_title {
+  display: none;
 text-align: left !important;
 font-family: DTLNobel-T-Bold;
 font-size: 1em !important;
@@ -720,10 +721,20 @@ width: 100% !important;
 text-align: left !important;
 }
 
+.theme-2 .sola_t_body a {
+  display: none;
+}
+
 .theme-2 .sola_t_meta_data {
 text-align: left !important;
 }
 
+.workshop-text {
+  font-family: DTLNobel-T-Bold;
+  font-size: 1.5em;
+  color: #00E7EA;
+  text-align: center;
+}
 
 /* ========================================== */
 /* MENU NAVBAR BACKGROUND PER PAGE =============================== */
