@@ -693,6 +693,13 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   text-align: center;
 }
 
+.sola_t_image {
+
+}
+
+.sola_t_layout_1_container {
+width: 100% !important;
+}
 
 /* ========================================== */
 /* MENU NAVBAR BACKGROUND PER PAGE =============================== */
