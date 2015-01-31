@@ -709,9 +709,13 @@ margin: 0px 0% !important;
 
 .theme-2 .sola_t_title {
 text-align: left !important;
+font-family: DTLNobel-T-Bold;
+font-size: 1em !important;
 }
 
 .theme-2 .sola_t_body {
+font-family: DTLNobel-T-Bold;
+font-size: 1em !important;
 width: 100% !important;
 text-align: left !important;
 }
