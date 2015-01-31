@@ -659,7 +659,7 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   margin-left: -50%;
   width: 150%;
   height: 150px;
-  background: #00E7EA;
+  background: #593EFA;
   -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%);
   clip-path: polygon(0 1%, 100% 0, 100% 50%);
   margin-bottom: -150px; 
