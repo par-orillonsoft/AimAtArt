@@ -634,10 +634,6 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   font-weight: bolder;
 }
 
-#contact-address-text{
-  font-family: DTLNobel-T-Bold;
-}
-
 .address p{
-  font-family: DTLNobel-T-Bold; 
+  font-family: DTLNobel-T; 
 }
