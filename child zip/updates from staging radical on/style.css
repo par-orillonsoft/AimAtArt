@@ -712,6 +712,42 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   background: #D37BE5 !important;
 }
 
-.page-id-1565 .navbar-default.default.sdark ul > li > a{
+.page-id-1616 .navbar-default.default.sdark ul > li > a{
   background: #D37BE5 !important;
+}
+
+/*TEAM*/
+.page-id-1721 .navbar-default.default.sdark {
+  background: #F8A35E !important;
+}
+
+.page-id-1721 .navbar-default.default.sdark ul > li > a{
+  background: #F8A35E !important;
+}
+
+/*CASES*/
+.page-id-1731 .navbar-default.default.sdark {
+  background: #FC4F5B !important;
+}
+
+.page-id-1731 .navbar-default.default.sdark ul > li > a{
+  background: #FC4F5B !important;
+}
+
+/*CONTACT*/
+.page-id-1739 .navbar-default.default.sdark {
+  background: #F8A35E !important;
+}
+
+.page-id-1739 .navbar-default.default.sdark ul > li > a{
+  background: #F8A35E !important;
+}
+
+/*ERVARINGEN*/
+.page-id-1771 .navbar-default.default.sdark {
+  background: #FC4F5B !important;
+}
+
+.page-id-1771 .navbar-default.default.sdark ul > li > a{
+  background: #FC4F5B !important;
 }
