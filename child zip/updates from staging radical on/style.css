@@ -637,3 +637,7 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
 #contact-address-text{
   font-family: DTLNobel-T-Bold;
 }
+
+.address{
+  font-family: DTLNobel-T-Bold; 
+}
