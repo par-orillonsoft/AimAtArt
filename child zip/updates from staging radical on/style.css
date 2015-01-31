@@ -634,9 +634,15 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   font-weight: bolder;
 }
 
-.address p{
-  font-family: DTLNobel-T; 
+#contact-address-text{
+  font-family: DTLNobel-T-Bold;
 }
+
+
+.address p{
+  font-family: DTLNobel-T-Bold; 
+}
+
 
 /* ========================================== */
 /* ERVARINGEN =============================== */
@@ -649,21 +655,21 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   text-transform: uppercase !important;
 }
 
-.ervaringen-red-mask {
+.ervaringen-blue-mask {
   margin-left: -50%;
   width: 150%;
   height: 150px;
-  background: #FC4F5B;
+  background: #00E7EA;
   -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%);
   clip-path: polygon(0 1%, 100% 0, 100% 50%);
   margin-bottom: -150px; 
 }
 
-.ervaringen-cyan-mask {
+.ervaringen-red-mask {
   margin-left: -50%;
   width: 150%;
   height: 150px;
-  background: #00E7EA;
+  background: #FC4F5B; 
   -webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
   clip-path: polygon(0 0, 100% 0, 0 50%);
 }
