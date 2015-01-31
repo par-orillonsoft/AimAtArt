@@ -1,0 +1,639 @@
+/*
+Theme Name: Dikka Child AAA
+Description: Child AimAtArt extended Dikka Theme
+Author: Radical Graphics 
+Template: dikka-installable
+*/
+
+@import url("../dikka-installable/style.css");
+
+@font-face {
+  font-family: DTLNobel-T;  
+  src: local('DTLNobel-T'), 
+  url("fonts/DTLNobel-T.ttf") format('truetype');  
+  font-weight: normal;  
+}
+
+@font-face {
+  font-family: DTLNobel-T-Bold;  
+  src: local('DTLNobel-T-Bold'), 
+  url("fonts/DTLNobel-T-Bold.ttf") format('truetype');  
+  font-weight: normal;  
+}
+
+
+
+
+.slider-link-black {
+	color: #64E7B2;
+	font-size: 3em;
+}
+
+.blue-mask {
+	width: 150%;
+	height: 580px;
+	background: #593EFA;
+	margin-left: -50%;
+	-webkit-background-size: cover;
+	-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
+  clip-path: polygon(0 0, 100% 0, 0 50%);
+  margin-bottom: -630px;
+  margin-top: -15px;
+}
+
+.green-mask {
+  width: 150%;
+  height: 580px ;
+  margin-left: -50%;
+  margin-bottom: -1025px;
+  background: #64E7B2;
+  -webkit-clip-path: polygon(0 1%, 100% 75%, 100% 87%, 0 100%);
+  clip-path: polygon(0 1%, 100% 75%, 100% 87%, 0 100%);
+}
+
+.home-aimatart-title p{
+  font-family: DTLNobel-T-Bold;
+  font-size: 3em;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1em;
+  padding-bottom: 2px;
+}
+
+.sdark {
+  background: #593EFA !important;
+}
+
+.navbar-default.default.sdark ul > li > a{
+  background: #593EFA !important;
+}
+
+#pg-1565 .sdark {
+  background: #00e7ea !important;
+}
+
+#pg-1565 .navbar-default.default.sdark ul > li > a{
+  background: #00e7ea !important;
+}
+
+
+
+
+
+.twitter-author a > b {
+  color: #E45D5D;
+}
+
+.tweet_time a {
+  color: #727272;
+}
+.tweet_hashtag {
+ color: #727272; 
+}
+.tweet_text a {
+ color: #727272;  
+}
+
+.nav-shrink .nav-container img {
+  margin: 0 20px 15px 15px;
+  max-width: 30%;
+}
+
+/* WHAT WE DO PAGE */
+/* =============== */
+
+.onsdenken-aimatart-title p, .whatwedo-aimatart-title p{
+  font-family: DTLNobel-T-Bold;
+  font-size: 2em;
+  text-decoration: underline;
+  text-align: left;
+  color: #000000;
+  line-height: 1em;
+  margin-bottom: 5px;
+}
+
+.whatwedo-red-mask {
+  margin-left: -50%;
+  width: 150%;
+  height: 150px;
+  background: #FC4F5B;
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%);
+  clip-path: polygon(0 1%, 100% 0, 100% 50%);
+  margin-bottom: -150px;
+  
+}
+
+
+.whatwedo-cyan-mask {
+  margin-left: -50%;
+  width: 150%;
+  height: 150px;
+  background: #00E7EA;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
+  clip-path: polygon(0 0, 100% 0, 0 50%);
+
+}
+.onsdenken-intro, .whatwedo-intro {
+  font-family: DTLNobel-T-Bold;
+  font-size: 2em;
+  color: #000000;
+  line-height: 1.2em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h2 {
+  font-family: DTLNobel-T-Bold !important;
+}
+
+.whatwedo-resultaten-text {
+  font-family: DTLNobel-T-Bold;
+  font-size: 1.5em;
+  color: #00E7EA;
+  text-align: center;
+}
+
+.whatwedo-resultaten-box {
+  border: 4px solid #00E7EA;
+  text-align: center;
+  padding: 1.5em;
+  height: auto;
+  min-height: 250px;
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+.whatwedo-resultaten-box-text {
+  font-family: DTLNobel-T-Bold;
+  text-align: left;
+  font-size: 1.2em;
+  padding-top: 1em;
+  color: #000000;
+  line-height: 1.5em;
+}
+
+.whatwedo-quote-text {
+  font-family: DTLNobel-T;
+  text-align: left;
+  padding-top: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 3em;
+  color: #ffffff;
+  line-height: 1.2em;
+}
+
+.whatwedo-quote-text-signature {
+  font-family: DTLNobel-T;
+  text-align: left;
+  font-size: 2em;
+  color: #ffffff;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 15%;
+}
+
+/*#pg-1565-6 {
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 90%);
+}*/
+
+.testimonial-top-mask {
+  height: 60px;
+  -webkit-clip-path: polygon(0 35%, 100% 0, 0 0);
+  clip-path: polygon(0 35%, 100% 0, 0 0);
+  background: #ffffff;
+  margin-bottom: -60px;
+}
+
+.testimonial-bottom-mask {
+  height: 60px;
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 0 42%);
+  clip-path: polygon(0 100%, 100% 100%, 0 42%);
+  background: #ffffff;
+  margin-top: -60px;
+}
+
+#whatwedo-quote-box {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.whatwedo-allesopmaat-text {
+  font-family: DTLNobel-T-Bold;
+  text-align: left;
+  font-size: 1.5em;
+  color: #000000;
+  margin-top: 3%;
+  padding-bottom: 5%;
+}
+
+.whatwedo-allesopmaat-box {
+  border: 4px solid #00E7EA;
+  text-align: center;
+  padding: 1.5em;
+  height: 250px;
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-bottom: 1em;
+}
+
+.whatwedo-text-overbutton {
+  font-family: DTLNobel-T-Bold;
+  font-size: 2em;
+  color: #000000;
+  line-height: 1.2em;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.tp-button.blue {
+  text-transform: lowercase !important;
+  background-color: #00e7ea !important;
+  color: #ffffff !important;
+  border: 0 !important; 
+  margin-bottom: 4em;
+}
+
+.tp-button:hover.blue {
+  background-color: #00aaaa !important;
+}
+
+.whatwedo-meerweten-box {
+  background: #00E7EA;
+-webkit-clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
+
+z-index: 0;
+}
+
+#subscribe-panel .textwidget{
+  font-family: DTLNobel-T-Bold;
+  font-size: 1.3em;
+  line-height: 1.2em;
+}
+
+#home-panel-subscribe h5 {
+  font-family: DTLNobel-T-Bold;
+  margin-bottom: 1em;
+}
+
+#home-panel-subscribe .textwidget {
+  font-family: DTLNobel-T-Bold;
+  font-size: 1.3em;
+  line-height: 1.2em;
+}
+
+#home-panel-subscribe input[type=submit] {
+  background: #64E7B2 !important;
+}
+
+
+
+.whatwedo-meerweten-title {
+  font-family: DTLNobel-T-Bold;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 3em;
+  color: #000000;
+  line-height: 1.2em;
+}
+.whatwedo-meerweten-text {
+  padding-bottom: 2em;
+  margin-bottom: -1px;
+}
+.whatwedo-meerweten-text p{
+  font-family: DTLNobel-T;
+  text-align: center;
+  font-size: 1.4em;
+  color: #ffffff;
+  line-height: 1em;
+}
+
+#whatwedo-contact-row {
+  margin-right: -15px;
+}
+
+.whatwedo-contact-left-name {
+  font-family: DTLNobel-T-Bold;
+  text-align: right;
+  font-size: 1.4em;
+  color: #ffffff;
+  padding-top: 9%;
+}
+
+.whatwedo-contact-left-phone {
+  font-family: DTLNobel-T-Bold;
+  text-align: right;
+  font-size: 1.4em;
+  color: #ffffff;
+}
+.whatwedo-contact-right-name {
+  font-family: DTLNobel-T-Bold;
+  text-align: left;
+  font-size: 1.4em;
+  color: #ffffff;
+  margin-top: 5%;
+  padding-top: 25%;
+}
+
+.whatwedo-contact-right-phone {
+  font-family: DTLNobel-T-Bold;
+  text-align: left;
+  font-size: 1.4em;
+  color: #ffffff;
+}
+
+.testimonials-slide-content {
+  font-size: 1em;
+}
+
+/* ===================================== */
+/* ONS DENKS PAGE ====================== */
+/* ===================================== */
+
+.onsdensk-cyan-mask {
+  height: 150px;
+
+  background: #D37BE5;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%);
+  clip-path: polygon(0 0, 100% 0, 100% 60%);  
+}
+
+.onsdensk-purple-mask {
+  height: 150px;
+  background: #00E7EA;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 25%);
+  clip-path: polygon(0 0, 100% 0, 0 25%);
+  margin-bottom: -150px;
+}
+
+.onsdenken-picture-text-title {
+  text-align: left;
+  color: #000000;
+}
+
+.onsdenken-picture-text-title h3 {
+  margin-top: -0.5em;
+}
+
+.onsdenken-picture-text {
+  font-family: DTLNobel-T-Bold;
+  font-size: 1.3em;
+  color: #000000;
+}
+
+.divider-line {
+  border: 1px solid #E4DBE2;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.onsdenken-quote-box {
+  background: url("http://www.aimatart.nl/wp-content/uploads/2012/12/rondleiding-WM.jpg") no-repeat;
+  -webkit-clip-path: polygon(0 0, 100% 7%, 100% 91%, 0 100%) !important;
+  clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 91%) !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.onsdenken-onzeinzichten-text p {
+  font-family: DTLNobel-T-Bold;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 1em;
+  color: #d37be5;
+}
+
+.pt-cv-content-item {
+  width: 30%;
+  border: 3px solid #d37be5;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  min-height: 100%;
+}
+
+.pt-cv-thumbnail {
+  padding-top: 15px;
+}
+
+.pt-cv-title {
+  font-family: DTLNobel-T-Bold;
+  text-transform: uppercase !important;
+}
+
+.pt-cv-content {
+  font-family: DTLNobel-T;
+  font-size: 1em;
+}
+
+.pt-cv-readmore.btn.btn-success {
+  color: #d37be5;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.onsdenken-button-blog {
+  text-align: center;
+  margin-top: 2.5em;
+}
+
+.onsdenken-button-blog.tp-button.blue {
+  text-transform: lowercase !important;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 0 !important; 
+  margin-bottom: 4em;
+}
+
+.onsdenken-button-blog.tp-button:hover.blue {
+  background-color: #4c4c4c !important;
+}
+
+.whatwedo-contact-left-name {
+
+}
+
+.onsdenken-meerweten-box {
+  background: #d37be5;
+-webkit-clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
+
+}
+
+.footer {
+  background: #000000;
+  background-color: #000000 !important;
+}
+
+.aimatart-footer-text {
+  font-family: DTLNobel-T;
+  font-size: 1em;
+  margin-top: 3%;
+  margin-bottom: -3%;
+  color: #ffffff;
+  background: #000000;
+}
+
+.aimatart-footer-text a, .aimatart-footer-text a:hover, .aimatart-footer-text a:visited {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* ====================================== */
+/* TEAM ================================= */
+/* ====================================== */
+
+
+#team-title {
+  color: #ffffff;
+  font-size: 3em;
+  font-family: DTLNobel-T-Bold;
+  text-transform: uppercase !important;
+}
+.team-orange-mask {
+  height: 150px;
+  background: #f8a35e;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
+  clip-path: polygon(0 0, 100% 0, 0 52%);
+  
+}
+
+.team-purple-mask {
+  height: 150px;
+  background: #d37be5;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  margin-bottom: -150px;
+}
+
+
+/*.whatwedo-red-mask {
+  margin-left: -50%;
+  width: 150%;
+  height: 150px;
+  background: #FC4F5B;
+  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%);
+  clip-path: polygon(0 1%, 100% 0, 100% 50%);
+  margin-bottom: -150px;
+  
+}
+
+
+.whatwedo-cyan-mask {
+  margin-left: -50%;
+  width: 150%;
+  height: 150px;
+  background: #00E7EA;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
+  clip-path: polygon(0 0, 100% 0, 0 50%);
+
+}*/
+
+/* ========================================= */
+/* CASES =================================== */
+/* ========================================= */
+
+  .cases-purple-mask{
+  height: 80px;
+  background: #593EFA;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 80%);
+  clip-path: polygon(0 0, 81% 0, 0 80%);
+  margin-bottom: -80px;
+  }
+  
+  .cases-red-mask{
+  height: 80px;
+  background: #FC4F5B;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 35%);
+  clip-path: polygon(0 0, 100% 0, 100% 35%);
+  }
+
+  #aimatart-cases .cbp-l-grid-projects-title {
+    font-family: DTLNobel-T-Bold !important;
+    text-transform: uppercase !important;
+  }
+
+  #aimatart-cases .cbp-l-grid-projects-desc {
+    font-size: 1em !important;
+    font-family: DTLNobel-T !important;
+  }
+
+#aimatart-cases .cbp-l-caption-alignCenter {
+  /*width: 92% !important;
+  height: 90%  !important;*/
+}
+#aimatart-cases .cbp-caption-activeWrap {
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  margin-top: 4% !important;
+  margin-bottom: 4% !important;
+}
+
+#aimatart-cases .cbp-caption-activeWrap {
+ width: 90% !important;
+  height: 88%  !important; 
+}
+
+/*
+ .cbp-l-caption-body {
+  
+}*/
+
+#aimatart-cases .cbp-l-caption-body a{
+  width: 100% !important;
+  font-size: 1.5em !important;
+  font-family: DTLNobel-T-Bold !important;
+}
+
+
+/* =================================================== */
+/* CONTACT =========================================== */
+/* =================================================== */
+
+.contact-orange-mask {
+  height: 300px;
+  background: #F8A35E;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);
+}
+
+.contact-image-mask{
+
+  height: 300px;
+  /*background: #D37BE5;*/
+  background-image: url("http://www.aimatart.nl/wp-content/uploads/ether/fotos-selecteren-2meisjes-thumb280x326.jpg");
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);
+  background-size: 100%;
+  margin-bottom: -300px;
+}
+
+#contact-title {
+  color: #ffffff;
+  font-size: 3em;
+  font-family: DTLNobel-T-Bold;
+  text-transform: uppercase !important;
+}
+
+#contact-intro-text {
+  font-family: DTLNobel-T-Bold;
+  font-size: 2em;
+  color: #000000;
+  line-height: 1.2em;
+}
+
+.contact-caption-photo-text{
+  font-weight: bolder;
+}
+
+#contact-address-text{
+  font-family: DTLNobel-T-Bold;
+}
