@@ -645,7 +645,7 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
 }
 
 
-#subscribe-text p, h4{
+#subscribe-text p, #subscribe-text h4{
   font-family: DTLNobel-T; !important;
 }
 
