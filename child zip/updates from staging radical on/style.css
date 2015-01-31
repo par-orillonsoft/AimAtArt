@@ -640,7 +640,8 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
 
 
 .address p{
-  font-family: DTLNobel-T; 
+  font-family: DTLNobel-T;
+  text-align: left; 
 }
 
 
