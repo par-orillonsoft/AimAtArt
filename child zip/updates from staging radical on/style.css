@@ -693,5 +693,5 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
 /* ========================================== */
 
 .page-id-1565 .navbar{
-  background: #00E7EA;
+  background: #00E7EA !important;
 }
