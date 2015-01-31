@@ -293,14 +293,14 @@ z-index: 0;
 
 
 
-.whatwedo-meerweten-title {
+.whatwedo-meerweten-title h2{
   font-family: DTLNobel-T-Bold;
   text-align: center;
   text-decoration: underline;
   padding-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #000000;
   line-height: 1.2em;
 }
@@ -732,8 +732,13 @@ text-align: left !important;
 .workshop-text {
   font-family: DTLNobel-T-Bold;
   font-size: 1.5em;
-  color: #00E7EA;
+  color: #FC4F5B;
   text-align: center;
+}
+
+.page-id-1771 .whatwedo-meerweten-box {
+  color: #000000;
+  background: #FC4F5B;
 }
 
 /* ========================================== */
