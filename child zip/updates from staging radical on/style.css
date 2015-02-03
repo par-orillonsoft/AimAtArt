@@ -871,3 +871,14 @@ text-align: left !important;
   font-size: 1em;
   color: #000000;
 }
+
+
+
+
+/*****************************/
+/*****************************/
+
+.mc4wp-form #mc4wp_email{
+  height:3em;
+  width:60%;
+}
