@@ -147,7 +147,7 @@ Template: dikka-installable
   clip-path: polygon(0 0, 100% 0, 0 50%);
 
 }
-.onsdenken-intro, .whatwedo-intro {
+.onsdenken-intro, .whatwedo-intro, #contact-intro-text {
   font-family: DTLNobel-T-Bold;
   font-size: 2em;
   color: #000000;
@@ -656,12 +656,12 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   text-transform: uppercase !important;
 }
 
-#contact-intro-text {
+/*#contact-intro-text {
   font-family: DTLNobel-T-Bold;
   font-size: 2em;
   color: #000000;
   line-height: 1.2em;
-}
+}*/
 
 .contact-caption-photo-text{
   font-weight: bolder;
@@ -767,6 +767,10 @@ text-align: left !important;
   font-size: 1.5em;
   color: #FC4F5B;
   text-align: center;
+}
+
+.ervaringen-button {
+  text-transform: lowercase !important;
 }
 
 .page-id-1771 .whatwedo-meerweten-box {
