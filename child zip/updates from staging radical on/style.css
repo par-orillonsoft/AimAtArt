@@ -38,7 +38,7 @@ Template: dikka-installable
 	-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
   clip-path: polygon(0 0, 100% 0, 0 50%);
   margin-bottom: -630px;
-  margin-top: -15px;
+  margin-top: -30px;
 }
 
 .green-mask {
@@ -51,14 +51,28 @@ Template: dikka-installable
   clip-path: polygon(0 1%, 100% 75%, 100% 87%, 0 100%);
 }
 
-.home-aimatart-title p{
+#home-aimatart-title p{
   font-family: DTLNobel-T-Bold;
-  font-size: 3em;
+  font-size: 2.8em;
   text-align: center;
   color: #ffffff;
-  line-height: 1em;
-  padding-bottom: 2px;
+  letter-spacing: 0.1em;
+/*  line-height: 1.3em;*/
 }
+
+#home-aimatart-subtitle {
+  margin-top: -10px;
+}
+
+#home-aimatart-subtitle p{
+   font-family: DTLNobel-T;
+    font-size: 2.1em;
+    text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+}
+
 
 .sdark {
   background: #593EFA !important;
@@ -288,6 +302,10 @@ z-index: 0;
 }
 
 #home-panel-subscribe input[type=submit] {
+  background: #64E7B2 !important;
+}
+
+.page-id-1524 #home-panel-subscribe input[type=submit] {
   background: #64E7B2 !important;
 }
 
@@ -797,4 +815,40 @@ text-align: left !important;
 
 .page-id-1771 .navbar-default.default.sdark ul > li > a{
   background: #FC4F5B !important;
+}
+
+/* ======================================= */
+/* WORKSHOP POST TEMPLATES =============== */
+/* ======================================= */
+
+.workshop-table { 
+  font-family: DTLNobel-T-Bold;
+  border-collapse:collapse;
+  border: none;
+}
+
+.table-left-col {
+  font-size: 1em;
+  color: #FC4F5B;
+}
+
+.table-right-col {
+  font-size: 1em;
+  color: #000000;
+}
+
+#workshop-subtitle h2 {
+ color: #FC4F5B !important; 
+}
+
+#workshop-content p {
+  font-family: DTLNobel-T;
+  font-size: 1em;
+  color: #000000;
+}
+
+#panel-1867-2-1-1 {
+  font-family: DTLNobel-T-Bold;
+  font-size: 1em;
+  color: #000000;
 }
