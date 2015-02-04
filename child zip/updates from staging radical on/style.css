@@ -1033,6 +1033,16 @@ text-align: left !important;
   background: #F8A35E !important;
 }
 
+/*Partners*/
+.page-id-1950 .navbar-default.default.sdark {
+  background: #F8A35E !important;
+}
+
+.page-id-1950 .navbar-default.default.sdark ul > li > a{
+  background: #F8A35E !important;
+}
+
+
 /* ======================================= */
 /* WORKSHOP POST TEMPLATES =============== */
 /* ======================================= */
