@@ -700,10 +700,10 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   text-transform: uppercase !important;
 }
 
-/*.team-intro-text{
+.team-second-intro{
   font-family: DTLNobel-T;
-  font-size: 2em;
-}*/
+  font-size: 1.3em;
+}
 
 
 .team-orange-mask {
