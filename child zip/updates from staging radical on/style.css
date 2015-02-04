@@ -478,7 +478,7 @@ z-index: 0;
 .whatwedo-meerweten-title h2{
   font-family: DTLNobel-T-Bold;
   text-align: center;
-  text-decoration: underline;
+  
   padding-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
@@ -486,6 +486,11 @@ z-index: 0;
   color: #000000;
   line-height: 1.2em;
 }
+
+.whatwedo-meerweten-title-underline {
+  text-decoration: underline;
+}
+
 .whatwedo-meerweten-text {
   padding-bottom: 2em;
   margin-bottom: -1px;
