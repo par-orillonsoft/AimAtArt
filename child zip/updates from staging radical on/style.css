@@ -1044,3 +1044,9 @@ text-align: left !important;
 .separator_menu_class{
   padding-right: 13em !important;
 }
+
+.navbar .nav li a{
+  font-family: DTLNobel-T-Bold;
+  font-size: 1em;
+  
+}
