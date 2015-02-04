@@ -335,8 +335,11 @@ h2 {
   margin-left: 5% !important;
   margin-right: 5% !important;
   margin-top: 4% !important;
-  margin-bottom: 4% !important;
-  
+  margin-bottom: 4% !important; 
+}
+
+#indepraktijk-cube-portfolio .cbp-caption-activeWrap .cbp-1-caption-body{
+  margin-top: 0;
 }
 
 .whatwedo-quote-text {
