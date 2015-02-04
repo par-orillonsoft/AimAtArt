@@ -81,6 +81,9 @@ Template: dikka-installable
   line-height: 1.2em;
 }
 
+#three-boxes-row {
+  margin-top: -200px;
+}
 
 .sdark {
   background: #593EFA !important;
