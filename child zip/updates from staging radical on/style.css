@@ -478,7 +478,6 @@ z-index: 0;
 .whatwedo-meerweten-title h2{
   font-family: DTLNobel-T-Bold;
   text-align: center;
-  
   padding-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
@@ -584,7 +583,7 @@ z-index: 0;
 }
 
 .onsdenken-quote-box {
-  background: url("http://www.aimatart.nl/wp-content/uploads/2012/12/rondleiding-WM.jpg") no-repeat;
+  background: url("http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/thinkingpage.jpg") no-repeat;
   -webkit-clip-path: polygon(0 0, 100% 7%, 100% 91%, 0 100%) !important;
   clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 91%) !important;
   -webkit-background-size: cover;
