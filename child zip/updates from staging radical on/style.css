@@ -177,7 +177,7 @@ Template: dikka-installable
 /* WHAT WE DO PAGE */
 /* =============== */
 
-.onsdenken-aimatart-title p, .whatwedo-aimatart-title p, .team-aimatart-title p, .cases-aimatart-title p {
+.onsdenken-aimatart-title p, .whatwedo-aimatart-title p, .team-aimatart-title p, .cases-aimatart-title p, .contact-aimatart-title p{
   font-family: DTLNobel-T-Bold;
   font-size: 4em;
 /*  text-decoration: underline;*/
