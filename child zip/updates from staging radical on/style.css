@@ -1037,3 +1037,10 @@ text-align: left !important;
   height:3em;
   width:60%;
 }
+
+/*****************************/
+/*** MENU ***/
+/*****************************/
+.separator_menu_class{
+  padding-left: 10px;
+}
