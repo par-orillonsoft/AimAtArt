@@ -59,6 +59,13 @@ Template: dikka-installable
   margin-bottom: 1.6em;
 }
 
+#direct-contact-text {
+  font-family: DTLNobel-T;
+  font-size: 1em;
+  text-align: center;
+  color: #000000;
+}
+
 .slider-link-black {
 	color: #64E7B2;
 	font-size: 3em;
