@@ -284,7 +284,7 @@ Template: dikka-installable
   clip-path: polygon(0 0, 100% 0, 0 50%);
 
 }
-.onsdenken-intro, .whatwedo-intro, #contact-intro-text {
+.onsdenken-intro, .whatwedo-intro, #contact-intro-text, .team-intro-text {
   font-family: DTLNobel-T-Bold;
   font-size: 2em;
   color: #000000;
@@ -700,10 +700,10 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   text-transform: uppercase !important;
 }
 
-.team-intro-text{
+/*.team-intro-text{
   font-family: DTLNobel-T;
   font-size: 2em;
-}
+}*/
 
 
 .team-orange-mask {
