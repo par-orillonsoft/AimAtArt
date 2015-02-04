@@ -40,7 +40,6 @@ Template: dikka-installable
 }
 
 .blue-mask {
-	width: 150%;
 	height: 580px;
 	background: #593EFA;
 
@@ -52,11 +51,10 @@ Template: dikka-installable
 }
 
 .green-mask {
-  width: 150%;
   height: 580px ;
   background: #64E7B2;
-  -webkit-clip-path: polygon(0 1%, 100% 75%, 100% 100%, 0 100%);
-  clip-path: polygon(0 1%, 100% 75%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 40%, 70% 90%, 100% 100%, 0 100%)
+  clip-path: polygon(0 40%, 70% 90%, 100% 100%, 0 100%);
 }
 
 .green-mask-two {
