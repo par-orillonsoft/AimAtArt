@@ -330,7 +330,12 @@ h2 {
 }
 
 #indepraktijk-cube-portfolio .cbp-caption-activeWrap {
-  margin: 1%;
+  width: 90% !important;
+  height: 88% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  margin-top: 4% !important;
+  margin-bottom: 4% !important;
   
 }
 
