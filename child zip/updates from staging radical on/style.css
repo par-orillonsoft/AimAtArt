@@ -55,6 +55,8 @@ Template: dikka-installable
 .home-icon-in-boxes {
   text-align: center;
   color: #000000;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .slider-link-black {
@@ -109,7 +111,7 @@ Template: dikka-installable
 }
 
 #three-boxes-row {
-  margin-top: -200px;
+  margin-top: -350px;
 }
 
 .sdark {
