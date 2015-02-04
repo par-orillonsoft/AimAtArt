@@ -127,13 +127,17 @@ Template: dikka-installable
   margin-bottom: 1.6em;
 }
 
+.home-icon-in-boxes img {
+  max-width: 10%;
+}
+
 #direct-contact-text {
   font-family: DTLNobel-T;
   font-size: 1.5em;
   text-align: center;
   color: #000000;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #direct-contact-text a:link, #direct-contact-text a:visited, #direct-contact-text a:hover, #direct-contact-text a:active {
