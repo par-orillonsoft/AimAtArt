@@ -272,7 +272,6 @@ Template: dikka-installable
   -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%);
   clip-path: polygon(0 1%, 100% 0, 100% 50%);
   margin-bottom: -150px;
-  
 }
 
 
@@ -328,6 +327,11 @@ h2 {
   font-size: 1.2em;
   color: #000000;
   line-height: 1.5em;
+}
+
+#indepraktijk-cube-portfolio .cbp-caption-activeWrap {
+  margin: 1%;
+  
 }
 
 .whatwedo-quote-text {
