@@ -35,22 +35,25 @@ Template: dikka-installable
 }
 
 .home-header-box {
-    width: 30% !important;
+  width: 30% !important;
   background: #ffffff;
   margin-right: 1%;
   margin-left: 1%;
 }
 
+
+/*,#panel-1524-4-0-0, #panel-1524-4-1-0, #panel-1524-4-2-0*/
 /* home boxes from the slider */
-.home-header-box-title ,#panel-1524-4-0-0, #panel-1524-4-1-0, #panel-1524-4-2-0 {
+.home-header-box-title  {
   margin-top: 1em;
   font-family: DTLNobel-T-Bold;
   font-size: 2em;
   text-align: center;
   color: #000000;
 }
+/*, #panel-1524-4-0-1, #panel-1524-4-1-1, #panel-1524-4-2-1*/
 
-.home-header-box-content , #panel-1524-4-0-1, #panel-1524-4-1-1, #panel-1524-4-2-1 {
+.home-header-box-content  {
   margin-top: 1em;
   margin-bottom: 1em;
   font-family: DTLNobel-T;
