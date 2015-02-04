@@ -339,7 +339,7 @@ h2 {
 }
 
 #indepraktijk-cube-portfolio .cbp-caption-activeWrap .cbp-1-caption-body{
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 .whatwedo-quote-text {
