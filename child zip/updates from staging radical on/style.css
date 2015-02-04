@@ -583,7 +583,7 @@ z-index: 0;
 }
 
 .onsdenken-quote-box {
-  margin-top: 1em;
+  margin-top: 3em;
   background: url("http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/thinkingpage.jpg") no-repeat;
   -webkit-clip-path: polygon(0 0, 100% 7%, 100% 91%, 0 100%) !important;
   clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 91%) !important;
@@ -612,7 +612,7 @@ z-index: 0;
   padding-top: 15px;
 }
 
-.pt-cv-title {
+.pt-cv-title a:link, .pt-cv-title a:visited, .pt-cv-title a:hover, .pt-cv-title a:active {
   font-family: DTLNobel-T-Bold;
   text-transform: uppercase !important;
   color: #000000;
