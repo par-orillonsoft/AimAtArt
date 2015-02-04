@@ -34,6 +34,13 @@ Template: dikka-installable
   margin-left: 1%;
 }
 
+.home-header-box {
+    width: 30% !important;
+  background: #ffffff;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
 /* home boxes from the slider */
 .home-header-box-title ,#panel-1524-4-0-0, #panel-1524-4-1-0, #panel-1524-4-2-0 {
   margin-top: 1em;
