@@ -68,7 +68,12 @@ Template: dikka-installable
   margin-bottom: 2em;
 }
 
-.slider-link-black {
+#direct-contact-text a:link, #direct-contact-text a:visited, #direct-contact-text a:hover, #direct-contact-text a:active,   {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.slider-link-black a {
 	color: #64E7B2;
 	font-size: 3em;
 }
