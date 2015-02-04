@@ -579,6 +579,12 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   font-family: DTLNobel-T-Bold;
   text-transform: uppercase !important;
 }
+
+.team-intro-text{
+  font-family: DTLNobel-T;
+}
+
+
 .team-orange-mask {
   height: 150px;
   background: #f8a35e;
