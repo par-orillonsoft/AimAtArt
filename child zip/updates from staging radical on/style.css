@@ -254,8 +254,7 @@ Template: dikka-installable
 /* =============== */
 
 
-
-.onsdenken-aimatart-title p, .whatwedo-aimatart-title p, .team-aimatart-title p, .cases-aimatart-title p, .contact-aimatart-title p, .ervaringen-aimatart-title p{
+.onsdenken-aimatart-title p, .whatwedo-aimatart-title p, .team-aimatart-title p, .cases-aimatart-title p, .contact-aimatart-title p, .ervaringen-aimatart-title p, .partners-aimatart-title{
   font-family: DTLNobel-T-Bold;
   font-size: 4em;
 /*  text-decoration: underline;*/
