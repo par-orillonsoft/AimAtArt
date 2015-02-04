@@ -177,14 +177,14 @@ Template: dikka-installable
 /* WHAT WE DO PAGE */
 /* =============== */
 
-.onsdenken-aimatart-title p, .whatwedo-aimatart-title p{
+.onsdenken-aimatart-title p, .whatwedo-aimatart-title p, .team-aimatart-title p{
   font-family: DTLNobel-T-Bold;
   font-size: 4em;
 /*  text-decoration: underline;*/
   text-align: center;
   color: #ffffff;
   line-height: 1em;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .whatwedo-red-mask {
