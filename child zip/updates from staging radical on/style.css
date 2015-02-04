@@ -55,8 +55,16 @@ Template: dikka-installable
   width: 150%;
   height: 580px ;
   background: #64E7B2;
-  -webkit-clip-path: polygon(0 1%, 100% 75%, 100% 87%, 0 100%);
-  clip-path: polygon(0 1%, 100% 75%, 100% 87%, 0 100%);
+  -webkit-clip-path: polygon(0 1%, 100% 75%, 100% 100%, 0 100%);
+  clip-path: polygon(0 1%, 100% 75%, 100% 100%, 0 100%);
+}
+
+.green-mask-two {
+  width: 150%;
+  height: 580px ;
+  background: #64E7B2;
+  -webkit-clip-path: polygon(0 1%, 100% 75%, 100% 100%, 0 100%);
+  clip-path: polygon(0 1%, 100% 75%, 100% 100%, 0 100%);
 }
 
 #home-aimatart-title p{
