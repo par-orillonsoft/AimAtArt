@@ -34,16 +34,22 @@ Template: dikka-installable
   margin-left: 1%;
 }
 
+#panel-1524-4-0-0, #panel-1524-4-1-0, #panel-1524-4-2-0 {
+  margin-top: 1em;
+  font-family: DTLNobel-T-Bold;
+  font-size: 2em;
+  text-align: center;
+  color: #000000;
+}
+
 .slider-link-black {
 	color: #64E7B2;
 	font-size: 3em;
 }
 
 .blue-mask {
-
 	height: 580px;
 	background: #593EFA;
-
 	-webkit-background-size: cover;
 	-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
   clip-path: polygon(0 0, 100% 0, 0 50%);
@@ -52,7 +58,6 @@ Template: dikka-installable
 }
 
 .green-mask {
-
   height: 580px ;
   background: #64E7B2;
   -webkit-clip-path: polygon(0 35%, 100% 80%, 100% 100%, 0 100%);
