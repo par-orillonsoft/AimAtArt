@@ -30,8 +30,8 @@ Template: dikka-installable
 #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
   width: 30% !important;
   background: #ffffff;
-  margin-right: 1%;
-  margin-left: 1%;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
 
   display: inline-block;
   vertical-align: middle;
@@ -50,7 +50,12 @@ Template: dikka-installable
 
   position: relative;
   overflow: hidden;
+}
 
+@media (max-width: 780px) {
+  #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
+    width: 100% !important;
+  }
 }
 
 #pgc-1524-4-0:before, #pgc-1524-4-1:before, #pgc-1524-4-2:before {
