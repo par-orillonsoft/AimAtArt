@@ -317,13 +317,13 @@ h2 {
   text-align: center;
   padding: 1.5em;
   height: auto;
-  min-height: 250px;
+  min-height: 350px;
   margin-right: -12px;
   margin-left: -12px;
 }
 
 .whatwedo-resultaten-box-text {
-  font-family: DTLNobel-T-Bold;
+  font-family: DTLNobel-T;
   text-align: left;
   font-size: 1.2em;
   color: #000000;
