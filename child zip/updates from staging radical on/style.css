@@ -386,6 +386,8 @@ padding: 65px 0px 0px 0px !important;
 }
 
 #whatwedo-quote-box {
+  margin-top: 2em;
+  margin-bottom: 2em;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
