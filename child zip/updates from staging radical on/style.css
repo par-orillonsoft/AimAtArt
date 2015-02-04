@@ -610,12 +610,14 @@ z-index: 0;
 
 .pt-cv-thumbnail {
   padding-top: 15px;
+  margin-bottom: 0em !important;
 }
 
 .pt-cv-title a:link, .pt-cv-title a:visited, .pt-cv-title a:hover, .pt-cv-title a:active {
   font-family: DTLNobel-T-Bold;
   text-transform: uppercase !important;
   color: #000000;
+  margin-top: 1em !important;
 }
 
 .pt-cv-title:visited {
