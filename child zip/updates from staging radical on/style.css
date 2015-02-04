@@ -22,7 +22,17 @@ Template: dikka-installable
 }
 
 
+/* ========================================================== */
+/* HOME PAGE ================================================ */
+/* ========================================================== */
 
+
+#pgc-1524-3-0, #pgc-1524-3-1, #pgc-1524-3-2 {
+  width: 30% !important;
+  background: #ffffff;
+  margin-right: 1%;
+  margin-left: 1%;
+}
 
 .slider-link-black {
 	color: #64E7B2;
@@ -33,7 +43,7 @@ Template: dikka-installable
 	width: 150%;
 	height: 580px;
 	background: #593EFA;
-	margin-left: -50%;
+
 	-webkit-background-size: cover;
 	-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
   clip-path: polygon(0 0, 100% 0, 0 50%);
@@ -44,8 +54,6 @@ Template: dikka-installable
 .green-mask {
   width: 150%;
   height: 580px ;
-  margin-left: -50%;
-  margin-bottom: -1025px;
   background: #64E7B2;
   -webkit-clip-path: polygon(0 1%, 100% 75%, 100% 87%, 0 100%);
   clip-path: polygon(0 1%, 100% 75%, 100% 87%, 0 100%);
@@ -118,10 +126,10 @@ Template: dikka-installable
 
 .onsdenken-aimatart-title p, .whatwedo-aimatart-title p{
   font-family: DTLNobel-T-Bold;
-  font-size: 2em;
-  text-decoration: underline;
-  text-align: left;
-  color: #000000;
+  font-size: 4em;
+/*  text-decoration: underline;*/
+  text-align: center;
+  color: #ffffff;
   line-height: 1em;
   margin-bottom: 5px;
 }
@@ -152,6 +160,7 @@ Template: dikka-installable
   font-size: 2em;
   color: #000000;
   line-height: 1.5em;
+  text-align: center;
   margin-left: 5%;
   margin-right: 5%;
 }
