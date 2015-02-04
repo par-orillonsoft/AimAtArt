@@ -55,6 +55,7 @@ Template: dikka-installable
 @media (max-width: 780px) {
   #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
     width: 100% !important;
+    margin-bottom: 1em !important;
   }
 }
 
