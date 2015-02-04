@@ -102,6 +102,13 @@ Template: dikka-installable
   clip-path: polygon(0 0%, 100% 0%, 0 92%);
 }
 
+#background-home-picture {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
 #home-aimatart-title p{
   font-family: DTLNobel-T-Bold;
   font-size: 2.8em;
