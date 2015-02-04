@@ -1042,5 +1042,5 @@ text-align: left !important;
 /*** MENU ***/
 /*****************************/
 .separator_menu_class{
-  padding-left: 10px;
+  padding-left: 1em !important;
 }
