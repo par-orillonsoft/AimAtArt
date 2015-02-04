@@ -27,7 +27,7 @@ Template: dikka-installable
 /* ========================================================== */
 
 
-#pgc-1524-3-0, #pgc-1524-3-1, #pgc-1524-3-2 {
+#pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
   width: 30% !important;
   background: #ffffff;
   margin-right: 1%;
@@ -60,11 +60,10 @@ Template: dikka-installable
 }
 
 .green-mask-two {
-  width: 150%;
-  height: 580px ;
+  height: 100px ;
   background: #64E7B2;
-  -webkit-clip-path: polygon(0 1%, 100% 75%, 100% 100%, 0 100%);
-  clip-path: polygon(0 1%, 100% 75%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 0 92%);
+  clip-path: polygon(0 0%, 100% 0%, 0 92%);
 }
 
 #home-aimatart-title p{
