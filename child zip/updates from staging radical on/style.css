@@ -473,6 +473,20 @@ z-index: 0;
   background-color: #00E7EA!important;
 }
 
+.page-id-1771 .mc4wp-form input[type=submit] {
+  color: #fff!important;
+  background-color: #FC4F5B !important;
+}
+
+.page-id-1739 .mc4wp-form input[type=submit] {
+  color: #fff!important;
+  background-color: #F8A35E !important;
+}
+
+.page-id-1721 .mc4wp-form input[type=submit] {
+  color: #fff!important;
+  background-color: #F8A35E !important;
+}
 
 
 .whatwedo-meerweten-title h2{
@@ -959,12 +973,44 @@ text-align: left !important;
   font-size: 1em;
 }
 
+#ervaringen-testimonial-portfolio a:link, #ervaringen-testimonial-portfolio a:visited, #ervaringen-testimonial-portfolio a:hover, #ervaringen-testimonial-portfolio a:active {
+  color: #000;
+}
+
+#ervaringen-testimonial-portfolio a:link .ervaringen-client, 
+#ervaringen-testimonial-portfolio a:visited .ervaringen-client, 
+#ervaringen-testimonial-portfolio a:hover .ervaringen-client, 
+#ervaringen-testimonial-portfolio a:active .ervaringen-client {
+ color: #676767; 
+}
+
+
 .ervaringen-button, a.big-size{
   font-family: DTLNobel-T !important;
   text-transform: lowercase !important;
   font-size: 1.5em !important;
   letter-spacing: 0.05em !important;
 }
+
+.tp-button.red-fill, .tp-button:hover.red-fill {
+  background-color: #FC4F5B !important;
+  border: 2px solid #FC4F5B !important;
+}
+
+
+#ervaringen-portfolio .cbp-caption-activeWrap {
+  width: 90% !important;
+  height: 88% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  margin-top: 4% !important;
+  margin-bottom: 4% !important; 
+}
+
+#cbpw-grid27 .cbp-l-caption-title {
+  padding: 50px 0px 0px 0px !important;
+}
+
 
 .workshop-text {
   font-family: DTLNobel-T-Bold;
@@ -1102,6 +1148,27 @@ text-align: left !important;
   font-family: DTLNobel-T-Bold;
   font-size: 1em;
   color: #000000;
+}
+
+#panel-1867-2-1-4 {
+  font-family: DTLNobel-T-Bold;
+  font-size: 1em;
+  color: #000000;
+  text-transform: uppercase; 
+}
+
+#panel-1867-2-1-5 {
+  font-family: DTLNobel-T-Bold;
+  font-size: 1em;
+  color: #000000;
+}
+
+#panel-1867-2-1-5 a:link, #panel-1867-2-1-5 a:visited, #panel-1867-2-1-5 a:hover, #panel-1867-2-1-5 a:active {
+    color: #000;
+}
+
+.text-underlined {
+  text-decoration: underline;
 }
 
 
