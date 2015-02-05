@@ -901,7 +901,7 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   text-align: center;
 }
 
-.sola_t_layout_1_container .sola_t_container {
+/*.sola_t_layout_1_container .sola_t_container {
 width: 90% !important;
 margin-left: 10% !important;
 }
@@ -931,10 +931,39 @@ text-align: left !important;
 
 .theme-2 .sola_t_body a {
   /*display: none;*/
-}
+/*}
 
 .theme-2 .sola_t_meta_data {
 text-align: left !important;
+}*/
+
+/*#ervaringen-testimonial-portfolio img{
+  width: 50%;
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}*/
+#ervaringen-testimonial-portfolio .image_wrapper {
+  height: 100px; 
+  overflow: hidden;
+}
+
+#ervaringen-testimonial-portfolio img{
+    position: relative;
+    width:  50%;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+#ervaringen-testimonial-portfolio .textwidget{
+  font-family: DTLNobel-T;
+  font-size: 1em;
+}
+
+.ervaringen-button, a.big-size{
+  font-family: DTLNobel-T !important;
+  text-transform: lowercase !important;
+  font-size: 1.5em !important;
+  letter-spacing: 0.05em !important;
 }
 
 .workshop-text {
@@ -944,17 +973,13 @@ text-align: left !important;
   text-align: center;
 }
 
-.ervaringen-button {
-  text-transform: lowercase !important;
-}
-
 .page-id-1771 .whatwedo-meerweten-box {
   color: #000000;
   background: #FC4F5B;
 }
 
 /* ========================================== */
-/* MENU NAVBAR BACKGROUND PER PAGE =============================== */
+/* MENU NAVBAR BACKGROUND PER PAGE ========== */
 /* ========================================== */
 
 .navbar-default.default.sdark .nav li a {
