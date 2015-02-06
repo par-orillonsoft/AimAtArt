@@ -52,12 +52,7 @@ Template: dikka-installable
   overflow: hidden;
 }
 
-@media (max-width: 780px) {
-  #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
-    width: 100% !important;
-    margin-bottom: 1em !important;
-  }
-}
+
 
 #pgc-1524-4-0:before, #pgc-1524-4-1:before, #pgc-1524-4-2:before {
   content: "";
@@ -1086,6 +1081,13 @@ padding: 65px 0px 0px 0px !important;
   background: #F8A35E !important;
 }
 
+/* ==================================== */
+/* Workshop page-inline width container */
+/* ==================================== */
+.cbp {
+  max-width: 100% !important;
+}
+
 /* ============================================= */
 /* PARTNERS ==================================== */
 /* ============================================= */
@@ -1181,5 +1183,14 @@ padding: 65px 0px 0px 0px !important;
   
 }
 
-@media 
 
+/* ============================================== */
+/* MEDIA RESPONSIVE ============================= */
+/* ============================================== */
+
+@media (max-width: 780px) {
+  #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
+    width: 100% !important;
+    margin-bottom: 1em !important;
+  }
+}
