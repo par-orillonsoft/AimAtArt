@@ -750,28 +750,17 @@ padding: 65px 0px 0px 0px !important;
   margin-bottom: -150px;
 }
 
-
-/*.whatwedo-red-mask {
-  margin-left: -50%;
-  width: 150%;
-  height: 150px;
-  background: #FC4F5B;
-  -webkit-clip-path: polygon(0 1%, 100% 0, 100% 50%);
-  clip-path: polygon(0 1%, 100% 0, 100% 50%);
-  margin-bottom: -150px;
-  
+#cbpw-grid3 .cbp-l-grid-team-name {
+  font-family: DTLNobel-T !important;
 }
 
+#cbpw-grid3 .cbp-l-grid-team-position {
+ font-family: DTLNobel-T !important; 
+}
 
-.whatwedo-cyan-mask {
-  margin-left: -50%;
-  width: 150%;
-  height: 150px;
-  background: #00E7EA;
-  -webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
-  clip-path: polygon(0 0, 100% 0, 0 50%);
-
-}*/
+.team-raad-description {
+ font-family: DTLNobel-T !important;  
+}
 
 /* ========================================= */
 /* CASES =================================== */
@@ -993,14 +982,16 @@ padding: 65px 0px 0px 0px !important;
 }
 
 .ervaringen-meerweten-box {
-  background: #00E7EA;
+  background: #FC4F5B;
   -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
   clip-path: polygon(100% 0, 100% 100%, 0 100%);
   z-index: 0;
   height: 50px;
 }
 
-
+#panel-1771-11-0-0 h2{
+  color: #000000;
+}
 .page-id-1771 .whatwedo-meerweten-box {
   color: #000000;
   background: #FC4F5B;
@@ -1095,6 +1086,13 @@ padding: 65px 0px 0px 0px !important;
   background: #F8A35E !important;
 }
 
+/* ============================================= */
+/* PARTNERS ==================================== */
+/* ============================================= */
+
+.onsdenken-picture-text-title h3 {
+  font-family: DTLNobel-T-Bold !important;
+}
 
 /* ======================================= */
 /* WORKSHOP POST TEMPLATES =============== */
