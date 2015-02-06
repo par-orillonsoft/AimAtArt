@@ -395,6 +395,10 @@ padding: 65px 0px 0px 0px !important;
   font-family: DTLNobel-T !important;
 }
 
+.testimonials-slide-content .t-author p {
+  font-family: DTLNobel-T !important;
+}
+
 .whatwedo-allesopmaat-text {
   font-family: DTLNobel-T-Bold;
   text-align: left;
@@ -557,7 +561,7 @@ z-index: 0;
 }
 
 /* ===================================== */
-/* ONS DENKS PAGE ====================== */
+/* ONS DENKEN PAGE ===================== */
 /* ===================================== */
 
 .onsdensk-cyan-mask {
