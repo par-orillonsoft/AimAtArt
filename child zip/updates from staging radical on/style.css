@@ -442,10 +442,10 @@ padding: 65px 0px 0px 0px !important;
 
 .whatwedo-meerweten-box {
   background: #00E7EA;
--webkit-clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
-clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
-
-z-index: 0;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  z-index: 0;
+  height: 50px;
 }
 
 #subscribe-panel .textwidget{
@@ -495,7 +495,7 @@ z-index: 0;
 }
 
 
-.whatwedo-meerweten-title h2{
+#panel-1565-10-0-0 h2 {
   font-family: DTLNobel-T-Bold;
   text-align: center;
   padding-top: 5%;
@@ -503,11 +503,7 @@ z-index: 0;
   margin-right: 5%;
   font-size: 2.5em;
   color: #000000;
-  line-height: 1.2em;
-}
-
-.whatwedo-meerweten-title-underline {
-  text-decoration: underline;
+  line-height: 1.2em;  
 }
 
 .whatwedo-meerweten-text {
@@ -535,11 +531,12 @@ z-index: 0;
 }
 
 .whatwedo-contact-left-phone {
-  font-family: DTLNobel-T-Bold;
+  font-family: DTLNobel-T;
   text-align: right;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #ffffff;
 }
+
 .whatwedo-contact-right-name {
   font-family: DTLNobel-T-Bold;
   text-align: left;
@@ -678,15 +675,26 @@ z-index: 0;
   background-color: #4c4c4c !important;
 }
 
+/*.onsdenken-contact-title {
+  font-family: DTLNobel-T-Bold;
+  text-align: center;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 2.5em;
+  color: #000000;
+  line-height: 1.2em;  
+}
+*/
 .whatwedo-contact-left-name {
 
 }
 
 .onsdenken-meerweten-box {
   background: #d37be5;
--webkit-clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
-clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
-
+  -webkit-clip-path: polygon(0 60%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 60%, 100% 0, 100% 100%, 0 100%);
+  height: 100px;
 }
 
 .footer {
@@ -921,47 +929,6 @@ clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
   text-align: center;
 }
 
-/*.sola_t_layout_1_container .sola_t_container {
-width: 90% !important;
-margin-left: 10% !important;
-}
-
-.sola_t_layout_1_container {
-width: 100% !important;
-}
-
-.theme-2 .sola_t_image {
-float: none !important;
-margin: 0px 0% !important;
-}
-
-.theme-2 .sola_t_title {
-  display: none;
-text-align: left !important;
-font-family: DTLNobel-T-Bold;
-font-size: 1em !important;
-}
-
-.theme-2 .sola_t_body {
-font-family: DTLNobel-T-Bold;
-font-size: 1em !important;
-width: 100% !important;
-text-align: left !important;
-}
-
-.theme-2 .sola_t_body a {
-  /*display: none;*/
-/*}
-
-.theme-2 .sola_t_meta_data {
-text-align: left !important;
-}*/
-
-/*#ervaringen-testimonial-portfolio img{
-  width: 50%;
-  margin-bottom: 1.5em;
-  margin-top: 1.5em;
-}*/
 #ervaringen-testimonial-portfolio .image_wrapper {
   height: 100px; 
   overflow: hidden;
@@ -1024,6 +991,15 @@ text-align: left !important;
   color: #FC4F5B;
   text-align: center;
 }
+
+.ervaringen-meerweten-box {
+  background: #00E7EA;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  z-index: 0;
+  height: 50px;
+}
+
 
 .page-id-1771 .whatwedo-meerweten-box {
   color: #000000;
@@ -1206,4 +1182,6 @@ text-align: left !important;
   font-family: DTLNobel-T;
   
 }
+
+@media 
 
