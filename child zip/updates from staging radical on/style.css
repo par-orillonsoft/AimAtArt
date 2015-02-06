@@ -1184,9 +1184,17 @@ padding: 65px 0px 0px 0px !important;
 }
 
 
+
+
 /* ============================================== */
 /* MEDIA RESPONSIVE ============================= */
 /* ============================================== */
+
+@media (max-width: 1024px) {
+  .separator_menu_class{
+  padding-right: 10em !important;
+}
+
 
 @media (max-width: 780px) {
   #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
