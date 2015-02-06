@@ -1190,7 +1190,7 @@ padding: 65px 0px 0px 0px !important;
 /* MEDIA RESPONSIVE ============================= */
 /* ============================================== */
 
-@media (min-width:978px) and (max-width:1200px){
+@media (min-width:978px) and (max-width:1204px){
   .separator_menu_class{
   padding-right: 10em !important;
 }
