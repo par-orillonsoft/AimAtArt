@@ -391,6 +391,10 @@ padding: 65px 0px 0px 0px !important;
   background-size: cover;
 }
 
+.light .testimonials-slide-content .text-container p {
+  font-family: DTLNobel-T !important;
+}
+
 .whatwedo-allesopmaat-text {
   font-family: DTLNobel-T-Bold;
   text-align: left;
