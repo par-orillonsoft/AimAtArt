@@ -1,0 +1,20 @@
+/*Overlap technique*/
+.overlap-white:before {
+    background: none repeat scroll 0 0 #fff;
+}
+.overlap:before, .overlap-white:before {
+    content: "";
+    display: block;
+    height: 120px;
+    left: -100px;
+    position: absolute;
+    top: 0;
+    transform: rotate(-2deg);
+    transform-origin: 0 0 0;
+    width: 150%;
+    z-index: 0;
+}
+
+.overlap, .overlap-slider, .overlap-white {
+    position: relative;
+}
