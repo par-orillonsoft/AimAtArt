@@ -1186,7 +1186,7 @@ padding: 65px 0px 0px 0px !important;
 
 /* ============================================== */
 
-.single-post .full-content{
+.single-post .full-content .title{
   height: 150px;
   background: #f8a35e;
   -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
