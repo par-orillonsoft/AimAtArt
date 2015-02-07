@@ -176,6 +176,7 @@ Template: dikka-installable
 }
 
 
+
 .green-mask {
   height: 580px ;
   background: #64E7B2;
@@ -1168,6 +1169,9 @@ padding: 65px 0px 0px 0px !important;
   text-decoration: underline;
 }
 
+#bwg_container1_0 #bwg_container2_0 .bwg_back_0 {
+  font-family: DTLNobel-T !important;
+}
 
 
 
