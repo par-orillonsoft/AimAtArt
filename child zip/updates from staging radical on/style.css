@@ -1184,6 +1184,16 @@ padding: 65px 0px 0px 0px !important;
 }
 
 
+/* ============================================== */
+
+.single-post{
+  height: 150px;
+  background: #f8a35e;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
+  clip-path: polygon(0 0, 100% 0, 0 52%);
+}
+
+
 
 
 /* ============================================== */
