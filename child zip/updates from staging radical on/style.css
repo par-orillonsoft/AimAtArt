@@ -161,15 +161,20 @@ Template: dikka-installable
   margin-top: -30px;
 }
 
-.workshop-blue-mask {
-  height: 580px;
+/*.workshop-blue-mask {
+  height: 150px;
   background: #593EFA;
   -webkit-background-size: cover;
-  -webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
-  clip-path: polygon(0 0, 100% 0, 0 50%);
-  margin-bottom: -630px;
-  margin-top: -30px;
+  -webkit-clip-path: polygon(0 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 56%, 0 100%);
+}*/
+.workshop-blue-mask {
+  height: 150px;
+  background: #593EFA;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 100%);
 }
+
 
 .green-mask {
   height: 580px ;
