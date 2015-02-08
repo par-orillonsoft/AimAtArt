@@ -764,7 +764,12 @@ padding: 65px 0px 0px 0px !important;
   font-size: 1.3em;
 }
 
-
+.team-orange-mask {
+  height: 150px;
+  background: #f8a35e;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
+  clip-path: polygon(0 0, 100% 0, 0 52%);
+}
 
 
 .team-purple-mask {
