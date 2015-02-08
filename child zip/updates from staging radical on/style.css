@@ -1286,8 +1286,8 @@ li:before {
   /*height: 150px;*/
   background: #f8a35e no-repeat;
   width: 100%;
-  -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
-  clip-path: polygon(0 0, 100% 0, 0 52%);
+  -webkit-clip-path: polygon(0 0, 400% 0, 0 12%);
+  clip-path: polygon(0 0, 400% 0, 0 12%);
   
 }
 
