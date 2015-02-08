@@ -1033,6 +1033,7 @@ padding: 65px 0px 0px 0px !important;
   height: 50px;
 }
 
+
 #panel-1771-11-0-0 h2{
   color: #000000;
 }
@@ -1208,6 +1209,9 @@ li:before {
   font-family: DTLNobel-T-Bold;
   border-collapse:collapse;
   border: none;
+}
+.workshop-table tr {
+  border-bottom: 1px solid #000;
 }
 
 .table-left-col {
