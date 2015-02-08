@@ -686,6 +686,26 @@ padding: 65px 0px 0px 0px !important;
   background-color: #4c4c4c !important;
 }
 
+
+.onsdenken-quote-top-mask {
+  height: 60px;
+  -webkit-clip-path: polygon(0 35%, 100% 0, 0 0);
+  clip-path: polygon(0 35%, 100% 0, 0 0);
+  background: #ffffff;
+  margin-bottom: -60px;
+}
+
+.onsdenken-quote-bottom-mask {
+  height: 60px;
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 0 42%);
+  clip-path: polygon(0 100%, 100% 100%, 0 42%);
+  background: #ffffff;
+  margin-top: -60px;
+}
+
+
+
+
 /*.onsdenken-contact-title {
   font-family: DTLNobel-T-Bold;
   text-align: center;
