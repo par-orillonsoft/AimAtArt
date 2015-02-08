@@ -1133,15 +1133,12 @@ padding: 65px 0px 0px 0px !important;
   display: none;
 }
 
-ul { 
-  font-family: 'FontAwesome';
-  content: "\f00c";
-  margin:0 5px 0 -15px;
-  color: #000;
- }
-
-ul li:before { content: none; }
-
+li:before {    
+font-family: 'FontAwesome';
+content: "\f00c";
+margin:0 5px 0 -15px;
+color: #000;
+}
  
 
 /* ==================================== */
