@@ -736,9 +736,9 @@ padding: 65px 0px 0px 0px !important;
 }
 
 .onsdenken-meerweten-box {
-  background: #d37be5;
-  -webkit-clip-path: polygon(0 60%, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 60%, 100% 0, 100% 100%, 0 100%);
+  background: #FFFFFF;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 0);
   height: 100px;
 }
 
