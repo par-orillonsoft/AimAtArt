@@ -1,5 +1,6 @@
 <?php // Exit if accessed directly
 if (!defined('ABSPATH')) {echo '<h1>Forbidden</h1>'; exit();} ?>
+<div class="post-shape-form">ME CAGO EN TODOOOOOOOOOOOOOO</div>
 <div class="blog-normal">
 
                     <div id="post-<?php the_ID(); ?>" <?php post_class("journal-post"); ?>>
@@ -61,7 +62,7 @@ if (!defined('ABSPATH')) {echo '<h1>Forbidden</h1>'; exit();} ?>
                           
                             
                             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                            <div class="post-shape-form">ME CAGO EN TODOOOOOOOOOOOOOO</div>
+                            
                             <div class="post-summary">
                                 <p>   
                                 <?php // If displaying a single post or a page
