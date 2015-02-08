@@ -1,6 +1,6 @@
 <?php // Exit if accessed directly
 if (!defined('ABSPATH')) {echo '<h1>Forbidden</h1>'; exit();} ?>
-<div class="post-shape-form">ME CAGO EN TODOOOOOOOOOOOOOO</div>
+
 <div class="blog-normal">
 
                     <div id="post-<?php the_ID(); ?>" <?php post_class("journal-post"); ?>>

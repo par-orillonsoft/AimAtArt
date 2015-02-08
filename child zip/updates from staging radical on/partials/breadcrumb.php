@@ -13,6 +13,7 @@ if(isset($page_setting_activate) && $page_setting_activate=='on') :
     $page_setting_topmargin=get_post_meta( $pageid, 'dikka_pagetitle_topmargin',true);
     $page_setting_bottommargin=get_post_meta( $pageid, 'dikka_pagetitle_bottommargin',true);
 ?>
+<div class="post-shape-form">ME CAGO EN TODOOOOOOOOOOOOOO</div>
 <div class="pagetitle black-section light-text <?php if(isset($page_setting_align)) : ?><?php echo 'align-'.$page_setting_align;  ?> <?php endif; ?> <?php if(isset($page_setting_parallax) && $page_setting_parallax=='on') { echo 'panel-row-style-parallax'; } ?>" >
             
             <div class="title" <?php if(!empty( $page_setting_topmargin) || !empty($page_setting_bottommargin)) { ?>style="padding-top:<?php echo esc_attr($page_setting_topmargin); ?>px;padding-bottom:<?php echo esc_attr($page_setting_bottommargin); ?>px;<?php } ?>">
