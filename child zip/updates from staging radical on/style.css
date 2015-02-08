@@ -1252,8 +1252,8 @@ color: #000;
 
 
 .page-id-659 .pagetitle {
-  height: 150px;
-  background: #f8a35e;
+  /*height: 150px;*/
+  background: #f8a35e no-repeat;
   -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
   clip-path: polygon(0 0, 100% 0, 0 52%);
   
