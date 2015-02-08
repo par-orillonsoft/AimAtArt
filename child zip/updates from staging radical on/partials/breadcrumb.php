@@ -57,7 +57,7 @@ else :
 ?>
 <div class="pagetitle black-section light-text <?php if(isset($dikka_options['ptitle-align'])) : ?><?php echo 'align-'.$dikka_options['ptitle-align'];  ?><?php endif; ?> <?php if(isset($dikka_options['ptitle-parallax']) && $dikka_options['ptitle-parallax']==1) { echo 'panel-row-style-parallax'; } ?>" >
             
-            <div class="title" <?php if(!empty($dikka_options['ptitle-topmargin']) || !empty($dikka_options['ptitle-bottommargin'])) { ?>style="padding-top:<?php echo esc_attr($dikka_options['ptitle-topmargin']); ?>px;padding-bottom:<?php echo esc_attr($dikka_options['ptitle-bottommargin']); ?>px;<?php } ?>">
+            <div class="title" <?php if(!empty($dikka_options['ptitle-topmargin']) || !empty($dikka_options['ptitle-bottommargin'])) { ?>style="padding-top:<?php echo esc_attr($dikka_options['ptitle-topmargin']); ?>px;">
                 <div class="section-title container light">
                     
                     <?php if(isset($dikka_options['ptitle-line']) && $dikka_options['ptitle-line']==1)  { ?>
