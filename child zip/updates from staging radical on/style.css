@@ -352,11 +352,11 @@ h2 {
 padding: 65px 0px 0px 0px !important;
 }
 
-.whatwedo-quote-box li {
+#whatwedo-quote-box li {
   list-style: none;
 }
 
-.whatwedo-quote-box li:before {
+#whatwedo-quote-box li:before {
   display: none;
 }
 
