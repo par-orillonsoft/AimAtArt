@@ -1284,6 +1284,10 @@ li:before {
   background: #593EFA;
 }
 
+.single-post .pagetitle {
+  padding: 90px 0 0 0 !important;
+}
+
 
 .post-shape-form {
   width: 100%;
