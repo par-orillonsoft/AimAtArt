@@ -765,13 +765,7 @@ padding: 65px 0px 0px 0px !important;
 }
 
 
-.team-orange-mask {
-  height: 150px;
-  background: #f8a35e;
-  -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
-  clip-path: polygon(0 0, 100% 0, 0 52%);
-  
-}
+
 
 .team-purple-mask {
   height: 150px;
@@ -1256,6 +1250,14 @@ color: #000;
   clip-path: polygon(0 0, 0 18%, 200% 0);
 }
 
+
+.page-id-659 .pagetitle {
+  height: 150px;
+  background: #f8a35e;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
+  clip-path: polygon(0 0, 100% 0, 0 52%);
+  
+}
 
 
 
