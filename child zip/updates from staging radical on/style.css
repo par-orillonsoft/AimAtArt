@@ -352,6 +352,14 @@ h2 {
 padding: 65px 0px 0px 0px !important;
 }
 
+.whatwedo-quote-box li {
+  list-style: none;
+}
+
+.whatwedo-quote-box li:before {
+  display: none;
+}
+
 .whatwedo-quote-text {
   font-family: DTLNobel-T;
   text-align: left;
