@@ -1312,11 +1312,6 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 /* MEDIA RESPONSIVE ============================= */
 /* ============================================== */
 
-.nav-shrink .nav-container img {
-  margin: 15px 20px 15px 15px;
-  max-width: 30% !important;
-}
-
 @media (min-width:978px) and (max-width:1204px){
   .separator_menu_class{
   padding-right: 10em !important;
