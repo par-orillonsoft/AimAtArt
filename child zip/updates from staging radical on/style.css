@@ -1288,7 +1288,7 @@ li:before {
 
 
 .post-shape-form {
-  height: 150px;
+  height: 100px;
   background: #593EFA;
   -webkit-clip-path: polygon(0 0, 0 17%, 400% 0);
   clip-path: polygon(0 0, 0 17%, 400% 0);
