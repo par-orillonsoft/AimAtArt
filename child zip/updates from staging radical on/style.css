@@ -1127,16 +1127,22 @@ padding: 65px 0px 0px 0px !important;
   display: none;
 }
 
-.page-id-2199 li, .page-id-2206 li, .page-id-2209 li, .page-id-2211 li {
-    list-style:none;
+.page-id-2199 li,
+.page-id-2206 li,
+.page-id-2209 li,
+.page-id-2211 li {
+  list-style:none;
 }
 
-.page-id-2199 li:before, .page-id-2206 li:before, .page-id-2209 li:before, .page-id-2211 li:before,   {    
-font-family: 'FontAwesome';
-font-size: 1.1em;
-content: "\f00c";
-margin:0 5px 0 -15px;
-color: #000;
+.page-id-2199 li:before,
+.page-id-2206 li:before,
+.page-id-2209 li:before,
+.page-id-2211 li:before {
+  font-family: 'FontAwesome';
+  font-size: 1.1em;
+  content: "\f00c";
+  margin:0 5px 0 -15px;
+  color: #000;
 }
  
 
