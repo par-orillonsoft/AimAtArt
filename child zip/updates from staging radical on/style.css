@@ -420,11 +420,17 @@ padding: 65px 0px 0px 0px !important;
 
 .light .testimonials-slide-content .text-container p {
   font-family: DTLNobel-T !important;
+  font-size: 2.2em;
 }
 
 .testimonials-slide-content .t-author p {
   font-family: DTLNobel-T !important;
+  color: #fff;
 }
+
+.testimonials-slide-content .t-author p a{
+  color: #fff;
+  }
 
 .whatwedo-allesopmaat-text {
   font-family: DTLNobel-T-Bold;
