@@ -23,9 +23,12 @@ Template: dikka-installable
 
 
 body {
-  font-family: DTLNobel-T;
+  font-family: DTLNobel-T !important;
 }
 
+h1, h3, h4, h5, h6 {
+  font-family: DTLNobel-T-Bold !important;
+}
 /* ========================================================== */
 /* HOME PAGE ================================================ */
 /* ========================================================== */
