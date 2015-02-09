@@ -1164,13 +1164,14 @@ padding: 65px 0px 0px 0px !important;
 
 li {
   list-style:none;
+  color: #000000;
 }
 
 li:before {
   font-family: 'FontAwesome';
-  font-size: 1.5em;
+  font-size: 1.3em;
   content: "\f00c";
-  margin:0 5px 0 -22px;
+  margin:0 5px 0 -27px;
   color: #000;
 }
 
