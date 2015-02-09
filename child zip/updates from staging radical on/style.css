@@ -22,6 +22,10 @@ Template: dikka-installable
 }
 
 
+body {
+  font-family: DTLNobel-T;
+}
+
 /* ========================================================== */
 /* HOME PAGE ================================================ */
 /* ========================================================== */
@@ -1163,7 +1167,7 @@ li:before {
   font-family: 'FontAwesome';
   font-size: 1.5em;
   content: "\f00c";
-  margin:0 5px 0 -15px;
+  margin:0 5px 0 -22px;
   color: #000;
 }
 
