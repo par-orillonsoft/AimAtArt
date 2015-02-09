@@ -160,6 +160,8 @@ h1, h3, h4, h5, h6 {
 
 .blue-mask {
 	height: 580px;
+  width: 160%;
+  margin-left: -20%;
 	background: #593EFA;
 	-webkit-background-size: cover;
 	-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
@@ -185,7 +187,9 @@ h1, h3, h4, h5, h6 {
 
 
 .green-mask {
-  height: 580px ;
+  height: 580px;
+  width: 140%;
+  margin-left: -20%;
   background: #64E7B2;
   -webkit-clip-path: polygon(0 35%, 100% 80%, 100% 100%, 0 100%);
   clip-path: polygon(0 35%, 100% 80%, 100% 100%, 0 100%);

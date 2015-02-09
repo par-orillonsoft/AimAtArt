@@ -67,8 +67,8 @@ function testimonial_meta_box_callback( $post ) {
      */
     $value1 = get_post_meta( $post->ID, 'testimonial_person_name', true );
     $value2 = get_post_meta( $post->ID, 'testimonial_person_post', true );
-    $value3 = get_post_meta( $post->ID, 'testimonial_person_image', false );
-    $value4 = get_post_meta( $post->ID, 'testimonial_person_url', true );
+    $value3 = get_post_meta( $post->ID, 'testimonial_person_image', true );
+    $value4 = get_post_meta( $post->ID, 'testimonial_person_url', false );
 
     echo '<label for="testimonial_new_field">';
     _e( 'Name of the client', 'dikka' );
@@ -80,10 +80,10 @@ function testimonial_meta_box_callback( $post ) {
     echo '</label> ';
     echo '<input type="text" id="testimonial_person_post" name="testimonial_person_post" value="' . esc_attr( $value2 ) . '" size="50" />';
 
-     echo '<br><br><label for="testimonial_new_field">';
-    _e( 'URL of the client', 'dikka' );
-    echo '</label> ';
-    echo '<input type="text" id="testimonial_person_url" name="testimonial_person_url" value="' . esc_attr( $value4 ) . '" size="50" />';
+    //  echo '<br><br><label for="testimonial_new_field">';
+    // _e( 'URL of the client', 'dikka' );
+    // echo '</label> ';
+    // echo '<input type="text" id="testimonial_person_url" name="testimonial_person_url" value="' . esc_attr( $value4 ) . '" size="50" />';
 
     echo '<br><br><label for="testimonial_new_field">';
     _e( 'Image of the client', 'dikka' );
