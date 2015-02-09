@@ -1348,6 +1348,15 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
   font-family: DTLNobel-T;
 }
 
+
+
+.footer-email{
+  text-decoration: none;
+  color:#ffffff;
+}
+
+
+
 /* ============================================== */
 /* MEDIA RESPONSIVE ============================= */
 /* ============================================== */
