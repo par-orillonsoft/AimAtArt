@@ -1199,6 +1199,14 @@ li:before {
   color: #000;
 }
 
+.page-id-659 li {
+  list-style: none;
+}
+
+.page-id-659 li:before {
+  display: none;
+}
+
 /*.page-id-2199 li,
 .page-id-2206 li,
 .page-id-2209 li,
