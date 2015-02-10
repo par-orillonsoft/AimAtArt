@@ -24,12 +24,10 @@ Template: dikka-installable
 
 body {
   font-family: DTLNobel-T !important;
-  color: #000000 !important;
 }
 
 h1, h3, h4, h5, h6 {
   font-family: DTLNobel-T-Bold !important;
-  color: #000000 !important;
 }
 /* ========================================================== */
 /* HOME PAGE ================================================ */
@@ -825,10 +823,6 @@ padding: 65px 0px 0px 0px !important;
  font-family: DTLNobel-T !important; 
 }
 
-#cbpw-grid3 .cbp-l-caption-text {
-  font-family: DTLNobel-T !important;
-}
-
 .team-raad-description {
  font-family: DTLNobel-T !important;  
 }
@@ -1174,13 +1168,13 @@ padding: 65px 0px 0px 0px !important;
   display: none;
 }
 
-/*.navbar-shrink .nav-container {
+.navbar-shrink .nav-container {
   font-size: 1.1em;
 }
 
 .navbar li {
   list-style: none;
-}*/
+}
 
 .navbar li:before {
   display: none;
@@ -1197,18 +1191,6 @@ li:before {
   content: "\f00c";
   margin:0 5px 0 -27px;
   color: #000;
-}
-
-/*.page-id-659 p {
-  font-family: DTLNobel-T !important;
-}*/
-
-.page-id-659 li {
-  list-style: none;
-}
-
-.page-id-659 li:before {
-  display: none;
 }
 
 /*.page-id-2199 li,
@@ -1400,6 +1382,8 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }*/
 
 
+/*TU PUTA MADRE CSS*/
+
 a.menu-item.menu-item-type-post_type.menu-item-object-page{
   color:#F2F2F2;
 }
@@ -1416,6 +1400,12 @@ a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
   background: #F2F2F2 !important;
 }
 
+
+.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a:hover{
+  color: #FFFFFF !important;
+  background: #F2F2F2 !important;
+  text-decoration: underline !important;
+}
 
 
 /* ============================================== */
