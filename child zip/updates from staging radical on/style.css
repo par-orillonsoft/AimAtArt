@@ -1397,6 +1397,10 @@ li:before {
   
 }
 
+.navbar-nav > li > .dropdown-menu {
+  background: #ffffff !important;
+}
+
 
 /* ============================================== */
 
