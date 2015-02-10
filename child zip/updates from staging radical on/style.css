@@ -1450,7 +1450,9 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
   color:#ffffff !important;
 }
 
-
+.entry-meta {
+   display: none !important;
+}
 
 /*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
   color: #989898 !important;
