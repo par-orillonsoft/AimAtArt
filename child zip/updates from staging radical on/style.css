@@ -229,9 +229,9 @@ h1, h3, h4, h5, h6 {
 }
 
 #home-aimatart-subtitle p{
-   font-family: DTLNobel-T;
-    font-size: 2.1em;
-    text-align: center;
+  font-family: DTLNobel-T;
+  font-size: 1.9em;
+  text-align: center;
   color: #ffffff;
   letter-spacing: 0.1em;
   line-height: 1.2em;
@@ -1219,13 +1219,13 @@ li:before {
   font-family: DTLNobel-T !important;
 }*/
 
-.page-id-659 li {
+/*.page-id-659 li {
   list-style: none;
 }
 
 .page-id-659 li:before {
   display: none;
-}
+}*/
 
 /*.page-id-2199 li,
 .page-id-2206 li,
