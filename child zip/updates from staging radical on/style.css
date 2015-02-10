@@ -644,6 +644,8 @@ padding: 65px 0px 0px 0px !important;
 
 .onsdenken-quote-box {
   margin-top: 3em;
+  padding-top: 6em;
+  padding-bottom: 1em;
   background: url("http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/thinkingpage.jpg") no-repeat;
   -webkit-clip-path: polygon(0 0, 100% 7%, 100% 91%, 0 100%) !important;
   clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 91%) !important;
