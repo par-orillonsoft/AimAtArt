@@ -206,14 +206,14 @@ h1, h3, h4, h5, h6 {
 
 .blue-mask {
 	height: 580px;
-  width: 160%;
-  margin-left: -20%;
+  /*width: 160%;
+  margin-left: -20%;*/
 	background: #593EFA;
 	-webkit-background-size: cover;
 	-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
   clip-path: polygon(0 0, 100% 0, 0 50%);
-  margin-bottom: -630px;
-  margin-top: -30px;
+  /*margin-bottom: -630px;
+  margin-top: -30px;*/
 }
 
 /*.workshop-blue-mask {
