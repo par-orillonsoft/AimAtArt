@@ -608,7 +608,7 @@ padding: 65px 0px 0px 0px !important;
 .onsdensk-cyan-mask {
   height: 150px;
 
-  background: #D37BE5;
+  background: #ff7561;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%);
   clip-path: polygon(0 0, 100% 0, 100% 60%);  
 }
@@ -1082,11 +1082,11 @@ padding: 65px 0px 0px 0px !important;
 
 /*ONS DENKEN*/
 .page-id-1616 .navbar-default.default.sdark {
-  background: #D37BE5 !important;
+  background: #ff7561 !important;
 }
 
 .page-id-1616 .navbar-default.default.sdark ul > li > a{
-  background: #D37BE5 !important;
+  background: #ff7561 !important;
 }
 
 /*TEAM*/
