@@ -1453,7 +1453,9 @@ background: #333333;
 
 }
 
-
+.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
+  background: #f2f2f2 !important; 
+}
 
 /* ============================================== */
 /* MEDIA RESPONSIVE ============================= */
