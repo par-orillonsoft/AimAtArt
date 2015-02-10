@@ -1357,17 +1357,23 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
 
 
-a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
+/*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
   color: #989898 !important;
-}
+}*/
 
 
-a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
+/*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
+  color: #FFFFFF !important;
+  text-decoration: underline;
+  outline: none;
+}*/
+
+
+a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
   color: #FFFFFF !important;
   text-decoration: underline;
   outline: none;
 }
-
 
 
 /* ============================================== */
