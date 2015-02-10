@@ -1369,9 +1369,13 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }*/
 
 
+a.menu-item.menu-item-type-post_type.menu-item-object-page{
+  color:#F2F2F2;
+}
+
 a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
   color: #FFFFFF !important;
-  text-decoration: underline;
+  text-decoration: none;
   outline: none;
 }
 
