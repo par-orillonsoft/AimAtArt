@@ -37,6 +37,10 @@ h1, h3, h4, h5, h6 {
 /* HOME PAGE ================================================ */
 /* ========================================================== */
 
+.navbar-phone-number {
+  font-size: 1em !important;
+}
+
 
 #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
   width: 30% !important;
@@ -1466,6 +1470,11 @@ background: #333333;
 
 
 @media (min-width:978px) and (max-width:1204px){
+
+#three-boxes-row {
+  margin-top: -400px;
+}
+
   .separator_menu_class{
   padding-right: 10em !important;
 }
