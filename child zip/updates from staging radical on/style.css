@@ -1425,7 +1425,7 @@ a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
 }*/
 
 
-.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
+/*.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
   background: #ffffff !important;
 }
 
@@ -1433,8 +1433,12 @@ a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
   color: #FFFFFF !important;
   background: #F2F2F2 !important;
   text-decoration: underline !important;
-}
+}*/
 
+
+.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a {
+  background: none;
+}
 
 /* ============================================== */
 /* MEDIA RESPONSIVE ============================= */
