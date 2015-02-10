@@ -1322,6 +1322,12 @@ li:before {
 }
 
 
+@media (max-width: 1024px) {
+  .separator_menu_class{
+  padding-right: 10em !important;
+}
+
+
 /* ============================================== */
 
 .single-post .full-content .pagetitle{
