@@ -22,7 +22,7 @@ Template: dikka-installable
 }
 
 
-body {
+body, p {
   font-family: DTLNobel-T !important;
   color: #000000 !important;
 }
