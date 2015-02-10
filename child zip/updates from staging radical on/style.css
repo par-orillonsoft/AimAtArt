@@ -558,6 +558,12 @@ padding: 65px 0px 0px 0px !important;
   line-height: 1.2em;
 }
 
+
+.mc4wp-form input[type=submit] {
+  padding: 11px 6px !important;
+}
+
+
 #home-panel-subscribe input[type=submit] {
   background: #64E7B2 !important;
 }
