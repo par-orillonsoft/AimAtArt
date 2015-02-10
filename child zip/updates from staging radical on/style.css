@@ -660,6 +660,7 @@ padding: 65px 0px 0px 0px !important;
 .onsdensk-cyan-mask {
   height: 150px;
   width: 250%;
+  margin-left: -50%;
   background: #ff7561;
   /*background: url(http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/Kunst-kijken-Matisse-EIE.jpg);*/
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%);
@@ -669,6 +670,7 @@ padding: 65px 0px 0px 0px !important;
 .onsdensk-purple-mask {
   height: 150px;
   width: 250%;
+  margin-left: -50%;
   background: #45a9f4;
   -webkit-clip-path: polygon(0 0, 100% 0, 0 25%);
   clip-path: polygon(0 0, 100% 0, 0 25%);
