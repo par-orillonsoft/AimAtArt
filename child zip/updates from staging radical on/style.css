@@ -1447,14 +1447,14 @@ a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
   background: #F2F2F2 !important;
 }*/
 
-.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a {
+/*.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a {
 background: #333333;
 
-}
+}*/
 
-.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
+/*.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
   background: #f2f2f2 !important; 
-}
+}*/
 
 /* ============================================== */
 /* MEDIA RESPONSIVE ============================= */
@@ -1462,7 +1462,7 @@ background: #333333;
 
 @media (max-width: 1024px) {
   .separator_menu_class{
-  padding-right: 10em !important;
+    padding-right: 10em !important;
   }
 }
 
