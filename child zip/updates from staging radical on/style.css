@@ -525,12 +525,12 @@ padding: 65px 0px 0px 0px !important;
 
 .page-id-1739 .mc4wp-form input[type=submit] {
   color: #fff!important;
-  background-color: #F8A35E !important;
+  background-color: #ffba66 !important;
 }
 
 .page-id-1721 .mc4wp-form input[type=submit] {
   color: #fff!important;
-  background-color: #F8A35E !important;
+  background-color: #ffba66 !important;
 }
 
 
@@ -801,7 +801,7 @@ padding: 65px 0px 0px 0px !important;
 
 .team-orange-mask {
   height: 150px;
-  background: #f8a35e;
+  background: #ffba66;
   -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
   clip-path: polygon(0 0, 100% 0, 0 52%);
 }
@@ -890,7 +890,7 @@ padding: 65px 0px 0px 0px !important;
 
 .contact-orange-mask {
   height: 300px;
-  background: #F8A35E;
+  background: #ffba66;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);
   clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);
 }
@@ -1091,11 +1091,11 @@ padding: 65px 0px 0px 0px !important;
 
 /*TEAM*/
 .page-id-1721 .navbar-default.default.sdark {
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 .page-id-1721 .navbar-default.default.sdark ul > li > a{
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 /*CASES*/
@@ -1109,11 +1109,11 @@ padding: 65px 0px 0px 0px !important;
 
 /*CONTACT*/
 .page-id-1739 .navbar-default.default.sdark {
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 .page-id-1739 .navbar-default.default.sdark ul > li > a{
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 /*ERVARINGEN*/
@@ -1127,29 +1127,29 @@ padding: 65px 0px 0px 0px !important;
 
 /*Blog*/
 .page-id-659 .navbar-default.default.sdark {
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 .page-id-659 .navbar-default.default.sdark ul > li > a{
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 /*Vacatures*/
 .page-id-1968 .navbar-default.default.sdark {
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 .page-id-1968 .navbar-default.default.sdark ul > li > a{
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 /*Partners*/
 .page-id-1950 .navbar-default.default.sdark {
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 .page-id-1950 .navbar-default.default.sdark ul > li > a{
-  background: #F8A35E !important;
+  background: #ffba66 !important;
 }
 
 .page-id-2199 .navbar {
@@ -1193,6 +1193,25 @@ li:before {
   color: #000;
 }
 
+<<<<<<< HEAD
+=======
+.page-id-659 .light-text .section-title h1 {
+  color: #000000 !important;
+}
+
+/*.page-id-659 p {
+  font-family: DTLNobel-T !important;
+}*/
+
+.page-id-659 li {
+  list-style: none;
+}
+
+.page-id-659 li:before {
+  display: none;
+}
+
+>>>>>>> origin/master
 /*.page-id-2199 li,
 .page-id-2206 li,
 .page-id-2209 li,
@@ -1350,7 +1369,7 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
 .page-id-659 .pagetitle {
   /*height: 150px;*/
-  background: #f8a35e no-repeat;
+  background: #ffba66 no-repeat;
   width: 100%;
   -webkit-clip-path: polygon(0 0, 400% 0, 0 12%);
   clip-path: polygon(0 0, 400% 0, 0 12%);
