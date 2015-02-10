@@ -1358,7 +1358,7 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
 
 a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
-  color: #c2c2c2;
+  color: #c2c2c2 !important;
 }
 
 
