@@ -234,6 +234,7 @@ h1, h3, h4, h5, h6 {
 
 .green-mask {
   height: 580px;
+  margin-top: -580px;
 /*  width: 140%;
   margin-left: -20%;*/
   background: #64E7B2;
