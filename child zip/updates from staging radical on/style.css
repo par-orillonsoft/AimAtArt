@@ -249,6 +249,7 @@ h1, h3, h4, h5, h6 {
 }
 
 #background-home-picture {
+  margin-top: -630px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
