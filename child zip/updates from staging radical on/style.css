@@ -1397,7 +1397,7 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
 
 
-a.footer-email{
+a .footer-email{
   text-decoration: none;
   color:#ffffff;
 }
