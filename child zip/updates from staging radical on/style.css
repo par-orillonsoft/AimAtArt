@@ -31,6 +31,8 @@ h1, h3, h4, h5, h6 {
   font-family: DTLNobel-T-Bold !important;
   color: #000000 !important;
 }
+
+
 /* ========================================================== */
 /* HOME PAGE ================================================ */
 /* ========================================================== */
@@ -1391,7 +1393,7 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
 
 
-.footer-email{
+a.footer-email{
   text-decoration: none;
   color:#ffffff;
 }
