@@ -1357,6 +1357,11 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
 
 
+a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
+  color: #F2F2F2;
+}
+
+
 a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
   color: #FFFFFF;
   text-decoration: underline;
