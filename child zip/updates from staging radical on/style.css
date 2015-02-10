@@ -131,7 +131,7 @@ h1, h3, h4, h5, h6 {
   margin-top: 1em;
   margin-bottom: 1em;
   font-family: DTLNobel-T;
-  font-size: 1em;
+  font-size: 1.3em;
   text-align: center;
   color: #000000;
 }
@@ -1211,9 +1211,9 @@ li:before {
   color: #000;
 }
 
-.page-id-659 .light-text .section-title h1 {
+/*.page-id-659 .light-text .section-title h1 {
   color: #000000 !important;
-}
+}*/
 
 /*.page-id-659 p {
   font-family: DTLNobel-T !important;
@@ -1356,12 +1356,6 @@ li:before {
 }
 
 
-@media (max-width: 1024px) {
-  .separator_menu_class{
-  padding-right: 10em !important;
-}
-
-
 /* ============================================== */
 
 .single-post .full-content .pagetitle{
@@ -1466,7 +1460,11 @@ background: #333333;
 /* MEDIA RESPONSIVE ============================= */
 /* ============================================== */
 
-
+@media (max-width: 1024px) {
+  .separator_menu_class{
+  padding-right: 10em !important;
+  }
+}
 
 @media (min-width:978px) and (max-width:1204px){
 
