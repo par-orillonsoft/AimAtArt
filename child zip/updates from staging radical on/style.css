@@ -24,7 +24,7 @@ Template: dikka-installable
 
 body {
   font-family: DTLNobel-T !important;
-  color: #000000;
+  color: #000000 !important;
 }
 
 h1, h3, h4, h5, h6 {
