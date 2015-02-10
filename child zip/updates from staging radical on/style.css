@@ -650,9 +650,9 @@ padding: 65px 0px 0px 0px !important;
   /*background: url("http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/thinkingpage.jpg") no-repeat;*/
   -webkit-clip-path: polygon(0 0, 100% 7%, 100% 91%, 0 100%) !important;
   clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 91%) !important;
-  -webkit-background-size: cover;
+/*  -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .onsdenken-onzeinzichten-text p {
