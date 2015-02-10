@@ -1357,9 +1357,9 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
 
 
-a:hover,a:focus{
+a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
   color: #FFFFFF;
-  text-decoration: none;
+  text-decoration: underline;
   outline: none;
 }
 
