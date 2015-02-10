@@ -982,7 +982,7 @@ padding: 65px 0px 0px 0px !important;
 
 .ervaringen-red-mask {
   margin-left: -50%;
-  width: 150%;
+  width: 260%;
   height: 150px;
   background: #FC4F5B; 
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%);
