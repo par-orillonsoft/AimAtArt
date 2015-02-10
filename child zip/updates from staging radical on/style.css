@@ -1168,6 +1168,10 @@ padding: 65px 0px 0px 0px !important;
   display: none;
 }
 
+.navbar-shrink .nav-container {
+  font-size: 1.1em;
+}
+
 .navbar li {
   list-style: none;
 }
