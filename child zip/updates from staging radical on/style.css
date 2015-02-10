@@ -1410,7 +1410,7 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }*/
 
 
-a.menu-item.menu-item-type-post_type.menu-item-object-page{
+/*a.menu-item.menu-item-type-post_type.menu-item-object-page{
   color:#F2F2F2;
 }
 
@@ -1418,7 +1418,7 @@ a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
   color: #FFFFFF !important;
   text-decoration: underline;
   
-}
+}*/
 
 
 
@@ -1438,7 +1438,7 @@ a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
   text-decoration: underline !important;
 }*/
 
-
+/*
 .navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a {
   background: none;
 }
@@ -1446,8 +1446,12 @@ a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
 .navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
   color: #FFFFFF !important;
   background: #F2F2F2 !important;
-}
+}*/
 
+.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a {
+background: #333333;
+
+}
 
 
 
