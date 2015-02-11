@@ -1326,7 +1326,7 @@ li:before {
   border: none;
 }
 .workshop-table tr td{
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-bottom: 1px solid #000;
 }
 
