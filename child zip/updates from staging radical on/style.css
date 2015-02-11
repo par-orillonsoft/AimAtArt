@@ -418,13 +418,13 @@ h2 {
 padding: 65px 0px 0px 0px !important;
 }
 
-#whatwedo-quote-box li {
+/*#whatwedo-quote-box li {
   list-style: none;
 }
 
 #whatwedo-quote-box li:before {
   display: none;
-}
+}*/
 
 .whatwedo-quote-text {
   font-family: DTLNobel-T;
@@ -1249,16 +1249,16 @@ padding: 65px 0px 0px 0px !important;
   list-style: none;
 }*/
 
-.navbar li:before {
+/*.navbar li:before {
   display: none;
-}
+}*/
 
-li {
+#workshop-content li {
   list-style:none;
   color: #000000;
 }
 
-li:before {
+#workshop-content li:before {
   font-family: 'FontAwesome';
   font-size: 1.3em;
   content: "\f00c";
