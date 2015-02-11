@@ -945,6 +945,10 @@ padding: 65px 0px 0px 0px !important;
   height: 88%  !important; 
 }
 
+.cbp-popup-singlePage .cbp-popup-navigation-wrap {
+  height: 123px;
+}
+
 /*
  .cbp-l-caption-body {
   
@@ -1571,5 +1575,11 @@ padding-right: 1em !important;
 
   .nav-shrink .nav-container img {
     max-width: 30% !important;
+  }
+}
+
+@media only screen and (max-width: 360px), (max-height: 600px) {
+  .cbp-popup-singlePage .cbp-popup-navigation-wrap {
+    height: 84px;
   }
 }
