@@ -1148,6 +1148,10 @@ padding: 65px 0px 0px 0px !important;
   color: #FFFFFF;
 }
 
+.navbar-default.default.sdark .nav li a:hover {
+  text-decoration: underline;
+}
+
 /*WHAT WE DO PAGE*/
 .page-id-1565 .navbar-default.default.sdark {
   background: #45a9f4 !important;
