@@ -1234,7 +1234,6 @@ padding: 65px 0px 0px 0px !important;
 }
 
 /* Case 1 */
-/*ERVARINGEN*/
 .page-id-2199 .navbar-default.default.sdark {
   background: #FC4F5B !important;
 }
@@ -1254,6 +1253,21 @@ padding: 65px 0px 0px 0px !important;
 
 .page-id-2211 .navbar {
   display: none;
+}
+
+
+/* =========================================== */
+/* CASES ===================================== */
+/* =========================================== */
+
+.cases-blue-mask {
+  margin-left: -50%;
+  width: 180%;
+  height: 150px;
+  background: #593EFA;
+  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+  clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+  margin-bottom: -150px; 
 }
 
 /*.navbar-shrink .nav-container {
