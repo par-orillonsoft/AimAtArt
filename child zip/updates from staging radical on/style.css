@@ -47,6 +47,10 @@ h1, h3, h4, h5, h6 {
 }
 
 
+#home-clients-carrousel {
+  margin-top: -20px;
+}
+
 #pgc-1524-6-0, #pgc-1524-6-1, #pgc-1524-6-2 {
   width: 30% !important;
   background: #ffffff;
@@ -1275,13 +1279,17 @@ padding: 65px 0px 0px 0px !important;
   margin-top: -150px;
 }
 
-.case-subtitle {
+#case-subtitle {
   font-family: DTLNobel-T;
   font-size: 1.9em;
-  text-align: center;
-  color: #fc4f5b;
+  text-align: left;
+  color: #FC4F5B;
   letter-spacing: 0.1em;
   line-height: 1.2em;
+}
+
+.cases-neem-contact-op {
+  font-family: DTLNobel-T-Bold;
 }
 
 /*.navbar-shrink .nav-container {
@@ -1592,7 +1600,7 @@ background: #333333;
 @media (min-width:978px) and (max-width:1204px){
 
   #three-boxes-row {
-    margin-top: -400px;
+    margin-top: -425px;
   }
 
     .separator_menu_class{
