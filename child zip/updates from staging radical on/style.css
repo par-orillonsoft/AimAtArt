@@ -1261,13 +1261,27 @@ padding: 65px 0px 0px 0px !important;
 /* =========================================== */
 
 .cases-blue-mask {
-  margin-left: -50%;
-  width: 180%;
   height: 150px;
   background: #593EFA;
-  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  margin-bottom: -150px; 
+  -webkit-clip-path: polygon(0% 75%, 0% 0%, 100% 0%);
+  clip-path: polygon(0% 75%, 0% 0%, 100% 0%);
+}
+
+.cases-red-mask {
+  height: 150px;
+  background: #FC4F5B;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%);
+  margin-top: -150px;
+}
+
+.case-subtitle {
+  font-family: DTLNobel-T;
+  font-size: 1.9em;
+  text-align: center;
+  color: #fc4f5b;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
 }
 
 /*.navbar-shrink .nav-container {
