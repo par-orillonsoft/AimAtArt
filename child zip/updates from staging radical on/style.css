@@ -1594,7 +1594,8 @@ padding: 65px 0px 0px 0px !important;
 /* ============================================= */
 
 #vacatures-container img {
-  width: 50%;
+  width: 75%;
+  margin-bottom: 1em;
 }
 
 
