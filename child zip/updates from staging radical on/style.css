@@ -96,6 +96,14 @@ h1, h3, h4, h5, h6 {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+#pgc-1524-6-0:before .home-header-box-title {
+  color: #45A9F4;
+  -webkit-transition: color 1000ms linear;
+  -moz-transition: color 1000ms linear;
+  -o-transition: color 1000ms linear;
+  -ms-transition: color 1000ms linear;
+  transition: color 1000ms linear;
+}
 
 #pgc-1524-6-1:before {
   content: "";
