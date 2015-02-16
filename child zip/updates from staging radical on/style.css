@@ -96,13 +96,31 @@ h1, h3, h4, h5, h6 {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-#pgc-1524-6-0:before .home-header-box-title {
+
+#pgc-1524-6-0 .home-header-box-title {
+  color: #000000;
+  transition-property: color;
+}
+#pgc-1524-6-1 .home-header-box-title {
+  color: #000000;
+  transition-property: color;
+}
+#pgc-1524-6-2 .home-header-box-title {
+  color: #000000;
+  transition-property: color;
+}
+
+#pgc-1524-6-0:hover .home-header-box-title {
   color: #45A9F4;
-  -webkit-transition: color 1000ms linear;
-  -moz-transition: color 1000ms linear;
-  -o-transition: color 1000ms linear;
-  -ms-transition: color 1000ms linear;
-  transition: color 1000ms linear;
+  transition-property: color;
+}
+#pgc-1524-6-1:hover .home-header-box-title {
+  color: #FF7561;
+  transition-property: color;
+}
+#pgc-1524-6-2:hover .home-header-box-title {
+  color: #FC4F5B;
+  transition-property: color;
 }
 
 #pgc-1524-6-1:before {
@@ -424,6 +442,10 @@ h2 {
   margin-right: 5% !important;
   margin-top: 4% !important;
   margin-bottom: 4% !important; 
+}
+
+.cbp-l-caption-title, .cbp-l-caption-desc {
+  font-family: DTLNobel-T !important;
 }
 
 #cbpw-grid24 .cbp-l-caption-title {
@@ -894,6 +916,10 @@ padding: 65px 0px 0px 0px !important;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%);
   margin-bottom: -150px;
+}
+
+.cbp-caption-activeWrap{
+  font-family: DTLNobel-T !important;
 }
 
 #cbpw-grid3 .cbp-l-grid-team-name {
