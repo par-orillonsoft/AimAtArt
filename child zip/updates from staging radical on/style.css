@@ -1599,10 +1599,14 @@ padding: 65px 0px 0px 0px !important;
 }
 
 
-
+.numericals{
+  color:#FC4F5B;
+}
 
 .numerical-container .numerical-content{
   font-family: DTLNobel-T !important; 
+  text-transform: none !important;
+  color:#ffffff !important;
 }
 
 
