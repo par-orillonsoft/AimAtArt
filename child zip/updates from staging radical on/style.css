@@ -1099,19 +1099,41 @@ padding: 65px 0px 0px 0px !important;
 }
 
 #ervaringen-testimonial-portfolio .image_wrapper {
-  height: 100px; 
+  /*height: 100px; */
   overflow: hidden;
 }
 
 #ervaringen-testimonial-portfolio img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
 
     width:  50%;
     margin-bottom: 1.5em;
     margin-top: 1.5em;
 }
+
+.ervaringen-grid-box {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin-bottom: 3em;
+}
+
+.ervaringen-grid-box:hover, .ervaringen-grid-box:focus, .ervaringen-grid-box:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
 
 #ervaringen-testimonial-portfolio .textwidget{
   font-family: DTLNobel-T;
@@ -1565,6 +1587,17 @@ padding: 65px 0px 0px 0px !important;
 .member-body-page p{
  font-family: DTLNobel-T; 
 }
+
+
+/* ============================================= */
+/* VACATURES =================================== */
+/* ============================================= */
+
+#vacatures-container img {
+  width: 50%;
+}
+
+
 /*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
   color: #989898 !important;
 }*/
