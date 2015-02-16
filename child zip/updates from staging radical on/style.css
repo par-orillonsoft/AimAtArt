@@ -1599,6 +1599,15 @@ padding: 65px 0px 0px 0px !important;
 }
 
 
+
+
+.numerical-container .numerical-content{
+  font-family: DTLNobel-T !important; 
+}
+
+
+
+
 /*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
   color: #989898 !important;
 }*/
