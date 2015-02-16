@@ -1104,7 +1104,10 @@ padding: 65px 0px 0px 0px !important;
 }
 
 #ervaringen-testimonial-portfolio img{
-    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
     width:  50%;
     margin-bottom: 1.5em;
     margin-top: 1.5em;
