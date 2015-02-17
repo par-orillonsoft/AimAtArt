@@ -1112,8 +1112,10 @@ padding: 65px 0px 0px 0px !important;
 /*    margin-right: auto;
     margin-left: auto;*/
     width:  50%;
+    height: 100px;
     margin-bottom: 0.5em;
     margin-top: 1.5em;
+    object-fit: contain;
 }
 
 .ervaringen-grid-box {
