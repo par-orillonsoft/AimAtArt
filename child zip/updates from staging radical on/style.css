@@ -592,10 +592,14 @@ padding: 65px 0px 0px 0px !important;
   line-height: 1.2em;
 }
 
+.mc4wp-form #mc4wp_email {
+  font-family: DTLNobel-T !important;
+}
 
 .mc4wp-form input[type=submit] {
   padding: 11px 6px !important;
 }
+
 
 
 #home-panel-subscribe input[type=submit] {
@@ -1601,8 +1605,8 @@ padding: 65px 0px 0px 0px !important;
 
 
 /**************************************************/
-/* Pedazo de Hack para poder poner los iconos de la muerte...**/
-/**/
+/*  */
+/**************************************************/
 
 .numerical-container .value{
   color:#FC4F5B !important;
