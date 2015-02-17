@@ -1102,18 +1102,32 @@ padding: 65px 0px 0px 0px !important;
   text-align: center;
 }
 
-#ervaringen-testimonial-portfolio .image_wrapper {
+/*.image_wrapper*/
+#ervaringen-testimonial-portfolio  {
   /*height: 100px; */
   overflow: hidden;
+  display: block;
+  position: relative;
+  height: 0;
+  padding: 56.25% 0 0 0;
+  width:  50%;
 }
 
 #ervaringen-testimonial-portfolio img{
 
 /*    margin-right: auto;
     margin-left: auto;*/
-    width:  50%;
-    margin-bottom: 0.5em;
-    margin-top: 1.5em;
+position: absolute;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+/*    margin-bottom: 0.5em;
+    margin-top: 1.5em;*/
 }
 
 .ervaringen-grid-box {
