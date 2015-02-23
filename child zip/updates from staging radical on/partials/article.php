@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {echo '<h1>Forbidden</h1>'; exit();} ?>
                         <div class="blog-button-back">
                             <a class="blog-button-back btn-color btn-color-1d big-size  nav-to tp-button red-fill " href="http://radicalgraphics.com/AAA/?page_id=659">
                             naar inzichten</a>
-                        </div>
+                        </div><br>
                         <div class="post-content fadeInUpBig">
 
                               <?php 
