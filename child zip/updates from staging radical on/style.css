@@ -1438,6 +1438,21 @@ background-color: #ffba66 !important;
   font-family: DTLNobel-T-Bold !important;
 }
 
+.partners-darkorange-mask {
+height: 200px;
+background: #FF7561;
+-webkit-clip-path: polygon(0 0%, 100% 0, 100% 60%);
+clip-path: polygon(0 100%, 135% 0, 100% 100%);
+margin-bottom: -200px;
+}
+
+.partners-orange-mask {
+height: 200px;
+background: #FFBA66;
+-webkit-clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 10%);
+}
+
 /* ======================================= */
 /* WORKSHOP POST TEMPLATES =============== */
 /* ======================================= */
