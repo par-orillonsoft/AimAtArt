@@ -1542,6 +1542,10 @@ padding: 65px 0px 0px 0px !important;
 background: #FFBA66 !important;
 }
 
+.single-post .navbar-default.default.sdark {
+background: #FFBA66 !important;
+}
+
 .single-post .pagetitle {
   padding: 90px 0 0 0 !important;
 }
