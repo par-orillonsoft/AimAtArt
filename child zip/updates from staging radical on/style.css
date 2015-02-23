@@ -1538,7 +1538,7 @@ padding: 65px 0px 0px 0px !important;
   background: #FFBA66;
 }
 
-.single-post .navbar-default.default.sdark {
+.single-post .navbar-default.default.sdark ul > li > a{
 background: #FFBA66 !important;
 }
 
