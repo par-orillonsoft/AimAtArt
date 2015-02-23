@@ -384,9 +384,8 @@ h1, h3, h4, h5, h6 {
   width: 200%;
   height: 250px;
   background: #45a9f4;
-  
-  -webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
-  clip-path: polygon(0 0, 100% 0, 0 50%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 80%);
+  clip-path: polygon(0 0, 100% 0, 0 80%);
 
 }
 .onsdenken-intro, .whatwedo-intro, #contact-intro-text, .team-intro-text {
