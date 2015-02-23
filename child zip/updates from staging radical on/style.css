@@ -709,23 +709,23 @@ padding: 65px 0px 0px 0px !important;
 /* ===================================== */
 
 .onsdensk-cyan-mask {
-  height: 150px;
+  height: 200px;
   width: 250%;
   margin-left: -50%;
   background: #ff7561;
   /*background: url(http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/Kunst-kijken-Matisse-EIE.jpg);*/
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%);
-  clip-path: polygon(0 0, 100% 0, 100% 60%);  
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 10%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 10%);
 }
 
 .onsdensk-purple-mask {
-  height: 150px;
+  height: 200px;
 /*  width: 250%;
   margin-left: -50%;*/
   background: #ffffff;
-  -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%);
-  clip-path: polygon(0 100%, 100% 0, 100% 100%);
-  margin-bottom: -150px;
+  -webkit-clip-path: polygon(0 100%, 135% 0, 100% 100%);
+  clip-path: polygon(0 100%, 135% 0, 100% 100%);
+  margin-bottom: -200px;
 }
 
 .onsdenken-picture-text-title {
