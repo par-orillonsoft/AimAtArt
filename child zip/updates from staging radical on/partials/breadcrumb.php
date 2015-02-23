@@ -49,6 +49,8 @@ if(isset($page_setting_activate) && $page_setting_activate=='on') :
 		            </h1>
 					
                 </div>
+				<div class="team-purple-mask"></div>
+                <div class="post-shape-form"></div>
             </div>
         </div>
 
@@ -91,8 +93,9 @@ else :
                     <?php endif; ?>
                     </h1>
                 </div>
-                <div class="post-shape-form"></div>
                 <div class="team-purple-mask"></div>
+                <div class="post-shape-form"></div>
+                
             </div>
         </div>
 <?php endif; ?> 
