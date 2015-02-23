@@ -1543,6 +1543,9 @@ padding: 65px 0px 0px 0px !important;
   padding: 90px 0 0 0 !important;
 }
 
+.pagetitle .section-title {
+  display: none;
+}
 
 .page-id-659 .post-shape-form {
   width: 100%;
