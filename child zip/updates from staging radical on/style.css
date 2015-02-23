@@ -1595,7 +1595,7 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
 .blog-button-back{
    margin: 0 auto;
-   text-align: center !important;
+   text-align: left;
 }
 
 .partners-darkorange-mask {
