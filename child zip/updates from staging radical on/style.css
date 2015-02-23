@@ -1668,6 +1668,11 @@ background: #FFBA66 !important;
   margin-right: auto;
 }
 
+h2.post-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 
 
