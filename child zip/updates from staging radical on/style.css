@@ -946,18 +946,18 @@ padding: 65px 0px 0px 0px !important;
 /* ========================================= */
 
   .cases-purple-mask{
-  height: 80px;
+  height: 150px;
   background: #593EFA;
-  -webkit-clip-path: polygon(0 0, 100% 0, 0 80%);
-  clip-path: polygon(0 0, 81% 0, 0 80%);
-  margin-bottom: -80px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  margin-bottom: -150px;
   }
   
   .cases-red-mask{
-  height: 80px;
+  height: 150px;
   background: #FC4F5B;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 35%);
-  clip-path: polygon(0 0, 100% 0, 100% 35%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%);
   }
 
   #aimatart-cases .cbp-l-grid-projects-title {
