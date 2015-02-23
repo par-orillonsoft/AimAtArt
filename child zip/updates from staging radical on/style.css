@@ -1556,7 +1556,7 @@ background: #FFBA66 !important;
   padding: 90px 0 0 0 !important;
 }
 
-.single-post .pagetitle .section-title {
+.single-post .pagetitle .section-title h1{
   display: none;
 }
 
