@@ -1669,7 +1669,7 @@ background: #FFBA66 !important;
 }
 
 h2.post-title{
-  white-space: nowrap;
+/*  white-space: nowrap;*/
   overflow: hidden;
   text-overflow: ellipsis;
 }
