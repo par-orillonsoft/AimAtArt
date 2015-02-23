@@ -1625,6 +1625,11 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
   color:#ffffff !important;
 }
 
+.contact-email:hover, .contact-email:visited, .contact-email:link{
+  text-decoration: none;
+  color:#000000 !important;
+}
+
 .date {
    display: none !important;
 }
