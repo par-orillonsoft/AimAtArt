@@ -1008,14 +1008,14 @@ padding: 65px 0px 0px 0px !important;
 
 .contact-orange-mask {
   height: 300px;
-  background: #ffba66;
+  background: #64E7B2;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);
   clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);
 }
 
 .contact-image-mask{
   height: 300px;
-  background: #ff7561;
+  background: #593EFA;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);
   clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);
   background-size: 100%;
