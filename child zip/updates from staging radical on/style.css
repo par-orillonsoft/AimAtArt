@@ -1594,9 +1594,7 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
 
 
 .blog-button-back{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+   margin: 0 auto;
 }
 
 .partners-darkorange-mask {
