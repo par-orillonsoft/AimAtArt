@@ -97,7 +97,7 @@ else :
                 </div>
                 <div class="pre-shape-form"></div>
                 <div class="post-shape-form"></div>
-                <div class="align-center">
+                <div class="blog-button-back">
                 	<a class="btn-color btn-color-1d big-size  nav-to tp-button red-fill " href="http://radicalgraphics.com/AAA/?page_id=659">
 					naar inzichten</a>
 				</div>

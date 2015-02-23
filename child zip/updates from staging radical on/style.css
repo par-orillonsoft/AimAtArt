@@ -1592,6 +1592,13 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
+
+.blog-button-back{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .partners-darkorange-mask {
 height: 200px;
 background: #FF7561;
