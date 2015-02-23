@@ -1564,17 +1564,18 @@ background: #FFBA66 !important;
   width: 100%;
   height: 90px;
   background: #F7f7f7;
-  margin-bottom: -62px;
-  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  margin-bottom: -60px;
+  -webkit-clip-path: polygon(0% 0, 0 100%, 100% 100%);
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
 
 .pre-shape-form{
   width: 100%;
-  height: 20px;
+  height: 100px;
   background: #FF7561;
-  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+  margin-bottom: -90px;
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
