@@ -1365,6 +1365,9 @@ background-color: #ffba66 !important;
   font-family: DTLNobel-T-Bold;
 }
 
+.cases-neem-contact-op a:link, .cases-neem-contact-op a:visited, .cases-neem-contact-op a:hover, .cases-neem-contact-op a:active {
+  color: #FC4F5B;
+}
 /*.navbar-shrink .nav-container {
   font-size: 1.1em;
 }
