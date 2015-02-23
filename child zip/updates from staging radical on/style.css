@@ -1554,7 +1554,7 @@ background: #FFBA66 !important;
   padding: 90px 0 0 0 !important;
 }
 
-.single-post .section-title .container .light{
+.single-post .section-title {
   display: none;
 }
 
