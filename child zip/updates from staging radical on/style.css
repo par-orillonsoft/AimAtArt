@@ -1569,13 +1569,14 @@ background: #FFBA66 !important;
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
-/*.post-shape-form{
+
+.pre-shape-form{
   width: 100%;
-  height: 100px;
+  height: 20px;
   background: #FF7561;
   -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
-}*/
+}
 
 .partners-darkorange-mask {
 height: 200px;
