@@ -1302,6 +1302,12 @@ padding: 65px 0px 0px 0px !important;
   background: #ffba66 !important;
 }
 
+.page-id-1950 .mc4wp-form input[type=submit] {
+color: #fff!important;
+background-color: #ffba66 !important;
+}
+
+
 /* Case 1 */
 .page-id-2199 .navbar-default.default.sdark {
   background: #FC4F5B !important;
