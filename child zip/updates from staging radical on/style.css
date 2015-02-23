@@ -1071,17 +1071,17 @@ padding: 65px 0px 0px 0px !important;
 .ervaringen-blue-mask {
   margin-left: -50%;
   width: 180%;
-  height: 150px;
+  height: 250px;
   background: #ffffff;
-  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  margin-bottom: -150px; 
+  -webkit-clip-path: polygon(0% 100%, 90% 0%, 100% 100%);
+  clip-path: polygon(0% 100%, 90% 0%, 100% 100%);
+  margin-bottom: -250px; 
 }
 
 .ervaringen-red-mask {
   margin-left: -50%;
   width: 260%;
-  height: 150px;
+  height: 250px;
   background: #FC4F5B; 
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%);
   clip-path: polygon(0 0, 100% 0, 100% 50%);
