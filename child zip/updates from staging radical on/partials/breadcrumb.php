@@ -92,6 +92,7 @@ else :
                     </h1>
                 </div>
                 <div class="post-shape-form"></div>
+                <div class="team-purple-mask"></div>
             </div>
         </div>
 <?php endif; ?> 
