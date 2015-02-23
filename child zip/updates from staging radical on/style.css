@@ -370,19 +370,19 @@ h1, h3, h4, h5, h6 {
 .whatwedo-red-mask {
   margin-left: -50%;
   width: 200%;
-  height: 150px;
+  height: 250px;
   background: #ffffff;
   /*background-image: url("http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/Kunst-kijken-Matisse-EIE.jpg");*/
   -webkit-clip-path: polygon(0% 100%, 100% 100%, 0% 30%);
   clip-path: polygon(0% 100%, 100% 100%, 0% 30%);
-  margin-bottom: -150px;
+  margin-bottom: -250px;
 }
 
 
 .whatwedo-cyan-mask {
   margin-left: -50%;
   width: 200%;
-  height: 150px;
+  height: 250px;
   background: #45a9f4;
   
   -webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
