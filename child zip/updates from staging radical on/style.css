@@ -1716,6 +1716,11 @@ h2.post-title{
   text-overflow: ellipsis;
 }
 
+.tp-button.green-fill, .tp-button:hover.green-fill {
+background-color: #64E7B2 !important;
+border: 2px solid #64E7B2;
+color: #fff !important;
+}
 
 
 /*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
