@@ -1722,6 +1722,9 @@ border: 2px solid #64E7B2;
 color: #fff !important;
 }
 
+.tp-button:hover.green-fill{
+  background-color:#b0e5cf !important;
+}
 
 /*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
   color: #989898 !important;
