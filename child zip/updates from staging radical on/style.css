@@ -1342,7 +1342,7 @@ background-color: #ffba66 !important;
 
 .cases-blue-mask {
   height: 150px;
-  background: #FF7561;
+  background: #ffba66;
   -webkit-clip-path: polygon(0% 75%, 0% 0%, 100% 0%);
   clip-path: polygon(0% 75%, 0% 0%, 100% 0%);
 }
