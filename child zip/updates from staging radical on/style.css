@@ -287,7 +287,7 @@ h1, h3, h4, h5, h6 {
 }*/
 .workshop-blue-mask {
   height: 150px;
-  background: #593EFA;
+  background: #FC4F5B;
   -webkit-clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 100%);
   clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 100%);
 }
@@ -315,11 +315,11 @@ h1, h3, h4, h5, h6 {
 
 
 .sdark {
-  background: #593EFA !important;
+  background: #FC4F5B !important;
 }
 
 .navbar-default.default.sdark ul > li > a{
-  background: #593EFA !important;
+  background: #FC4F5B !important;
 }
 
 #pg-1565 .sdark {
@@ -421,7 +421,7 @@ h2 {
   text-align: center;
   padding: 1.5em;
   height: auto;
-  min-height: 300px;
+  min-height: 320px;
   margin-right: -12px;
   margin-left: -12px;
 }
@@ -429,7 +429,7 @@ h2 {
 .whatwedo-resultaten-box-text {
   font-family: DTLNobel-T;
   text-align: left;
-  font-size: 1.2em;
+  font-size: 1.300em;
   color: #000000;
   line-height: 1.5em;
 }
@@ -448,7 +448,9 @@ h2 {
 }
 
 #cbpw-grid24 .cbp-l-caption-title {
-padding: 65px 0px 0px 0px !important;
+  padding: 65px 0px 0px 0px !important;
+  font-size: 1.786em !important;
+  line-height: 1.5em !important;
 }
 
 /*#whatwedo-quote-box li {
@@ -518,12 +520,18 @@ padding: 65px 0px 0px 0px !important;
 .testimonials-slide-content .t-author p {
   font-family: DTLNobel-T !important;
   color: #fff;
-  font-size: 1.4em;
+  font-size: 28px;
 }
 
 .testimonials-slide-content .t-author p a{
   color: #fff;
   }
+
+.testimonials-slide-content em{
+  font-size: 42px;
+  font-style: normal;
+  text-align: left !important;
+}
 
 .whatwedo-allesopmaat-text {
   font-family: DTLNobel-T-Bold;
@@ -665,7 +673,7 @@ padding: 65px 0px 0px 0px !important;
 .whatwedo-meerweten-text p{
   font-family: DTLNobel-T;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #ffffff;
   line-height: 1em;
 }
@@ -745,6 +753,11 @@ padding: 65px 0px 0px 0px !important;
 
 .onsdenken-picture-text-title h3 {
   margin-top: -0.5em;
+}
+
+.onze-klanten-intro {
+  font-family: DTLNobel-T;
+  font-size: 33.59px;
 }
 
 .onsdenken-picture-text {
@@ -849,8 +862,8 @@ padding: 65px 0px 0px 0px !important;
 
 .onsdenken-quote-bottom-mask {
   height: 60px;
-  -webkit-clip-path: polygon(0 100%, 100% 100%, 0 42%);
-  clip-path: polygon(0 100%, 100% 100%, 0 42%);
+  -webkit-clip-path: polygon(0 115%, 100% 100%, 0 42%);
+  clip-path: polygon(0 115%, 100% 100%, 0 42%);
   background: #ffffff;
   margin-top: -60px;
 }
@@ -914,6 +927,7 @@ padding: 65px 0px 0px 0px !important;
 .team-second-intro{
   font-family: DTLNobel-T;
   font-size: 1.3em;
+  text-align: center;
 }
 
 .team-orange-mask {
@@ -948,7 +962,7 @@ padding: 65px 0px 0px 0px !important;
   font-family: DTLNobel-T !important;
 }
 
-.team-raad-description {
+.team-raad-description, .team-raad-description p {
  font-family: DTLNobel-T !important;  
 }
 
@@ -1141,7 +1155,9 @@ padding: 65px 0px 0px 0px !important;
   transition-property: transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-  margin-bottom: 3em;
+  margin-bottom: 0em;
+  font-size: 18.20px;
+  min-height: 352px;
 }
 
 .ervaringen-grid-box:hover, .ervaringen-grid-box:focus, .ervaringen-grid-box:active {
@@ -1191,6 +1207,8 @@ padding: 65px 0px 0px 0px !important;
 
 #cbpw-grid27 .cbp-l-caption-title {
   padding: 35px 0px 0px 0px !important;
+  font-size: 18.20px !important;
+  line-height: 22px !important;
 }
 
 
@@ -1229,6 +1247,16 @@ padding: 65px 0px 0px 0px !important;
 .navbar-default.default.sdark .nav li a:hover {
   text-decoration: underline;
 }
+
+/*HOME*/
+.page-id-1524 .navbar-default.default.sdark {
+  background: #593EFA !important;
+}
+
+.page-id-1524 .navbar-default.default.sdark ul > li > a{
+  background: #593EFA !important;
+}
+
 
 /*WHAT WE DO PAGE*/
 .page-id-1565 .navbar-default.default.sdark {
@@ -1655,6 +1683,9 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
 }
 
 
+.member-body-page {
+  font-size: 18.20px;
+}
 
 .member-body-page p{
  font-family: DTLNobel-T; 

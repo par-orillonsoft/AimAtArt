@@ -1,0 +1,54 @@
+VISIE
+=====
+Title - 56px ------------------------------------------------------------ 56px <====> 4.000em
+Subtitle/intro text - 33.59px ------------------------------------------- 33.59px <=> 2.399em
+
+2 columns row / image - text
+		Header  - 25px
+		Body text - 18.20px regular - ok
+
+Quote text - regular - 42px ok
+
+Onze Inzichten - 30px - bold ok
+Onze Inzichten/subtitle - 18.20px - bold ok
+
+Programmas
+=-========
+4 boxes text at the very top should use 18.20px <======== Check boxsize issue !!!!!!!!!!!!!!!
+------------------------------------------------------------------------- 18.20px <=> 1.300em
+4 main cases caption text a little bit bigger - 25px; ------------------- 25px <====> 1.786em
+line-height -------------------------------------------------------------      <====> 1.5em
+
+Testimonials slider 
+- Text align to left ----- NOT POSSIBLE
+- try to remove the quoation marks ------ NOT POSSIBLE
+
+at the bottom - EEN SPECIFIEKE VRAAG? subtitle text - 18.20px
+
+Onze Klanten
+===========
+Title - 56px;
+3x2 grid body text - 18.20px
+
+Cube Portfolio title text:
+- line-heigh- 22px
+
+
+TEAM
+=====
+title ok
+subtitle - align to center
+
+RAAD VAN ADVIES - change font family to regular DTLNObel-t
+
+TEAM MEMBER PAGE
+
+content text as 18.20px
+
+VACATURES
+=========
+
+check the 1px line in the parallax quote container at the very bottom
+
+Workshop Case Template - Include a button like the programmas one "text todo"
+============================================================================================
