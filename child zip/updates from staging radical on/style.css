@@ -1073,8 +1073,16 @@ h2 {
 .address p{
   font-family: DTLNobel-T;
   text-align: left; 
+  font-size: 18.20px;
 }
 
+#contact-3-columns-text{
+  font-size: 18.20px;
+}
+
+#contact-3-columns-text img {
+  max-height: 220px;
+}
 
 #subscribe-text p, #subscribe-text h4{
   font-family: DTLNobel-T !important;
@@ -1712,7 +1720,77 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
   background: #ffba66 !important;
 }
 
+.page-id-2909 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
 
+.page-id-2909 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
+
+.page-id-2913 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
+
+.page-id-2913 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
+
+.page-id-2895 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
+
+.page-id-2895 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
+
+.page-id-2911 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
+
+.page-id-2911 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
+
+.page-id-2886 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
+
+.page-id-2886 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
+
+.page-id-2897 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
+
+.page-id-2897 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
+
+.page-id-2890 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
+
+.page-id-2890 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
+
+.page-id-3083 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
+
+.page-id-3083 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
+
+.page-id-2917 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
+
+.page-id-2917 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
 
 /* ============================================= */
 /* VACATURES =================================== */

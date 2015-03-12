@@ -2,5 +2,4 @@
 /**
  * Dikka Child functions file.
  */
-
 ?>

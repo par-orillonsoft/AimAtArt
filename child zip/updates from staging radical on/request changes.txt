@@ -51,4 +51,7 @@ VACATURES
 check the 1px line in the parallax quote container at the very bottom
 
 Workshop Case Template - Include a button like the programmas one "text todo"
+
+
+navbar default color to red
 ============================================================================================
