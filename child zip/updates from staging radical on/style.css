@@ -2166,4 +2166,19 @@ background: #333333;
     margin-bottom: 0.5em;
   }
 
+  .testimonials-slide-content em {
+    font-size: 0.6em;
+
+  }
+
+  .t-author p{
+    font-size: 0.7em;
+  }
+
+  .testimonials-slide-content .text-container i {
+    font-size: 0.4em;
+  }
+
+
+
 }
