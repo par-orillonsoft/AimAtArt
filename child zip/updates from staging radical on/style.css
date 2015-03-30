@@ -2209,4 +2209,17 @@ background: #333333;
     font-size: 0.7em;
     margin-bottom: -26%;
   }
+
+
+
+/************************************/
+/** VISIE **/
+.whatwedo-quote-text {
+  font-size: 1em;
+}
+
+.whatwedo-quote-text-signature{
+  font-size: 1em;
+}
+
 }
