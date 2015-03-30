@@ -2195,4 +2195,8 @@ background: #333333;
     max-height: 500px;
   }
 
+  .align-left{
+    text-align: center;
+  }
+
 }
