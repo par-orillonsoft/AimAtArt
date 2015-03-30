@@ -2183,6 +2183,9 @@ background: #333333;
     font-size: 1em;
   }
 
+  .testimonials-slide-content .t-author p a{
+    font-size: 1em;
+  }
 
 
 }
