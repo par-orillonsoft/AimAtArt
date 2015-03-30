@@ -2104,7 +2104,9 @@ background: #333333;
     font-size: 0.8em;
   }
 
-
+  .page-id-1524 .mc4wp-form input[type=submit] {
+    max-width: 50%;
+  }
 
 
 
