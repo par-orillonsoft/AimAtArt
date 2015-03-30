@@ -240,21 +240,26 @@ h1, h3, h4, h5, h6 {
 }
 
 .blue-mask {
-	height: 500px;
+	min-height: 500px;
+  max-width: 100%;
   /*width: 160%;
   margin-left: -20%;*/
-	background: #593EFA;
+	/*background: #593EFA;*/
 	/*-webkit-background-size: cover;*/
-	-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);
-  clip-path: polygon(0 0, 100% 0, 0 50%);
-  /*margin-bottom: -630px;*/
-  margin-top: -10px;
+	/*-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);*/
+  /*clip-path: polygon(0 0, 100% 0, 0 50%);*/
+  margin-top: -500px;
+  /*margin-top: -10px;*/
+}
+
+.blue-mask img {
+  width: 100%;
 }
 
 #background-home-picture {
   /*width: 100%;*/
   height: 500px;
-  margin-top: -500px;
+  margin-top: -10px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -262,20 +267,20 @@ h1, h3, h4, h5, h6 {
 }
 
 .green-mask {
-  height: 500px;
-  margin-top: -500px;
+  /*height: 500px;*/
+  /*margin-top: -500px;*/
 /*  width: 140%;
   margin-left: -20%;*/
-  background: #64E7B2;
-  -webkit-clip-path: polygon(0 35%, 100% 80%, 100% 100%, 0 100%);
-  clip-path: polygon(0 35%, 100% 80%, 100% 100%, 0 100%);
+  /*background: #64E7B2;*/
+  /*-webkit-clip-path: polygon(0 35%, 100% 80%, 100% 100%, 0 100%);*/
+  /*clip-path: polygon(0 35%, 100% 80%, 100% 100%, 0 100%);*/
 }
 
 .green-mask-two {
-  height: 100px ;
-  background: #64E7B2;
-  -webkit-clip-path: polygon(0 0%, 100% 0%, 0 92%);
-  clip-path: polygon(0 0%, 100% 0%, 0 92%);
+  /*height: 100px ;*/
+  /*background: #64E7B2;*/
+  /*-webkit-clip-path: polygon(0 0%, 100% 0%, 0 92%);*/
+  /*clip-path: polygon(0 0%, 100% 0%, 0 92%);*/
 }
 
 /*.workshop-blue-mask {
@@ -368,26 +373,32 @@ h1, h3, h4, h5, h6 {
 }
 
 .whatwedo-red-mask {
-  margin-left: -50%;
-  width: 200%;
-  height: 250px;
-  background: #ffffff;
-  /*background-image: url("http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/Kunst-kijken-Matisse-EIE.jpg");*/
-  -webkit-clip-path: polygon(0% 100%, 100% 100%, 0% 25%);
-  clip-path: polygon(0% 100%, 100% 100%, 0% 25%);
-  margin-bottom: -250px;
-}
+  /*margin-left: -50%;*/
+    min-height: 250px;
 
+  max-width: 100%;
+  /*height: 250px;*/
+  /*background: #ffffff;*/
+  /*background-image: url("http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/Kunst-kijken-Matisse-EIE.jpg");*/
+  /*-webkit-clip-path: polygon(0% 100%, 100% 100%, 0% 25%);*/
+  /*clip-path: polygon(0% 100%, 100% 100%, 0% 25%);*/
+  margin-top: -250px;
+}
+.whatwedo-red-mask img{
+  width: 100%;
+  height: 250px;
+}
 
 .whatwedo-cyan-mask {
-  margin-left: -50%;
-  width: 200%;
+  /*margin-left: -50%;
+  width: 200%;*/
+  /*margin-top: -250px;*/
   height: 250px;
-  background: #45a9f4;
-  -webkit-clip-path: polygon(0 0, 100% 0, 0 80%);
-  clip-path: polygon(0 0, 100% 0, 0 80%);
-
+  /*background: #45a9f4;*/
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 0 80%);*/
+  /*clip-path: polygon(0 0, 100% 0, 0 80%);*/
 }
+
 .onsdenken-intro, .whatwedo-intro, #contact-intro-text, .team-intro-text {
   font-family: DTLNobel-T;
   font-size: 2.4em;
@@ -411,7 +422,7 @@ h2 {
 
 .whatwedo-resultaten-text {
   font-family: DTLNobel-T;
-  font-size: 1.5em;
+  font-size: 21px;
   color: #45a9f4;
   text-align: center;
 }
@@ -489,19 +500,28 @@ h2 {
 }*/
 
 .testimonial-top-mask {
-  height: 60px;
-  -webkit-clip-path: polygon(0 35%, 100% 0, 0 0);
-  clip-path: polygon(0 35%, 100% 0, 0 0);
-  background: #ffffff;
+  min-height: 60px;
+  max-width: 100%;
+  /*-webkit-clip-path: polygon(0 35%, 100% 0, 0 0);*/
+  /*clip-path: polygon(0 35%, 100% 0, 0 0);*/
+  /*background: #ffffff;*/
   margin-bottom: -60px;
 }
 
+.testimonial-top-mask img {
+  width: 100%;
+  min-height: 60px;
+}
+
 .testimonial-bottom-mask {
-  height: 60px;
-  -webkit-clip-path: polygon(0 100%, 100% 100%, 0 42%);
-  clip-path: polygon(0 100%, 100% 100%, 0 42%);
-  background: #ffffff;
+  min-height: 60px;
+  max-width: 100%;
   margin-top: -60px;
+}
+
+.testimonial-bottom-mask img {
+  width: 100%;
+  min-height: 60px;
 }
 
 #whatwedo-quote-box {
@@ -575,11 +595,13 @@ h2 {
 }
 
 .whatwedo-meerweten-box {
-  background: #45a9f4;
-  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(100% 0, 100% 100%, 0 100%);
-  z-index: 0;
-  height: 50px;
+  min-height: 50px;
+  max-width: 100%;
+}
+
+.whatwedo-meerweten-box img {
+  width: 100%;
+  min-height: 60px;
 }
 
 #subscribe-panel .textwidget{
@@ -728,22 +750,34 @@ h2 {
 
 .onsdensk-cyan-mask {
   height: 200px;
-  width: 250%;
-  margin-left: -50%;
-  background: #ff7561;
+  width: 100%;
+  /*width: 250%;*/
+  /*margin-left: -50%;*/
+  /*background: #ff7561;*/
   /*background: url(http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/Kunst-kijken-Matisse-EIE.jpg);*/
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 10%);
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 10%);
+/*  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 10%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 10%);*/
+}
+
+.onsdensk-cyan-mask img {
+    height: 200px;
+  width: 100%;
 }
 
 .onsdensk-purple-mask {
   height: 200px;
+  max-width: 100%;
 /*  width: 250%;
   margin-left: -50%;*/
-  background: #ffffff;
+/*  background: #ffffff;
   -webkit-clip-path: polygon(0 100%, 135% 0, 100% 100%);
-  clip-path: polygon(0 100%, 135% 0, 100% 100%);
+  clip-path: polygon(0 100%, 135% 0, 100% 100%);*/
   margin-bottom: -200px;
+}
+
+.onsdensk-purple-mask img {
+    height: 200px;
+  width: 100%;
 }
 
 .onsdenken-picture-text-title {
@@ -786,8 +820,8 @@ h2 {
 }*/
 
 .onsdenken-onzeinzichten-text p {
-  font-family: DTLNobel-T-Bold;
-  font-size: 1.3em;
+  font-family: DTLNobel-T;
+  font-size: 21px;
   text-align: center;
   line-height: 1em;
   color: #ff7561;
@@ -831,7 +865,9 @@ h2 {
   border-color: #ffffff;
 }
 
-
+.post-summary a{
+  color: #ffba66;
+}
 
 .onsdenken-button-blog {
   text-align: center;
@@ -852,23 +888,36 @@ h2 {
 }
 
 
+
 .onsdenken-quote-top-mask {
-  height: 60px;
-  -webkit-clip-path: polygon(0 35%, 100% 0, 0 0);
-  clip-path: polygon(0 35%, 100% 0, 0 0);
-  background: #ffffff;
+  min-height: 60px;
+  max-width: 100%;
+  /*-webkit-clip-path: polygon(0 35%, 100% 0, 0 0);
+  clip-path: polygon(0 35%, 100% 0, 0 0);*/
+  /*background-image: url('images/08-Vacatures/vacatures-top-quote-mask.png');*/
+  /*background: #000;*/
   margin-bottom: -60px;
+/*  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;*/
+}
+.onsdenken-quote-top-mask img{
+  /*margin-top: 0;*/
+  min-height: 60px;
+  width: 100%;
 }
 
 .onsdenken-quote-bottom-mask {
-  height: 60px;
-  -webkit-clip-path: polygon(0 115%, 100% 100%, 0 42%);
-  clip-path: polygon(0 115%, 100% 100%, 0 42%);
-  background: #ffffff;
+  min-height: 60px;
+  max-width: 100%;
+  /*background: #ffffff;*/
   margin-top: -60px;
 }
 
-
+.onsdenken-quote-bottom-mask img{
+  min-height: 60px;
+  width: 100%;`
+}
 
 
 /*.onsdenken-contact-title {
@@ -887,10 +936,13 @@ h2 {
 }
 
 .onsdenken-meerweten-box {
-  background: #FFFFFF;
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 0);
-  clip-path: polygon(0 0, 0 100%, 100% 0);
-  height: 100px;
+  max-width: 100%;
+  height: 50px;
+}
+
+.onsdenken-meerweten-box img {
+  width: 100%;
+  min-height: 50px;
 }
 
 .footer {
@@ -930,20 +982,39 @@ h2 {
   text-align: center;
 }
 
-.team-orange-mask {
+/*.team-orange-mask {
   height: 150px;
   background: #ffba66;
   -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
   clip-path: polygon(0 0, 100% 0, 0 52%);
+}*/
+
+/*<div class=team-orange-mask></div> */
+.team-purple-mask {
+  height: 190px;
+/*  background: #ff7561;*/
+/*min-width: 1500px;*/
+  display: block;
+  /*max-width: 100%;*/
+  /*height: auto;*/
+  background-image: url('images/08-Vacatures/vacatures-header-mask.png');
+  /*background-repeat: no-repeat;*/
+
+  
+
+/*    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);*/
+  /*margin-bottom: -150px;*/
 }
 
-
-.team-purple-mask {
-  height: 150px;
-  background: #ff7561;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%);
-  margin-bottom: -150px;
+.bg-responsive {
+  background-repeat:no-repeat;
+  background-size:100% !important;
+  background-position:top;
 }
 
 .cbp-caption-activeWrap{
@@ -963,7 +1034,8 @@ h2 {
 }
 
 .team-raad-description, .team-raad-description p {
- font-family: DTLNobel-T !important;  
+ font-family: DTLNobel-T !important; 
+ font-size: 18.20px !important; 
 }
 
 /* ========================================= */
@@ -1022,8 +1094,8 @@ h2 {
 
 #aimatart-cases .cbp-l-caption-body a{
   width: 100% !important;
-  font-size: 1.5em !important;
-  font-family: DTLNobel-T-Bold !important;
+  font-size: 21px !important;
+  font-family: DTLNobel-T !important;
 }
 
 
@@ -1083,6 +1155,13 @@ h2 {
 #contact-3-columns-text img {
   max-height: 220px;
 }
+#contact-3-columns-text a:link, #contact-3-columns-text a:visited, #contact-3-columns-text a:hover, #contact-3-columns-text a:active {
+ color: #64E7B2;  
+}
+
+#contact-bottom-link a:link, #contact-bottom-link a:visited, #contact-bottom-link a:hover, #contact-bottom-link a:active {
+  color: #64E7B2; 
+}
 
 #subscribe-text p, #subscribe-text h4{
   font-family: DTLNobel-T !important;
@@ -1099,23 +1178,31 @@ h2 {
   text-transform: uppercase !important;
 }
 
-.ervaringen-blue-mask {
-  margin-left: -50%;
-  width: 180%;
-  height: 250px;
-  background: #ffffff;
-  -webkit-clip-path: polygon(0% 100%, 90% 0%, 100% 100%);
-  clip-path: polygon(0% 100%, 90% 0%, 100% 100%);
-  margin-bottom: -250px; 
+.ervaringen-blue-mask-parallax {
+  width: 100%;
+  min-height: 199px;
 }
 
+.ervaringen-blue-mask {
+  min-height: 200px;
+  max-width: 100%;
+  display: block;
+  margin-top: -200px; 
+}
+.ervaringen-blue-mask img {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+}
+
+
 .ervaringen-red-mask {
-  margin-left: -50%;
-  width: 260%;
-  height: 250px;
-  background: #FC4F5B; 
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%);
-  clip-path: polygon(0 0, 100% 0, 100% 50%);
+  /*margin-left: -50%;*/
+  /*width: 260%;*/
+  /*height: 250px;*/
+  /*background: #FC4F5B; */
+/*  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%);*/
 }
 
 #ervaringen-title-text h2{
@@ -1201,6 +1288,7 @@ h2 {
 .tp-button.red-fill, .tp-button:hover.red-fill {
   background-color: #FC4F5B !important;
   border: 2px solid #FC4F5B !important;
+  font-size: 18.20px;
 }
 
 
@@ -1221,20 +1309,25 @@ h2 {
 
 
 .workshop-text {
-  font-family: DTLNobel-T-Bold;
-  font-size: 1.5em;
+  font-family: DTLNobel-T;
+  font-size: 21px;
   color: #FC4F5B;
   text-align: center;
 }
 
 .ervaringen-meerweten-box {
-  background: #FC4F5B;
+/*  background: #FC4F5B;
   -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(100% 0, 100% 100%, 0 100%);
-  z-index: 0;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);*/
+  /*z-index: 0;*/
   height: 50px;
+  max-width: 100%;
 }
 
+.ervaringen-meerweten-box img {
+  height: 50px;
+  width: 100%;
+}
 
 #panel-1771-11-0-0 h2{
   color: #000000;
@@ -1382,9 +1475,15 @@ background-color: #ffba66 !important;
 
 .cases-blue-mask {
   height: 150px;
-  background: #ffba66;
+    max-width: 100%;
+/*  background: #ffba66;
   -webkit-clip-path: polygon(0% 75%, 0% 0%, 100% 0%);
-  clip-path: polygon(0% 75%, 0% 0%, 100% 0%);
+  clip-path: polygon(0% 75%, 0% 0%, 100% 0%);*/
+}
+
+.cases-blue-mask img{
+    height: 100%;
+  width: 100%;
 }
 
 .cases-red-mask {
@@ -1426,6 +1525,8 @@ background-color: #ffba66 !important;
 #workshop-content li {
   list-style:none;
   color: #000000;
+  font-size: 18.20px;
+  line-height: 32px;
 }
 
 #workshop-content li:before {
@@ -1436,10 +1537,18 @@ background-color: #ffba66 !important;
   color: #000;
 }
 
-/*.page-id-659 .light-text .section-title h1 {
-  color: #000000 !important;
-}*/
+.page-id-659 .light-text .section-title h1 {
+  font-size: 56px !important;
+}
 
+.post-summary p{
+  font-size: 18.20px !important;
+
+}
+
+.logged-in-as a{
+  color: #FFBA66;
+}
 /*.page-id-659 p {
   font-family: DTLNobel-T !important;
 }*/
@@ -1494,7 +1603,13 @@ background-color: #ffba66 !important;
   font-family: DTLNobel-T-Bold;
   border-collapse:collapse;
   border: none;
+  font-size: 18.20px;
 }
+
+#workshop-content .textwidget {
+  font-size: 18.20px !important;
+}
+
 .workshop-table tr td{
   border: 1px solid #fff;
   border-bottom: 1px solid #000;
@@ -1506,8 +1621,10 @@ background-color: #ffba66 !important;
 }
 
 .table-right-col {
+  font-family: DTLNobel-T;
   font-size: 1em;
   color: #000000;
+  line-height: 32px;
 }
 
 #workshop-subtitle h2 {
@@ -1516,7 +1633,7 @@ background-color: #ffba66 !important;
 
 #workshop-content p {
   font-family: DTLNobel-T;
-  font-size: 1em;
+  font-size: 18.20px;
   color: #000000;
 }
 
@@ -1613,26 +1730,24 @@ background: #FFBA66 !important;
   height: 90px;
   background: #F7f7f7;
   margin-bottom: -60px;
-  -webkit-clip-path: polygon(0% 0, 0 100%, 100% 100%);
-  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  /*-webkit-clip-path: polygon(0% 0, 0 100%, 100% 100%);*/
+  /*clip-path: polygon(100% 0, 0 100%, 100% 100%);*/
 }
 
 .post-shape-form {
+  margin-bottom: -61px;
   width: 100%;
 height: 111px;
-background: #FFFFFF;
-margin-bottom: -73px;
--webkit-clip-path: polygon(0% 0, 0 100%, 100% 100%);
-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+background: #f7f7f7;
 }
 
 .pre-shape-form{
+  background: #F7F7F7;
+  min-height: 170px;
   width: 100%;
-  height: 150px;
-  background: #FF7561;
-  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  margin-bottom: -90px;
-  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  display: block;
+  background-image: url('images/06-Kenis Delen/kenisdelen-header-mask.png');
+  background-repeat:no-repeat;
 }
 
 
@@ -1641,12 +1756,20 @@ clip-path: polygon(100% 0, 0 100%, 100% 100%);
    text-align: left;
 }
 
+#article-back-button {
+background-color: #FFBA66 !important;
+  border: 2px solid #FFBA66 !important;  
+}
+
+.blog-button-back .tp-button.red-fill, .blog-button-back .tp-button:hover.red-fill {
+    background-color: #FFBA66 !important;
+  border: 2px solid #FFBA66 !important;
+}
+
 .partners-darkorange-mask {
 height: 200px;
-background: #FF7561;
--webkit-clip-path: polygon(0 0%, 100% 0, 100% 60%);
-clip-path: polygon(0 0%, 100% 0, 100% 60%);
-margin-bottom: -200px;
+display: block;
+background-image: url('images/07-Partners/partners-header-mask.png');
 }
 
 .partners-orange-mask {
@@ -1661,6 +1784,12 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
   padding-bottom: 0px;
   margin-bottom: -10px;
 }
+
+
+
+/*.panel-grid-cell {
+  font-size: 18.20px;
+}*/
 
 /*.page-id-659 .pagetitle {
 
@@ -1690,7 +1819,9 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
    display: none !important;
 }
 
-
+.member-body-page a:link, .member-body-page a:visited, .member-body-page a:hover, .member-body-page a:active {
+    color: #FF7561 !important;
+}
 .member-body-page {
   font-size: 18.20px;
 }
@@ -1841,6 +1972,7 @@ color: #fff !important;
 .tp-button:hover.green-fill{
   background-color:#b0e5cf !important;
 }
+
 
 /*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
   color: #989898 !important;
