@@ -2227,9 +2227,12 @@ background: #333333;
 }
 
 .pt-cv-content-item {
-  width:100%;
+  width:97%;
   min-height: 0;
 }
 
+.navbar-shrink {
+  height: 65px !important;
+}
 
 }
