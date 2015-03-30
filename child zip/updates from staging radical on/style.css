@@ -2222,4 +2222,10 @@ background: #333333;
   font-size: 1em;
 }
 
+.pt-cv-content-item {
+  width:100%;
+  min-height: 0;
+}
+
+
 }
