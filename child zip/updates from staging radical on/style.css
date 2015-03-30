@@ -2070,6 +2070,12 @@ background: #333333;
   padding-right: 1em !important;
   /* font-size: 0.9em; */
   }
+
+
+
+  .mc4wp-form input[type=submit] {
+    font-size: 0.7em;
+  }
 }
 
 /********************************/
@@ -2145,7 +2151,7 @@ background: #333333;
     font-size: 0.6em;
   }
 
-  .page-id-1524 .mc4wp-form input[type=submit] {
+  .mc4wp-form input[type=submit] {
     font-size: 0.6em;
   }
 
@@ -2199,4 +2205,8 @@ background: #333333;
     text-align: center;
   }
 
+  .aimatart-footer-text{
+    font-size: 0.7em;
+    margin-bottom: -26%;
+  }
 }
