@@ -2080,6 +2080,11 @@ background: #333333;
   .mc4wp-form input[type=submit] {
     font-size: 0.7em;
   }
+
+  .pt-cv-content-item {
+    width:97% !important;
+    min-height: 0;
+  }
 }
 
 /********************************/
@@ -2118,7 +2123,10 @@ background: #333333;
     max-width: 50%;
   }
 
-
+  .pt-cv-content-item {
+  width:97% !important;
+  min-height: 0;
+  }
 
 
 
