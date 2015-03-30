@@ -2227,7 +2227,7 @@ background: #333333;
 }
 
 .pt-cv-content-item {
-  width:97%;
+  width:97% !important;
   min-height: 0;
 }
 
