@@ -2172,23 +2172,27 @@ background: #333333;
   }
 
   .t-author p{
-    font-size: 0.7em;
-  }
-
-  .testimonials-slide-content .text-container i {
-    font-size: 0.4em;
-  }
-
-  .testimonials-slide-content{
     font-size: 1em;
   }
 
-  .testimonials-slide-content .t-author p a{
-    font-size: 0.5em;
+  .testimonials-slide-content .text-container i {
+    font-size: 0.6em;
   }
 
-  .testimonials-slide-content .t-author p{
+  .testimonials-slide-content{
+    font-size: 0.9em;
+  }
+
+  /*.testimonials-slide-content .t-author p a{
     font-size: 0.5em;
+  }*/
+
+  .testimonials-slide-content .t-author p{
+    font-size: 0.6em;
+  }
+
+  .flex-viewport {
+    max-height: 500px;
   }
 
 }
