@@ -2083,7 +2083,29 @@ background: #333333;
 
 /*iphone5 portrait and landscape*/
 @media only screen and (max-width: 360px), (max-height: 600px) {
+  
   .cbp-popup-singlePage .cbp-popup-navigation-wrap {
     height: 84px !important;
   }
+
+  #home-aimatart-title p {
+  font-size: 1.8em;
+  }
+
+  #home-aimatart-subtitle p {
+    font-size: 1em;
+  }
+
+  .home-header-box-title{
+    font-size: 0.7em;
+  }
+
+  .home-header-box-content{
+    font-size: 0.6em;
+  }
+
+  .page-id-1524 .mc4wp-form input[type=submit] {
+    font-size: 0.6em;
+  }
+
 }
