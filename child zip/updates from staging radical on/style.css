@@ -2043,15 +2043,18 @@ background: #333333;
 /* MEDIA RESPONSIVE ============================= */
 /* ============================================== */
 
-
+/********************************/
 /*Powerful computers*/
+/********************************/
 @media (max-width: 1024px) {
   .separator_menu_class{
     padding-right: 10em !important;
   }
 }
 
+/********************************/
 /*iPad landscape and crappy macs*/
+/********************************/
 @media (min-width:978px) and (max-width:1204px){
 
   #three-boxes-row {
@@ -2069,7 +2072,9 @@ background: #333333;
   }
 }
 
+/********************************/
 /*iPad portrait*/
+/********************************/
 @media (max-width: 780px) {
   #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
     width: 100% !important;
@@ -2079,14 +2084,48 @@ background: #333333;
   .nav-shrink .nav-container img {
     max-width: 30% !important;
   }
+
+  /********************************/
+  /*HOME*/
+
+  #home-aimatart-title p {
+  font-size: 1.8em;
+  }
+
+  #home-aimatart-subtitle p {
+    font-size: 1em;
+  }
+
+  .home-header-box-title{
+    font-size: 0.7em;
+  }
+
+  .home-header-box-content{
+    font-size: 0.6em;
+  }
+
+
+
+
+
+
+
+
+
 }
 
+
+/********************************/
 /*iphone5 portrait and landscape*/
-@media only screen and (max-width: 360px), (max-height: 600px) {
+/********************************/
+@media only screen and (max-width: 376px), (max-height: 600px) {
   
   .cbp-popup-singlePage .cbp-popup-navigation-wrap {
     height: 84px !important;
   }
+
+  /********************************/
+  /*HOME*/
 
   #home-aimatart-title p {
   font-size: 1.8em;
@@ -2107,5 +2146,6 @@ background: #333333;
   .page-id-1524 .mc4wp-form input[type=submit] {
     font-size: 0.6em;
   }
+
 
 }
