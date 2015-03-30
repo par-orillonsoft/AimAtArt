@@ -1106,18 +1106,23 @@ h2 {
 
 .contact-orange-mask {
   height: 300px;
-  background: #64E7B2;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);
-  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);
+  /*background: #64E7B2;*/
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);*/
+  /*clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);*/
 }
 
 .contact-image-mask{
   height: 300px;
-  background: #593EFA;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);
-  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);
+  /*background: #593EFA;*/
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);*/
+  /*clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);*/
   background-size: 100%;
-  margin-bottom: -300px;
+  /*margin-bottom: -300px;*/
+}
+
+.contact-image-mask img {
+  min-height: 300px;
+  width: 100%;
 }
 
 #contact-title {

@@ -4,7 +4,7 @@ if (!defined('ABSPATH')) {echo '<h1>Forbidden</h1>'; exit();} ?>
 
                     <div id="post-<?php the_ID(); ?>" <?php post_class("journal-post"); ?>>
                         <div class="blog-button-back">
-                            <a class="blog-button-back btn-color btn-color-1d big-size  nav-to tp-button red-fill " href="http://radicalgraphics.com/AAA/?page_id=659">
+                            <a class="blog-button-back btn-color btn-color-1d big-size  nav-to tp-button red-fill " href="http://www.aimatart.nl/newAAA/?page_id=659">
                             terug naar inzichten</a>
                         </div><br>
                         <div class="post-content fadeInUpBig">

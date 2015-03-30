@@ -55,3 +55,160 @@ Workshop Case Template - Include a button like the programmas one "text todo"
 
 navbar default color to red
 ============================================================================================
+============================================================================================
+============================================================================================
+
+
+Last monday I sent you an email about the typography:
+* http://radicalgraphics.com/AAA/?page_id=1565 On this page de colored text is normal…”Haal AimAtArt uw organisatie binnen.” On the other pages the colored text is still bold/smaller:  visie (“wij delen onze inzichten..”) onze klanten (“Aantal voorbeelden van…) Cases (the text above the photo’s)
+* Ons Team: The text of Raad van Advies is smaller than the body text.
+ * Kennis delen: The title is smaller than the titles of the other pages. The text of the posts is smaller than body text and the colour of the ‘terug naar inzichten’ button is not the orange colour of the page but the red of cases. 
+* Vacatures: The footer has a different typography.
+* Cases: The text is smaller than the body text. 
+ And is the colour of the links standard in blue? Or can we adjust that to the colour of the page?
+Please check the design in different internet services, Firefox for example gives a different lay-out. 
+You wrote in the docs that you would check how 'Inschrijven Nieuwsbrief’ function just before the website would go life, could you do that?
+The logo’s still are not on the same level, did you have a look at them?
+
+==================
+
+* http://radicalgraphics.com/AAA/?page_id=1565 On this page de colored text is normal…”Haal AimAtArt uw organisatie binnen.” On the other pages the colored text is still bold/smaller:  visie (“wij delen onze inzichten..”) onze klanten (“Aantal voorbeelden van…) Cases (the text above the photo’s)
+
+- Font-Family changed from Bold to Regular for:
+- VISIE - "We delen graag onze kennis, inzichten en inspiratiebronnen.
+Lees hier de laatste updates:"
+- ONZE KLANTEN: "Aantal voorbeelden van visuele resultaten van onze programma's:"
+- CASES: All Captions hover text.
+
+* Ons Team: The text of Raad van Advies is smaller than the body text.
+- Changed.
+
+* Kennis delen: The title is smaller than the titles of the other pages. The text of the posts is smaller than body text and the colour of the ‘terug naar inzichten’ button is not the orange colour of the page but the red of cases. 
+- KENNIS DELEN - Title changed.
+- KENNIS DELEN - Post Summary text size - Changed.
+- Posts - Back to blog button color changed.
+
+* Vacatures: The footer has a different typography.
+- Changed.
+
+* Cases: The text is smaller than the body text. - 
+ And is the colour of the links standard in blue? Or can we adjust that to the colour of the page?
+
+ - CASES - text changed to 18.20px;
+ - The Standard color for links is that blue, yes. And yes, we can change the colors. I have changed the link colors only by Design, the rest are in this Standar blue color.
+ If you want to change links that would be related to the design itself, so please refer this issue to Fabian and then he will tell me about what changes to do.
+
+ *Please check the design in different internet services, Firefox for example gives a different lay-out. 
+
+ - This is not implemented yet until the Design project and all small changes are applied and finished.
+
+*You wrote in the docs that you would check how 'Inschrijven Nieuwsbrief’ function just before the website would go life, could you do that?
+
+- You are right, now that the project is on your side it's time to complete this point. Could you please provide us your Mailchimp API Key? We need this in order to link the website with your Mailchimp account.
+
+*The logo’s still are not on the same level, did you have a look at them?
+All the Company Logos Pictures in the carousel/slider should have the same size if you want to keep the same layout. If you use a picture, i.e., of 200x100 px with the logo on the top, and another of 200x100 px with the logo at the bottom, the layout will not be the same as the content position is different. In order to do this I recommend to use a Picture Template, create a new file in photoshop of 200x100px and then copy your logo in there, adjust the content to that size and then upload it to the server and add it to the corousel.
+
+============================================================================================
+
+Programmas - 
+Haal AimAtArt jullie organisatie binnen en realiseer: (This is Bold and it has to be Regular).
+============================================================================================
+CASES - 
+http://www.aimatart.nl/newAAA/?page_id=2199
+right table - change font from bold to regular.
+left column - add lineheight to the lo/li elements.
+
+reply to all cases.
+Fix The cases to look all the same... and change documentation to let them know how to do it properly. The difference is the top button and no main cases portfolio at the bottom
+
+
+
+
+<div class="ervaringen-aimatart-title">
+<p>CASES</p>
+</div>
+
+<div class="cases-blue-mask"></div>
+
+<div class="cases-red-mask"></div>
+
+
+CONTACT 
+More space between the emails, now they are too close
+http://www.aimatart.nl/newAAA/?page_id=1739
+
+
+Links color in this page has to be like the main one: #64E7B2 (green)
+
+
+
+
+
+
+============================================================================================
+============================================================================================
+============================================================================================
+============================================================================================
+FILES TO CHANGE - REPORT
+
+FILE 0:
+/home/radicalgraphics/www/AAA/wp-content/plugins/cubeportfolio/public/img/cbp-sprite.psd [5.39MB]
+FILE 1:
+/home/radicalgraphics/www/AAA/wp-content/gallery/introductiedag-de-brauw/team-3-1.jpg_backup [3.81MB]
+FILE 2:
+/home/radicalgraphics/www/AAA/wp-content/gallery/test_1/file7981284464485.jpg [3.43MB]
+FILE 3:
+/home/radicalgraphics/www/AAA/wp-content/gallery/test_1/file7981284464485.jpg_backup [3.43MB]
+FILE 4:
+/home/radicalgraphics/www/AAA/wp-content/gallery/young-professionals-ja-natuurlijk/DSC01442.JPG_backup [3.08MB]
+FILE 5:
+/home/radicalgraphics/www/AAA/wp-content/uploads/ether/Foto-werkplek-vacature-pg.jpg [3.86MB]
+FILE 6:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/Stilleven-van-hoe-iemand-zichzelf-wilt-verbeteren-blijven-reflecteren.jpg [3.33MB]
+FILE 7:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/NIeuwe-generatie-brengt-veel-bagage-mee-recruitment.jpg [4.86MB]
+FILE 8:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/P-ontwikkeling-Rabo-resultaat-Anieke1@2x.jpg [5.19MB]
+FILE 9:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/In-beeld-gebracht-hoe-iemand-meer-kan-bereiken-tactisch-communiceren-en-een-paar-zetten-vooruit-denken.jpg [3.81MB]
+FILE 10:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/Kernwaarde-diversiteit.jpg [6.97MB]
+FILE 11:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/Ik-voel-me-een-nummertje.jpg [3.44MB]
+FILE 12:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/P-ontwikkeling-Rabo-resultaat-Anieke1.jpg [11.07MB]
+FILE 13:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/Kernwaarde-diversiteit@2x.jpg [3.06MB]
+FILE 14:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/Stilleven-van-hoe-jij-de-klant-beter-kan-bedienen-rustig-blijven-klant-is-koning-en-tot-10-tellen.jpg [3.23MB]
+FILE 15:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/Out-of-the-box.jpg [5.43MB]
+FILE 16:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2015/02/Klantbeleving-abstract-weergegeven-Beweging-brengen.jpg [4.36MB]
+FILE 17:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2014/09/herfstactie.jpg [3.08MB]
+FILE 18:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2014/04/Foto-Kunstmuur-vacature-pg.jpg [3.87MB]
+FILE 19:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2014/04/Foto-werkplek-vacature-pg.jpg [3.86MB]
+FILE 20:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2014/04/Foto-uitzicht-vacature-pg.jpg [5.95MB]
+FILE 21:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2013/09/JPG2.png [10.05MB]
+FILE 22:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2013/10/straat.png [11.62MB]
+FILE 23:
+/home/radicalgraphics/www/AAA/wp-content/uploads/2013/10/kunst-op-straat.png [9.2MB]
+FILE 24:
+/home/radicalgraphics/www/AAA/20150130_local_aimatart_54cba8b02842f8263150130155216_archive.zip [83.58MB]
+FILE 25:
+/home/radicalgraphics/www/AAA/child-24-01-15.zip [63.59MB]
+
+
+
+
+THINGS TO CHANGE IN LIVE 
+
+==================================================================
+article.php has a link to newAAA in the back to blog button.
