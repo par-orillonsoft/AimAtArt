@@ -2149,5 +2149,21 @@ background: #333333;
     font-size: 0.6em;
   }
 
+  /***/
+
+  .onsdenken-aimatart-title p, .whatwedo-aimatart-title p, .team-aimatart-title p, .cases-aimatart-title p, .contact-aimatart-title p, .ervaringen-aimatart-title p, .partners-aimatart-title p {
+    font-size: 1.8em;
+  }
+
+
+  /********************************/
+  /*PROGRAMMA*/
+
+  .whatwedo-resultaten-box{
+    min-height: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
 
 }
