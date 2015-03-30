@@ -254,6 +254,7 @@ h1, h3, h4, h5, h6 {
 
 .blue-mask img {
   width: 100%;
+  min-height: 500px;
 }
 
 #background-home-picture {
@@ -2037,12 +2038,15 @@ background: #333333;
 /* MEDIA RESPONSIVE ============================= */
 /* ============================================== */
 
+
+/*Powerful computers*/
 @media (max-width: 1024px) {
   .separator_menu_class{
     padding-right: 10em !important;
   }
 }
 
+/*iPad landscape and crappy macs*/
 @media (min-width:978px) and (max-width:1204px){
 
   #three-boxes-row {
@@ -2060,6 +2064,7 @@ background: #333333;
   }
 }
 
+/*iPad portrait*/
 @media (max-width: 780px) {
   #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
     width: 100% !important;
@@ -2071,6 +2076,7 @@ background: #333333;
   }
 }
 
+/*iphone5 portrait and landscape*/
 @media only screen and (max-width: 360px), (max-height: 600px) {
   .cbp-popup-singlePage .cbp-popup-navigation-wrap {
     height: 84px !important;
