@@ -1385,6 +1385,7 @@ h2 {
 
 .page-id-1616 .col-md-4{
   width: 30%;
+  min-height: 466px;
 }
 
 /*TEAM*/
@@ -1396,6 +1397,10 @@ h2 {
   background: #ffba66 !important;
 }
 
+.page-id-1721 a:link,.page-id-1721 a:visited, .page-id-1721 a:hover, .page-id-1721 a:active{
+  color: #FFBA66;
+}
+
 /*CASES*/
 .page-id-1731 .navbar-default.default.sdark {
   background: #FC4F5B !important;
@@ -1403,6 +1408,10 @@ h2 {
 
 .page-id-1731 .navbar-default.default.sdark ul > li > a{
   background: #FC4F5B !important;
+}
+
+.page-id-1731 a:link,.page-id-1731 a:visited, .page-id-1731 a:hover, .page-id-1731 a:active{
+  color: #FC4F5B;
 }
 
 /*CONTACT*/
@@ -1423,6 +1432,9 @@ h2 {
   background: #FC4F5B !important;
 }
 
+.page-id-1771 a:link,.page-id-1771 a:visited, .page-id-1771 a:hover, .page-id-1771 a:active{
+  color: #FC4F5B;
+}
 /*Blog*/
 .page-id-659 .navbar-default.default.sdark {
   background: #ffba66 !important;
@@ -1455,6 +1467,9 @@ color: #fff!important;
 background-color: #ffba66 !important;
 }
 
+.page-id-1950 a:link,.page-id-1950 a:visited, .page-id-1950 a:hover, .page-id-1950 a:active{
+  color: #FFBA66;
+}
 
 /* Case 1 */
 .page-id-2199 .navbar-default.default.sdark {
@@ -1550,6 +1565,10 @@ background-color: #ffba66 !important;
 .page-id-659 .light-text .section-title h1 {
   font-size: 56px !important;
 }
+
+/*.page-id-659 a:link,.page-id-659 a:visited, .page-id-659 a:hover, .page-id-659 a:active{
+  color: #FFBA66;
+}*/
 
 .post-summary p{
   font-size: 18.20px !important;
@@ -1942,6 +1961,9 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
   margin-bottom: 1em;
 }
 
+.page-id-1968 a:link,.page-id-1968 a:visited, .page-id-1968 a:hover, .page-id-1968 a:active{
+  color: #FFBA66;
+}
 
 /**************************************************/
 /*  */
