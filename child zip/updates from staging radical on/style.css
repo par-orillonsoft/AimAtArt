@@ -1435,6 +1435,10 @@ h2 {
   background: #64E7B2 !important;
 }
 
+.page-id-1739 a:link,.page-id-1739 a:visited, .page-id-1739 a:hover, .page-id-1739 a:active{
+  color: #64E7B2;
+}
+
 /*ERVARINGEN*/
 .page-id-1771 .navbar-default.default.sdark {
   background: #FC4F5B !important;
@@ -2189,9 +2193,9 @@ div#panel-1739-3-1-3 {
 .contact-email {
   text-align: center !important;
 }
-div#pg-1739-3 img {
+/*div#pg-1739-3 img {
   margin-left: 35%;
-}
+}*/
 
 div#panel-1739-3-2-3 {
   text-align: center;
@@ -2201,7 +2205,7 @@ div#panel-1739-3-2-3 {
 
 }
 
-h2 .align-left{
+.align-left{
   text-align: center;
 }
 
@@ -2210,8 +2214,13 @@ h2 .align-left{
 }
 
 .address i {
-  top: 0px;
+  top: 0px !important;
   float: none;
+}
+
+div#panel-1739-3-3-3 {
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 }
