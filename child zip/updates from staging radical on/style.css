@@ -2151,6 +2151,9 @@ background: #333333;
   }
 
 
+  #pg-1739-3 .panel-grid{
+
+  }
 
 
 
@@ -2246,23 +2249,29 @@ background: #333333;
 
 
 
-/************************************/
-/** VISIE **/
-.whatwedo-quote-text {
-  font-size: 1em;
-}
+  /************************************/
+  /** VISIE **/
+  .whatwedo-quote-text {
+    font-size: 1em;
+  }
 
-.whatwedo-quote-text-signature{
-  font-size: 1em;
-}
+  .whatwedo-quote-text-signature{
+    font-size: 1em;
+  }
 
-.pt-cv-content-item {
-  width:97% !important;
-  min-height: 0;
-}
+  .pt-cv-content-item {
+    width:97% !important;
+    min-height: 0;
+  }
 
-.navbar-shrink {
-  height: 65px !important;
-}
+  .navbar-shrink {
+    height: 65px !important;
+  }
+
+
+  #contact-3-columns-text {
+    text-align: center;
+
+  }
 
 }
