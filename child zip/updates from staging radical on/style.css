@@ -1364,6 +1364,10 @@ h2 {
   background: #593EFA !important;
 }
 
+.page-id-1524 a:link,.page-id-1524 a:visited, .page-id-1524 a:hover, .page-id-1524 a:active{
+  color: #593EFA;
+}
+
 
 /*WHAT WE DO PAGE*/
 .page-id-1565 .navbar-default.default.sdark {
@@ -1372,6 +1376,10 @@ h2 {
 
 .page-id-1565 .navbar-default.default.sdark ul > li > a{
   background: #45a9f4 !important;
+}
+
+.page-id-1565 a:link,.page-id-1565 a:visited, .page-id-1565 a:hover, .page-id-1565 a:active{
+  color: #45A9F4;
 }
 
 /*ONS DENKEN*/
@@ -1386,6 +1394,10 @@ h2 {
 .page-id-1616 .col-md-4{
   width: 30%;
   min-height: 466px;
+}
+
+.page-id-1616 a:link,.page-id-1616 a:visited, .page-id-1616 a:hover, .page-id-1616 a:active{
+  color: #FF7561;
 }
 
 /*TEAM*/
@@ -1952,6 +1964,14 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
   background: #ffba66 !important;
 }
 
+.page-id-4044 .navbar-default.default.sdark {
+  background: #ffba66 !important;
+}
+
+.page-id-4044 .navbar-default.default.sdark ul > li > a{
+  background: #ffba66 !important;
+}
+
 /* ============================================= */
 /* VACATURES =================================== */
 /* ============================================= */
@@ -2246,6 +2266,11 @@ background: #333333;
     font-size: 0.7em;
     margin-bottom: -26%;
   }
+
+.aimatart-footer-text a{
+
+}
+
 
 
 
