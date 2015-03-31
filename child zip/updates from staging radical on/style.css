@@ -2189,15 +2189,30 @@ div#panel-1739-3-1-3 {
 .contact-email {
   text-align: center !important;
 }
-/*div#pg-1739-3 img {
+div#pg-1739-3 img {
   margin-left: 35%;
-}*/
+}
 
-  #pg-1739-3 .panel-grid{
+div#panel-1739-3-2-3 {
+  text-align: center;
+}
 
-  }
+#pg-1739-3 .panel-grid{
 
+}
 
+h2 .align-left{
+  text-align: center;
+}
+
+.address p {
+  text-align: center;
+}
+
+.address i {
+  top: 0px;
+  float: none;
+}
 
 }
 
@@ -2320,5 +2335,9 @@ div#panel-1739-3-1-3 {
     text-align: center;
 
   }
+
+  div#pg-1739-3 img {
+  margin-left: 0%;
+}
 
 }
