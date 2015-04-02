@@ -312,9 +312,6 @@ h1, h3, h4, h5, h6 {
 
 #home-aimatart-subtitle {
   background-color: #631bf7;
-}
-
-#home-aimatart-subtitle {
   margin-top: -10px;
 }
 
@@ -326,8 +323,6 @@ h1, h3, h4, h5, h6 {
   letter-spacing: 0.1em;
   line-height: 1.2em;
 }
-
-
 
 .sdark {
   background: #FC4F5B !important;
@@ -2256,11 +2251,11 @@ div#panel-1739-3-3-3 {
   }
 
   .home-header-box-title{
-    font-size: 0.7em;
+    font-size: 1.6em;
   }
 
   .home-header-box-content{
-    font-size: 0.6em;
+    font-size: 1.3em;
   }
 
   .mc4wp-form input[type=submit] {
