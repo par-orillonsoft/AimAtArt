@@ -298,11 +298,19 @@ h1, h3, h4, h5, h6 {
   clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 100%);
 }
 
+#home-aimatart-title {
+  background-color: #631bf7;
+}
+
 #home-aimatart-title p{
   font-family: DTLNobel-T-Bold;
   font-size: 2.8em;
   text-align: center;
   color: #ffffff;
+}
+
+#home-aimatart-subtitle {
+  background-color: #631bf7;
 }
 
 #home-aimatart-subtitle {
