@@ -231,7 +231,7 @@ h1, h3, h4, h5, h6 {
 
 #direct-contact-text a:link, #direct-contact-text a:visited, #direct-contact-text a:hover, #direct-contact-text a:active {
   text-decoration: underline !important;
-  color: #593EFA !important;
+  color: #631bf7 !important;
 }
 
 .slider-link-black a {
@@ -244,7 +244,7 @@ h1, h3, h4, h5, h6 {
   max-width: 100%;
   /*width: 160%;
   margin-left: -20%;*/
-	/*background: #593EFA;*/
+	/*background: #631bf7;*/
 	/*-webkit-background-size: cover;*/
 	/*-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);*/
   /*clip-path: polygon(0 0, 100% 0, 0 50%);*/
@@ -286,7 +286,7 @@ h1, h3, h4, h5, h6 {
 
 /*.workshop-blue-mask {
   height: 150px;
-  background: #593EFA;
+  background: #631bf7;
   -webkit-background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 56%, 0 100%);
   clip-path: polygon(0 0, 100% 56%, 0 100%);
@@ -1113,7 +1113,7 @@ h2 {
 
 .contact-image-mask{
   height: 300px;
-  /*background: #593EFA;*/
+  /*background: #631bf7;*/
   /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);*/
   /*clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);*/
   background-size: 100%;
@@ -1357,15 +1357,15 @@ h2 {
 
 /*HOME*/
 .page-id-1524 .navbar-default.default.sdark {
-  background: #593EFA !important;
+  background: #631bf7 !important;
 }
 
 .page-id-1524 .navbar-default.default.sdark ul > li > a{
-  background: #593EFA !important;
+  background: #631bf7 !important;
 }
 
 .page-id-1524 a:link,.page-id-1524 a:visited, .page-id-1524 a:hover, .page-id-1524 a:active{
-  color: #593EFA;
+  color: #631bf7;
 }
 
 
