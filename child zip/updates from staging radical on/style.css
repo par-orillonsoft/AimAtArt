@@ -52,11 +52,12 @@ h1, h3, h4, h5, h6 {
 }
 
 #pgc-1524-6-0, #pgc-1524-6-1, #pgc-1524-6-2 {
-  width: 30% !important;
+  width: 100% !important;
   background: #ffffff;
   margin-right: 1.5%;
   margin-left: 1.5%;
-  min-height: 13.5em;
+  margin-bottom: 13px !important;
+  min-height: 9.5em;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
