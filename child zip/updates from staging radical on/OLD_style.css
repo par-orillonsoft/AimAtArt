@@ -32,6 +32,7 @@ h1, h3, h4, h5, h6 {
   color: #000000 !important;
 }
 
+
 /* ========================================================== */
 /* HOME PAGE ================================================ */
 /* ========================================================== */
@@ -51,7 +52,7 @@ h1, h3, h4, h5, h6 {
 }
 
 #pgc-1524-6-0, #pgc-1524-6-1, #pgc-1524-6-2 {
-  width: 30.33% !important;
+  width: 100% !important;
   background: #ffffff;
   margin-right: 1.5%;
   margin-left: 1.5%;
@@ -183,10 +184,14 @@ h1, h3, h4, h5, h6 {
 
 }
 
+
+/*,#panel-1524-4-0-0, #panel-1524-4-1-0, #panel-1524-4-2-0*/
+
 #three-boxes-row {
   margin-top: -420px;
 }
 
+/* home boxes from the slider */
 .home-header-box-title  {
   margin-top: 1em;
   font-family: DTLNobel-T-Bold;
@@ -194,6 +199,7 @@ h1, h3, h4, h5, h6 {
   text-align: center;
   color: #000000;
 }
+/*, #panel-1524-4-0-1, #panel-1524-4-1-1, #panel-1524-4-2-1*/
 
 .home-header-box-content  {
   margin-top: 1em;
@@ -237,7 +243,14 @@ h1, h3, h4, h5, h6 {
 .blue-mask {
 	min-height: 500px;
   max-width: 100%;
+  /*width: 160%;
+  margin-left: -20%;*/
+	/*background: #631bf7;*/
+	/*-webkit-background-size: cover;*/
+	/*-webkit-clip-path: polygon(0 0, 100% 0, 0 50%);*/
+  /*clip-path: polygon(0 0, 100% 0, 0 50%);*/
   margin-top: -500px;
+  /*margin-top: -10px;*/
 }
 
 .blue-mask img {
@@ -255,6 +268,30 @@ h1, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+.green-mask {
+  /*height: 500px;*/
+  /*margin-top: -500px;*/
+/*  width: 140%;
+  margin-left: -20%;*/
+  /*background: #64E7B2;*/
+  /*-webkit-clip-path: polygon(0 35%, 100% 80%, 100% 100%, 0 100%);*/
+  /*clip-path: polygon(0 35%, 100% 80%, 100% 100%, 0 100%);*/
+}
+
+.green-mask-two {
+  /*height: 100px ;*/
+  /*background: #64E7B2;*/
+  /*-webkit-clip-path: polygon(0 0%, 100% 0%, 0 92%);*/
+  /*clip-path: polygon(0 0%, 100% 0%, 0 92%);*/
+}
+
+/*.workshop-blue-mask {
+  height: 150px;
+  background: #631bf7;
+  -webkit-background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 56%, 0 100%);
+}*/
 .workshop-blue-mask {
   height: 150px;
   background: #FC4F5B;
@@ -333,6 +370,7 @@ h1, h3, h4, h5, h6 {
 .onsdenken-aimatart-title p, .whatwedo-aimatart-title p, .team-aimatart-title p, .cases-aimatart-title p, .contact-aimatart-title p, .ervaringen-aimatart-title p, .partners-aimatart-title p{
   font-family: DTLNobel-T-Bold;
   font-size: 4em;
+/*  text-decoration: underline;*/
   text-align: center;
   color: #ffffff;
   line-height: 1em;
@@ -340,8 +378,15 @@ h1, h3, h4, h5, h6 {
 }
 
 .whatwedo-red-mask {
-  min-height: 250px;
+  /*margin-left: -50%;*/
+    min-height: 250px;
+
   max-width: 100%;
+  /*height: 250px;*/
+  /*background: #ffffff;*/
+  /*background-image: url("http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/Kunst-kijken-Matisse-EIE.jpg");*/
+  /*-webkit-clip-path: polygon(0% 100%, 100% 100%, 0% 25%);*/
+  /*clip-path: polygon(0% 100%, 100% 100%, 0% 25%);*/
   margin-top: -250px;
 }
 .whatwedo-red-mask img{
@@ -350,7 +395,13 @@ h1, h3, h4, h5, h6 {
 }
 
 .whatwedo-cyan-mask {
+  /*margin-left: -50%;
+  width: 200%;*/
+  /*margin-top: -250px;*/
   height: 250px;
+  /*background: #45a9f4;*/
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 0 80%);*/
+  /*clip-path: polygon(0 0, 100% 0, 0 80%);*/
 }
 
 .onsdenken-intro, .whatwedo-intro, #contact-intro-text, .team-intro-text {
@@ -418,6 +469,14 @@ h2 {
   line-height: 1.5em !important;
 }
 
+/*#whatwedo-quote-box li {
+  list-style: none;
+}
+
+#whatwedo-quote-box li:before {
+  display: none;
+}*/
+
 .whatwedo-quote-text {
   font-family: DTLNobel-T;
   text-align: left;
@@ -440,10 +499,17 @@ h2 {
   padding-bottom: 150px;
 }
 
+/*#pg-1565-6 {
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 90%);
+}*/
 
 .testimonial-top-mask {
   min-height: 60px;
   max-width: 100%;
+  /*-webkit-clip-path: polygon(0 35%, 100% 0, 0 0);*/
+  /*clip-path: polygon(0 35%, 100% 0, 0 0);*/
+  /*background: #ffffff;*/
   margin-bottom: -60px;
 }
 
@@ -660,11 +726,7 @@ h2 {
   font-family: DTLNobel-T;
   text-align: right;
   font-size: 1.3em;
-  color: #ffffff !important;
-}
-
-.whatwedo-contact-left-phone a{
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 .whatwedo-contact-right-name {
@@ -694,6 +756,12 @@ h2 {
 .onsdensk-cyan-mask {
   height: 200px;
   width: 100%;
+  /*width: 250%;*/
+  /*margin-left: -50%;*/
+  /*background: #ff7561;*/
+  /*background: url(http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/Kunst-kijken-Matisse-EIE.jpg);*/
+/*  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 10%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 10%);*/
 }
 
 .onsdensk-cyan-mask img {
@@ -704,6 +772,11 @@ h2 {
 .onsdensk-purple-mask {
   height: 200px;
   max-width: 100%;
+/*  width: 250%;
+  margin-left: -50%;*/
+/*  background: #ffffff;
+  -webkit-clip-path: polygon(0 100%, 135% 0, 100% 100%);
+  clip-path: polygon(0 100%, 135% 0, 100% 100%);*/
   margin-bottom: -200px;
 }
 
@@ -738,6 +811,18 @@ h2 {
   margin-top: 75px;
   margin-bottom: 75px;
 }
+
+/*#onsdenken-quote-box {
+  margin-top: 3em;
+  padding-top: 6em;
+  padding-bottom: 1em;
+  background: url("http://radicalgraphics.com/AAA/wp-content/uploads/2015/02/thinkingpage.jpg") no-repeat;
+  -webkit-clip-path: polygon(0 0, 100% 7%, 100% 91%, 0 100%) !important;
+  clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 91%) !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}*/
 
 .onsdenken-onzeinzichten-text p {
   font-family: DTLNobel-T;
@@ -812,9 +897,17 @@ h2 {
 .onsdenken-quote-top-mask {
   min-height: 60px;
   max-width: 100%;
+  /*-webkit-clip-path: polygon(0 35%, 100% 0, 0 0);
+  clip-path: polygon(0 35%, 100% 0, 0 0);*/
+  /*background-image: url('images/08-Vacatures/vacatures-top-quote-mask.png');*/
+  /*background: #000;*/
   margin-bottom: -60px;
+/*  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;*/
 }
 .onsdenken-quote-top-mask img{
+  /*margin-top: 0;*/
   min-height: 60px;
   width: 100%;
 }
@@ -822,6 +915,7 @@ h2 {
 .onsdenken-quote-bottom-mask {
   min-height: 60px;
   max-width: 100%;
+  /*background: #ffffff;*/
   margin-top: -60px;
 }
 
@@ -831,6 +925,17 @@ h2 {
 }
 
 
+/*.onsdenken-contact-title {
+  font-family: DTLNobel-T-Bold;
+  text-align: center;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 2.5em;
+  color: #000000;
+  line-height: 1.2em;  
+}
+*/
 .whatwedo-contact-left-name {
 
 }
@@ -882,11 +987,33 @@ h2 {
   text-align: center;
 }
 
+/*.team-orange-mask {
+  height: 150px;
+  background: #ffba66;
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 52%);
+  clip-path: polygon(0 0, 100% 0, 0 52%);
+}*/
 
+/*<div class=team-orange-mask></div> */
 .team-purple-mask {
   height: 190px;
+/*  background: #ff7561;*/
+/*min-width: 1500px;*/
   display: block;
+  /*max-width: 100%;*/
+  /*height: auto;*/
   background-image: url('images/08-Vacatures/vacatures-header-mask.png');
+  /*background-repeat: no-repeat;*/
+
+  
+
+/*    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%);*/
+  /*margin-bottom: -150px;*/
 }
 
 .bg-responsive {
@@ -945,7 +1072,10 @@ h2 {
     font-family: DTLNobel-T !important;
   }
 
-
+#aimatart-cases .cbp-l-caption-alignCenter {
+  /*width: 92% !important;
+  height: 90%  !important;*/
+}
 #aimatart-cases .cbp-caption-activeWrap {
   margin-left: 5% !important;
   margin-right: 5% !important;
@@ -962,6 +1092,11 @@ h2 {
   height: 123px !important;
 }
 
+/*
+ .cbp-l-caption-body {
+  
+}*/
+
 #aimatart-cases .cbp-l-caption-body a{
   width: 100% !important;
   font-size: 21px !important;
@@ -975,11 +1110,18 @@ h2 {
 
 .contact-orange-mask {
   height: 300px;
+  /*background: #64E7B2;*/
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);*/
+  /*clip-path: polygon(0 0, 100% 0, 100% 0%, 0 45%);*/
 }
 
 .contact-image-mask{
   height: 300px;
+  /*background: #631bf7;*/
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);*/
+  /*clip-path: polygon(0 0, 100% 0, 100% 88%, 0 20%);*/
   background-size: 100%;
+  /*margin-bottom: -300px;*/
 }
 
 .contact-image-mask img {
@@ -993,6 +1135,13 @@ h2 {
   font-family: DTLNobel-T-Bold;
   text-transform: uppercase !important;
 }
+
+/*#contact-intro-text {
+  font-family: DTLNobel-T-Bold;
+  font-size: 2em;
+  color: #000000;
+  line-height: 1.2em;
+}*/
 
 .contact-caption-photo-text{
   font-weight: bolder;
@@ -1056,6 +1205,16 @@ h2 {
     width: 100%;
 }
 
+
+.ervaringen-red-mask {
+  /*margin-left: -50%;*/
+  /*width: 260%;*/
+  /*height: 250px;*/
+  /*background: #FC4F5B; */
+/*  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%);*/
+}
+
 #ervaringen-title-text h2{
   color: #000000;
   font-size: 2.5em;
@@ -1071,11 +1230,14 @@ h2 {
 }
 
 #ervaringen-testimonial-portfolio .image_wrapper {
+  /*height: 100px; */
   overflow: hidden;
 }
 
 #ervaringen-testimonial-portfolio img{
 
+/*    margin-right: auto;
+    margin-left: auto;*/
     width:  50%;
     height: 100px;
     margin-bottom: 0.5em;
@@ -1164,6 +1326,10 @@ h2 {
 }
 
 .ervaringen-meerweten-box {
+/*  background: #FC4F5B;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);*/
+  /*z-index: 0;*/
   height: 50px;
   max-width: 100%;
 }
@@ -1355,6 +1521,9 @@ background-color: #ffba66 !important;
 .cases-blue-mask {
   height: 150px;
     max-width: 100%;
+/*  background: #ffba66;
+  -webkit-clip-path: polygon(0% 75%, 0% 0%, 100% 0%);
+  clip-path: polygon(0% 75%, 0% 0%, 100% 0%);*/
 }
 
 .cases-blue-mask img{
@@ -1386,6 +1555,17 @@ background-color: #ffba66 !important;
 .cases-neem-contact-op:link, .cases-neem-contact-op:visited, .cases-neem-contact-op:hover, .cases-neem-contact-op:active {
   color: #FC4F5B !important;
 }
+/*.navbar-shrink .nav-container {
+  font-size: 1.1em;
+}
+
+.navbar li {
+  list-style: none;
+}*/
+
+/*.navbar li:before {
+  display: none;
+}*/
 
 #workshop-content li {
   list-style:none;
@@ -1406,6 +1586,10 @@ background-color: #ffba66 !important;
   font-size: 56px !important;
 }
 
+/*.page-id-659 a:link,.page-id-659 a:visited, .page-id-659 a:hover, .page-id-659 a:active{
+  color: #FFBA66;
+}*/
+
 .post-summary p{
   font-size: 18.20px !important;
 
@@ -1414,7 +1598,44 @@ background-color: #ffba66 !important;
 .logged-in-as a{
   color: #FFBA66;
 }
+/*.page-id-659 p {
+  font-family: DTLNobel-T !important;
+}*/
 
+/*.page-id-659 li {
+  list-style: none;
+}
+
+.page-id-659 li:before {
+  display: none;
+}*/
+
+/*.page-id-2199 li,
+.page-id-2206 li,
+.page-id-2209 li,
+.page-id-2211 li {
+  list-style:none;
+}
+
+.page-id-2199 li:before,
+.page-id-2206 li:before,
+.page-id-2209 li:before,
+.page-id-2211 li:before {
+  font-family: 'FontAwesome';
+  font-size: 1.1em;
+  content: "\f00c";
+  margin:0 5px 0 -15px;
+  color: #000;
+}*/
+ 
+
+/* ==================================== */
+/* Workshop page-inline width container */
+/* ==================================== */
+/*.cbp {
+  max-width: 100% !important;
+}
+*/
 /* ============================================= */
 /* PARTNERS ==================================== */
 /* ============================================= */
@@ -1533,6 +1754,7 @@ background-color: #ffba66 !important;
 /* ============================================== */
 
 .single-post .full-content .pagetitle{
+  /*height: 150px;*/
   background: #FFBA66;
 }
 
@@ -1557,6 +1779,8 @@ background: #FFBA66 !important;
   height: 90px;
   background: #F7f7f7;
   margin-bottom: -60px;
+  /*-webkit-clip-path: polygon(0% 0, 0 100%, 100% 100%);*/
+  /*clip-path: polygon(100% 0, 0 100%, 100% 100%);*/
 }
 
 .post-shape-form {
@@ -1573,12 +1797,8 @@ background: #f7f7f7;
   display: block;
   background-image: url('images/06-Kenis Delen/kenisdelen-header-mask.png');
   background-repeat:no-repeat;
-
 }
 
-.archive .pre-shape-form {
-  margin-top: -200px;
-}
 
 .blog-button-back{
    margin: 0 auto;
@@ -1613,6 +1833,21 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
   padding-bottom: 0px;
   margin-bottom: -10px;
 }
+
+
+
+/*.panel-grid-cell {
+  font-size: 18.20px;
+}*/
+
+/*.page-id-659 .pagetitle {
+
+  background: #ffba66 no-repeat;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 400% 0, 0 12%);
+  clip-path: polygon(0 0, 400% 0, 0 12%);
+  
+}*/
 
 .btn-color {
   font-family: DTLNobel-T;
@@ -1745,6 +1980,7 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
   background: #ffba66 !important;
 }
 
+
 .page-id-4472 .navbar-default.default.sdark {
   background: #ff7561 !important;
 }
@@ -1752,6 +1988,7 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
 .page-id-4472 .navbar-default.default.sdark ul > li > a{
   background: #ff7561 !important;
 }
+
 
 /* ============================================= */
 /* VACATURES =================================== */
@@ -1791,6 +2028,7 @@ clip-path: polygon(0% 60%, 0% 0%, 100% 0%);
 }
 
 h2.post-title{
+/*  white-space: nowrap;*/
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -1810,44 +2048,82 @@ color: #fff !important;
   color:#ffffff !important;
 }
 
-/* THIS IS A WORKAROUND FOR IE9*/
-#pgc-1565-5-0, #pgc-1565-5-1, #pgc-1565-5-2, #pgc-1565-5-3 {
-  max-width: 25%;
-  float: left;
+/*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page{
+  color: #989898 !important;
+}*/
+
+
+/*a.nav-to.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
+  color: #FFFFFF !important;
+  text-decoration: underline;
+  outline: none;
+}*/
+
+
+/*a.menu-item.menu-item-type-post_type.menu-item-object-page{
+  color:#F2F2F2;
 }
 
-.archive .navbar-default.default.sdark {
-  background: #ffba66 !important;
+a.menu-item.menu-item-type-post_type.menu-item-object-page:hover{
+  color: #FFFFFF !important;
+  text-decoration: underline;
+  
+}*/
+
+
+
+/*.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
+  color: #FFFFFF !important;
+  background: #F2F2F2 !important;
+}*/
+
+
+/*.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
+  background: #ffffff !important;
 }
 
-.archive .navbar-default.default.sdark ul > li > a{
-  background: #ffba66 !important;
+.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a:hover{
+  color: #FFFFFF !important;
+  background: #F2F2F2 !important;
+  text-decoration: underline !important;
+}*/
+
+/*
+.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a {
+  background: none;
 }
 
+.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
+  color: #FFFFFF !important;
+  background: #F2F2F2 !important;
+}*/
+
+/*.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a {
+background: #333333;
+
+}*/
+
+/*.navbar-default.default.sdark, .navbar-default.default.sdark ul.dropdown-menu, .navbar-default.default.sdark ul > li > a, .navbar-default.default.sdark ul > li > ul > li > a{
+  background: #f2f2f2 !important; 
+}*/
 
 /* ============================================== */
 /* MEDIA RESPONSIVE ============================= */
 /* ============================================== */
 
-
-
-
-
-
-
 /********************************/
 /*Powerful computers*/
 /********************************/
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .separator_menu_class{
     padding-right: 10em !important;
   }
-}/*/mediaquery*/
+}
 
 /********************************/
 /*iPad landscape and crappy macs*/
 /********************************/
-@media only screen and (min-width:978px) and (max-width:1204px){
+@media (min-width:978px) and (max-width:1204px){
 
   #three-boxes-row {
     margin-top: -425px;
@@ -1873,35 +2149,15 @@ color: #fff !important;
     width:97% !important;
     min-height: 0;
   }
-}/*/mediaquery*/
+}
 
 /********************************/
 /*iPad portrait*/
 /********************************/
-@media only screen and (max-width: 780px) {
+@media (max-width: 780px) {
   #pgc-1524-4-0, #pgc-1524-4-1, #pgc-1524-4-2 {
-    width: 50% !important;
+    width: 100% !important;
     margin-bottom: 1em !important;
-  }
-#pgc-1565-5-0, #pgc-1565-5-1, #pgc-1565-5-2, #pgc-1565-5-3 {
-  max-width: 100%;
-}
-
-
-#pgc-1524-6-0, #pgc-1524-6-1, #pgc-1524-6-2 {
-  min-height: 17.5em;
-}
-
-#pgc-1524-6-2 img {
-  margin-bottom: -3em;
-}
-
-.home-header-box-title{
-    font-size: 1.6em;
-  }
-
-  .home-header-box-content{
-    font-size: 1.2em;
   }
 
   .nav-shrink .nav-container img {
@@ -1919,7 +2175,13 @@ color: #fff !important;
     font-size: 1em;
   }
 
- 
+  .home-header-box-title{
+    font-size: 1em;
+  }
+
+  .home-header-box-content{
+    font-size: 0.8em;
+  }
 
   .page-id-1524 .mc4wp-form input[type=submit] {
     max-width: 50%;
@@ -1975,34 +2237,7 @@ div#panel-1739-3-3-3 {
   margin-bottom: 1em;
 }
 
-/* PROGRAMMAS */
-
-.whatwedo-resultaten-box {
-  width: 65%;
-  min-height: 0px;
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
 }
-
-.whatwedo-resultaten-box-text {
-  text-align: center;
-}
-
-.whatwedo-contact-left-name {
-  text-align: center;
-}
-
-.whatwedo-contact-left-phone{
-  text-align: center;
-  margin-bottom: 0.5em;
-}
-
-.mc4wp-form input[type="submit"] {
-  width: 20% !important;
-}
-
-}/*/mediaquery*/
 
 
 /********************************/
@@ -2016,25 +2251,6 @@ div#panel-1739-3-3-3 {
 
   /********************************/
   /*HOME*/
-
-#pgc-1524-6-0, #pgc-1524-6-1, #pgc-1524-6-2 {
-  width: 100% !important;
-  min-height: 12.5em;
-}
-
-/*#pgc-1524-6-2 img {
-  margin-bottom: -3em;
-}*/
-
-.home-header-box-title{
-    font-size: 1.7em;
-  }
-
-  .home-header-box-content{
-    font-size: 1.28em;
-  }
-
-
 
   #home-aimatart-title p {
   font-size: 1.8em;
@@ -2066,33 +2282,12 @@ div#panel-1739-3-3-3 {
   /********************************/
   /*PROGRAMMA*/
 
-.whatwedo-resultaten-box {
-  width: 100%;
-  min-height: 0px;
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.whatwedo-resultaten-box-text {
-  text-align: center;
-}
-
-#cbpw-grid24 .cbp-l-caption-title {
-  font-size: 12px !important;
-  margin: 35px 0px 5px 0px !important;
-  padding: 0px 0px 0px 0px !important;
-}
-
-.cbp-caption, .cbp-caption-activeWrap, .cbp-caption-defaultWrap {
-  height: auto !important;
-}
-
-.cbp-1-caption-title {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+  .whatwedo-resultaten-box{
+    min-height: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
 
   .testimonials-slide-content em {
     font-size: 0.6em;
@@ -2116,7 +2311,7 @@ div#panel-1739-3-3-3 {
   }*/
 
   .testimonials-slide-content .t-author p{
-    font-size: 1em;
+    font-size: 0.6em;
   }
 
   .flex-viewport {
@@ -2136,18 +2331,6 @@ div#panel-1739-3-3-3 {
 
 }
 
-.whatwedo-contact-left-name {
-  text-align: center;
-}
-
-.whatwedo-contact-left-phone{
-  text-align: center;
-  margin-bottom: 0.5em;
-}
-
-.mc4wp-form input[type=submit] {
-  width: 25% !important;
-}
 
 
 
@@ -2180,19 +2363,4 @@ div#panel-1739-3-3-3 {
   margin-left: 0%;
 }
 
-/* ONZE KLANTEN */
-.numerical-container .numerical-content {
-  line-height: 1.6em;
-  font-size: 0.7em;
 }
-
-.numerical-container .value {
-  font-size: 15px;
-}
-
-.numericals {
-  margin-top: -2em;
-
-}
-
-}/*/mediaquery*/
