@@ -614,6 +614,10 @@ h2 {
   background-color: #FFBA66 !important;
 }
 
+.page-id-4472 .mc4wp-form input[type=submit] {
+  color: #fff!important;
+  background-color: #ff7561 !important;
+}
 
 
 #panel-1565-10-0-0 h2 {
@@ -1823,6 +1827,29 @@ color: #fff !important;
 .archive .navbar-default.default.sdark ul > li > a{
   background: #ffba66 !important;
 }
+
+
+
+/******************************************************/
+/**************** English Page ************************/
+/******************************************************/
+.whatwedo-resultaten-box-english {
+  border: 4px solid #FF7561;
+  text-align: center;
+  padding: 1.5em;
+  height: auto;
+  min-height: 320px;
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+
+
+
+
+
+
+
 
 
 /* ============================================== */
